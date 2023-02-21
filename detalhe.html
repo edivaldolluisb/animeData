@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de animes e mangás">
+    <meta name="author" content="Edivaldo">
+    <link rel="shortcut icon" href="./icones/icons8-naruto-sign-210.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./anime.css">
+    <link rel="stylesheet" href="./detalhe.css">
+
+    <title>Animes detalhe</title>
+</head>
+
+<body>
+    <!--Menu de navegação-->
+    <nav>
+        <a href="./index.html" id="menu_anime">Anime</a>
+        <a href="./manga.html" id="menu_manga">Mangá</a>
+    </nav>
+    
+    <section id="dados_detalhe">
+        <!--imagem-->
+
+        <img id="imagem_anime" src="./imagens/haikkyu.jpg" alt="">
+
+        <!--dados-->
+        <div>
+            <p id="nome_anime">Nome do anime</p>
+            <p id="nome_autor">Autor: </p>
+            <p id="ano_lancamento">Ano de lançamento: </p>
+            <p id="nome_estudio">Estudio: </p>
+        </div>
+    </section>
+
+
+    <script>
+
+        const params = new URLSearchParams(window.location.search);
+
+        const id = params.get("id");
+        const tipo = params.get("tipo");
+
+        console.log(id, tipo);
+        if (tipo == 'anime') {
+            buildanimeDetail(id)
+        } else {
+            buildmangaDetail(id)
+        }
+
+
+        function buildanimeDetail(id) {
+
+            var nome_anime, nome_autor, ano_lancamento, nome_estudio
+            var imagem_anime = document.querySelector('#imagem_anime')
+            nome_anime = document.querySelector('#nome_anime')
+            nome_autor = document.querySelector('#nome_autor')
+            ano_lancamento = document.querySelector('#ano_lancamento')
+            nome_estudio = document.querySelector('#nome_estudio')
+
+            //const params = new URLSearchParams(window.location.search);
+            //const id = params.get("id");
+            //const tipo = params.get("tipo");
+            //console.log(id, tipo);
+
+            //var url = `http://127.0.0.1:8000/anime-detail/${id}/`
+            var url = `https://ani-mangalist.herokuapp.com/anime-detail/${id}/`
+
+            fetch(url)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    console.log('Data:', data)
+                    var anime = data
+
+                    //verficar se o anime tem imagem
+                    if (anime.imagem_url != '') {
+                        imagem_anime.src = anime.imagem_url
+                        console.log(anime.imagem_url)
+                    }
+
+                    nome_anime.innerHTML = anime.nome
+                    nome_autor.innerHTML += anime.autor.nome
+                    ano_lancamento.innerHTML += anime.ano_lancamento
+
+                    // pegar os estudios
+                    console.log(anime.estudio)
+                    for (let _estudio in anime.estudio) {
+                        //console.log(anime.estudio[_estudio].nome)
+                        if (_estudio != 0) {
+                            nome_estudio.innerHTML += `, ${anime.estudio[_estudio].nome}`
+                        } else {
+                            nome_estudio.innerHTML += anime.estudio[_estudio].nome
+                        }
+
+                    }
+
+
+
+                })
+
+        }
+
+
+        function buildmangaDetail(id) {
+
+            var nome_manga, nome_autor, ano_lancamento, nome_estudio
+            var imagem_anime = document.querySelector('#imagem_anime')
+            nome_manga = document.querySelector('#nome_anime')
+            nome_autor = document.querySelector('#nome_autor')
+            ano_lancamento = document.querySelector('#ano_lancamento')
+            nome_estudio = document.querySelector('#nome_estudio')
+
+            //const params = new URLSearchParams(window.location.search);
+            //const id = params.get("id");
+            //const tipo = params.get("tipo");
+            //console.log(id, tipo);
+
+
+            var url = `https://ani-mangalist.herokuapp.com/manga-detail/${id}/`
+
+            fetch(url)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    console.log('Data:', data)
+                    var manga = data
+
+                    //verficar se o manga tem imagem
+                    if (manga.imagem_url != '') {
+                        imagem_anime.src = manga.imagem_url
+                        console.log(manga.imagem_url)
+                    }
+
+                    nome_manga.innerHTML = manga.nome
+                    nome_autor.innerHTML += manga.autor.nome
+                    ano_lancamento.innerHTML += manga.ano_lancamento
+
+                    // pegar os estudios
+                    nome_estudio.innerHTML = 'Eu geralmente não leio bosta, então aproveite a leitura 😁'
+
+
+
+                })
+
+        }
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

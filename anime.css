@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+    background: #4b3e3eb2 url(./imagens/haikkyu.jpg) no-repeat fixed center;
+    background-size: cover;
+    /*
+    background-image: url(./imagens/haikkyu.jpg);
+    background-color: #4b3e3eb2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;*/
+
+}
+nav {
+    margin: 10% auto 15% 4%;
+      
+}
+#menu_manga{
+    margin-left: 05%;
+}
+nav a {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+   
+}
+#menu_anime{
+    background-color: #54C96D;
+}
+
+/*bara de pesquisa*/
+
+#div_de_pesquisa{
+    width: 100%;
+    display: flex;
+    
+}
+form{
+    margin: auto;
+    width: 70%; 
+}
+input[type="search"]{
+    border-style: none;
+    width: 100%;
+    padding: 1%;
+
+    
+}
+
+/*paragrafo*/
+h1, p{
+    background-color: rgba(220, 182, 125, 1);
+    width: 70%;
+    margin: 5% auto;
+    padding: 0.5%;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+span{
+    color: rgba(52, 164, 76, 1);
+    font-size: 30px;
+
+}
+
+/*tabela*/
+table{
+    width: 70%;
+    margin: 3% auto 5vh auto;
+    border-collapse: collapse;background-color: rgba(255, 255, 255, 0.85);
+}
+th{
+    background-color: rgba(220, 182, 125, 1);
+    padding: 1rem;
+}
+tbody td{
+  padding: 0.5rem;
+}
+td{
+    text-align: center;
+}
+
+tr a{
+    text-decoration: none;
+    color: #000;
+}
+tr:nth-child(even) {
+    background-color: rgba(220, 182, 125, 0.85);
+
+}
+
+/*paginação*/
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:rgba(255, 255, 255, 0.85);
+  margin: auto auto 2rem;
+  width: fit-content;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+}
+
+.pagination a.active {
+  background-color: rgba(52, 164, 76);
+  color: white;
+  border: 1px solid rgba(52, 164, 76);
+}
+
+.pagination a:hover:not(.active) {background-color: rgba(220, 182, 125,0.85);}
+
+
+
+/*scroll bar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background:rgba(220, 182, 125, 0.85); 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(220, 182, 125, 1); 
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de animes e mangás">
+    <meta name="author" content="Edivaldo">
+    <link rel="shortcut icon" href="./icones/icons8-naruto-sign-210.png" type="image/x-icon">
+    <!--PWA-->
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="stylesheet" href="./anime.css">
+
+    <title>Animes</title>
+</head>
+
+<body>
+    <!--Menu de navegação-->
+    <nav>
+        <a href="#" id="menu_anime">Anime</a>
+        <a href="./manga.html" id="menu_manga">Mangá</a>
+    </nav>
+
+    <!--bara de pesquisa-->
+    <div id="div_de_pesquisa">
+        <form action="" method="get">
+            <input type="search" name="" id="bara_de_pesquisa" placeholder="Pesquise">
+        </form>
+    </div>
+
+
+    <h1>Minha lista de <span>Animes</span></h1>
+
+    <!--Tabela-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Autor</th>
+            </tr>
+        </thead>
+        <tbody id="corpo_tabela_animes">
+
+            <!--<tr>
+                <td><a href="./detalhe.html">One Piece</a></td>
+                <td>Aiichiro Oda</td>
+            </tr>
+            <tr>
+                <td><a href="./detalhe.html">Fairy Tail</a></td>
+                <td>Mashima</td>
+            </tr>
+            <tr>
+                <td><a href="./detalhe.html">Noragami</a></td>
+                <td>Hitome</td>
+            </tr>
+            <tr>
+                <td><a href="./detalhe.html">Overlord</a></td>
+                <td>Naoyuki</td>
+            </tr>-->
+        </tbody>
+
+
+    </table>
+
+    <!--Pagination-->
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+    <!--PWA-->
+    <script src="./sw.js"></script>
+
+    <script>
+
+        function buildList() {
+            var tabela = document.querySelector('table > tbody');
+
+
+            //var url = 'http://127.0.0.1:8000/anime-list/'
+            var url = 'https://ani-mangalist.herokuapp.com/anime-list/'
+
+            fetch(url)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    console.log('Data:', data)
+                    var anime = data
+
+                    listarDados(anime)
+
+                    function listarDados(anime) {
+                        for (let i in anime) {
+                            tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime[i].id}&tipo=anime">${anime[i].nome}</a></td><td>${anime[i].autor.nome}</td> </tr>`
+                        }
+                    }
+
+                    // search bar
+
+                    var searchbar = document.querySelector('#bara_de_pesquisa')
+                    searchbar.addEventListener('keyup', function() {
+                        var value = this.value
+                        var data = searchTable(value, anime)
+                        console.log('Value:', value)
+                        console.log(data)
+                        tabela.innerHTML = ''
+                        console.log('filtered:', data)
+                        if (data.length == 0) {
+                            tabela.innerHTML += `<tr><td colspan="2">Nenhum anime encontrado</td></tr>`
+                        }
+                        listarDados(data)
+                    })
+
+
+                    function searchTable(value, data) {
+                        var filteredData = []
+
+                        for (var i = 0; i < data.length; i++) {
+                            value = value.toLowerCase()
+                            var name = data[i].nome.toLowerCase()
+
+                            if (name.includes(value)) {
+                                filteredData.push(data[i])
+                            }
+                        }
+
+                        return filteredData
+                    }
+
+
+
+
+                })
+
+        }
+
+        buildList()
+
+        /*
+        function autorList() {
+
+            var autor_url = 'http://127.0.0.1:8000/autor-list/'
+
+            fetch(autor_url)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    console.log('Data:', data)
+                    var autor = data
+
+                    // função para pegar autor
+                    function nome_autor(id) {
+                        for (let i in autor) {
+                            if (autor[i].id == id) {
+                                console.log` autor :${autor[i].nome}`
+                                var nome = autor[i].nome
+
+                            }
+                        }
+                        return nome
+                    }
+
+                    console.log(nome_autor(1))
+                    
+
+                })
+        }
+        autorList() 
+        */
+
+
+    </script>
+</body>
+
+</html>
