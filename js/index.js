@@ -7,11 +7,13 @@ function readfromtxt(params) {
         total: 0,
         animes: []
       };
+      let lista_Animes = []
 
       let linhas = texto.split('\n'); // divide o texto em um array de linhas
       for (const element of linhas) {
         let anime = element.split('\t')
         console.log(anime)
+        lista_Animes.push(anime)
 
         //function to get both jp and eng name
         function getNames(name) {
@@ -25,50 +27,63 @@ function readfromtxt(params) {
         //if the anime doesn't have an image
         let anime_json = {
           Nome_jp: getNames(anime[0])[0],
-          Nome_eng: getNames(anime[0])[1], 
-          Status: anime[1], 
+          Nome_eng: getNames(anime[0])[1],
+          Status: anime[1],
           Image: ""
         }
         //if anime has 
         if (anime.length == 3) {
           anime_json = {
             Nome_jp: getNames(anime[0])[0],
-            Nome_eng: getNames(anime[0])[1], 
-            Status: anime[1], 
+            Nome_eng: getNames(anime[0])[1],
+            Status: anime[1],
             Image: anime[2]
           }
-          
+
         }
-        console.log(anime_json)
+        //console.log(anime_json)
+        console.log(dados)
         dados.animes.push(anime_json)
-        console.log(getNames(anime[0]))
+        //console.log(getNames(anime[0]))
         //console.log(linhas[i]); // exibe cada linha no console
         /*let anime_json = {
           nome_jp: 
         }*/
         //dados.animes.push(anime_json)
-        console.log(dados)
 
 
       }
-      /*
-            // Converte o objeto em uma string JSON
-            let dadosJson = JSON.stringify(dados);
-      
-            // Cria um novo arquivo ou sobrescreve um arquivo existente
-            let file = new File([dadosJson], "dados.json", { type: "application/json" });
-      
-            // Cria um objeto FileWriter para escrever no arquivo
-            let writer = new FileWriter();
-      
-            // Escreve a string JSON no arquivo
-            writer.write(file);*/
+      console.log(dados)
+
     })
     .catch(error => console.log("Erro na requisição: " + error));
 }
 
-readfromtxt()
+//readfromtxt()
 
 
+function readfromJson(anime) {
+  //write to a json file
+  fetch("./dados/animes.json")
+    .then(response => response.json())
+    .then(data => {
+      // arquivo JSON foi convertido em um objeto JavaScript
+      console.log(data);
+
+      addAnimeToTable(data);
+
+    }).catch(error => console.log("Erro ao tentar ler o ficheiro: " + error));
+
+}
+readfromJson()
+
+function addAnimeToTable(array) {
+  var tabela = document.querySelector('table > tbody');
+
+  for (const anime of array.animes) {
+    //console.log(anime)
+    tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=anime">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
+  }
+}
 
 

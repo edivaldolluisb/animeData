@@ -1,0 +1,32 @@
+ {
+    "total": 0,
+    "animes": [{
+        "Id": 4,
+        "Nome_jp": "One Piece",
+        "Nome_eng": "",
+        "Status": "Acompanhando",
+        "Image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/236f44583009506b8d9d012c4d3119a5.jpe"
+      },
+      {
+        "Id": 3,
+        "Nome_jp": "Ousama Ranking",
+        "Nome_eng": "Ranking of Kings",
+        "Status": "Completo",
+        "Image": "https://btbtt16.com/upload/attach/005/428/26f86d4226541ccf26a02dfa476e9eed.jpg"
+      },
+      {
+        "Id": 2,
+        "Nome_jp": "Scarlet Nexus",
+        "Nome_eng": "",
+        "Status": "Completo",
+        "Image": ""
+      },
+      {
+        "Id": 1,
+        "Nome_jp": "Bungou Stray dogs",
+        "Nome_eng": "",
+        "Status": "Completo",
+        "Image": ""
+      }
+    ]
+  }
