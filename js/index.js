@@ -1,4 +1,4 @@
-function readfromtxt(params) {
+/*function readfromtxt(params) {
   fetch('./dados/anime.txt')
     .then(response => response.text())
     .then(texto => {
@@ -46,9 +46,9 @@ function readfromtxt(params) {
         dados.animes.push(anime_json)
         //console.log(getNames(anime[0]))
         //console.log(linhas[i]); // exibe cada linha no console
-        /*let anime_json = {
-          nome_jp: 
-        }*/
+        //let anime_json = {
+        //  nome_jp: 
+        //}
         //dados.animes.push(anime_json)
 
 
@@ -57,16 +57,19 @@ function readfromtxt(params) {
 
     })
     .catch(error => console.log("Erro na requisição: " + error));
-}
+}*/
 
 //readfromtxt()
 
-
+const perPage = 2; // quantidade de itens por página
+let currentPage = 1; // página atual
+let totalItems = 0; // total de itens a serem exibidos
+let totalPages = 1; // total de páginas
 
 
 
 //read json file
-function readfromJson(anime) {
+function readfromJson(anime, page = 1, perPage = 5) {
   //write to a json file
   fetch("./dados/animes.json")
     .then(response => response.json())
@@ -74,9 +77,14 @@ function readfromJson(anime) {
       // arquivo JSON foi convertido em um objeto JavaScript
       console.log(data);
 
-      addAnimeToTable(data);
+      const start = (page - 1) * perPage;
+      const end = start + perPage;
+      const animes = data.animes.slice(start, end);
+      console.log(animes)
 
-    
+      addAnimeToTable(animes);
+      addPagination(data, page, perPage);
+
 
     }).catch(error => console.log("Erro ao tentar ler o ficheiro: " + error));
 
@@ -90,10 +98,58 @@ function addAnimeToTable(array) {
   tabela.innerHTML = '';
 
 
-  for (const anime of array.animes) {
+  for (const anime of array) {
     //console.log(anime)
     tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=anime">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
   }
+
+
+  totalItems = array.length;
+  totalPages = Math.ceil(totalItems / perPage);
+
 }
+function addPagination(data, currentPage, perPage) {
+  const totalItems = data.animes.length;
+  const totalPages = Math.ceil(totalItems / perPage);
+
+  const paginationElement = document.querySelector(".pagination");
+  paginationElement.innerHTML = "";
+
+  if (totalPages > 1) {
+    const isFirstPage = currentPage === 1;
+    const isLastPage = currentPage === totalPages;
+
+    const previousPage = currentPage - 1;
+    const nextPage = currentPage + 1;
+
+    const previousPageElement = isFirstPage ? "" : `<a href="#" data-page="${previousPage}">&laquo;</a>`;
+    const nextPageElement = isLastPage ? "" : `<a href="#" data-page="${nextPage}">&raquo;</a>`;
+
+    paginationElement.innerHTML += previousPageElement;
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === currentPage) {
+        paginationElement.innerHTML += `<a class="active" href="#">${i}</a>`;
+      } else {
+        paginationElement.innerHTML += `<a href="#" data-page="${i}">${i}</a>`;
+      }
+    }
+
+    paginationElement.innerHTML += nextPageElement;
+
+    const pageButtons = paginationElement.querySelectorAll("a[data-page]");
+    pageButtons.forEach(button => {
+      button.addEventListener("click", event => {
+        event.preventDefault();
+        const newPage = parseInt(button.dataset.page);
+        readfromJson(data.animes, newPage, perPage);
+      });
+    });
+  }
+}
+
+
+
+
 
 
