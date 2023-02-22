@@ -62,6 +62,10 @@ function readfromtxt(params) {
 //readfromtxt()
 
 
+
+
+
+//read json file
 function readfromJson(anime) {
   //write to a json file
   fetch("./dados/animes.json")
@@ -72,13 +76,19 @@ function readfromJson(anime) {
 
       addAnimeToTable(data);
 
+    
+
     }).catch(error => console.log("Erro ao tentar ler o ficheiro: " + error));
 
 }
 readfromJson()
 
+//list data
 function addAnimeToTable(array) {
+  console.log(array)
   var tabela = document.querySelector('table > tbody');
+  tabela.innerHTML = '';
+
 
   for (const anime of array.animes) {
     //console.log(anime)
