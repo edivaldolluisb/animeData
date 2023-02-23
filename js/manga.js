@@ -14,7 +14,7 @@ function readfromJson(manga, page = 1, perPage = 5) {
 		.then(response => response.json())
 		.then(data => {
 			// arquivo JSON foi convertido em um objeto JavaScript
-			console.log(data);
+			//console.log(data);
 
 			searchManga(data.mangas)
 
