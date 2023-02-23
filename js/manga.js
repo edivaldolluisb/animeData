@@ -40,7 +40,7 @@ function addMangaToTable(array) {
 	tabela.innerHTML = '';
 
 	for (const anime of array) {
-		tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=anime">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
+		tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=manga">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
 	}
 
 	//if the array is empty
