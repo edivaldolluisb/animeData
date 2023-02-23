@@ -1,0 +1,20 @@
+{
+    "total": 0,
+    "mangas": [
+        
+        {
+            "Id": 2,
+            "Nome_jp": "Return of The 8th Class Magician",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 1,
+            "Nome_jp": "One Piece",
+            "Nome_eng": "",
+            "Status": "Acompanhando",
+            "Image": ""
+        }
+    ]
+}
