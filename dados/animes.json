@@ -2,6 +2,244 @@
     "total": 0,
     "animes": [
         {
+            "Id": 40,
+            "Nome_jp": "Dorohedoro",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 39,
+            "Nome_jp": "RWBY: Hyousetsu Teikoku",
+            "Nome_eng": "RWBY: Ice Queendom",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 38,
+            "Nome_jp": "Xian Wang de Richang Shenghuo",
+            "Nome_eng": "The Daily Life of the Immortal King",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 37,
+            "Nome_jp": "Rokudenashi Majutsu Koushi to Akashic Records",
+            "Nome_eng": "Akashic Records of Bastard Magic Instructor",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 36,
+            "Nome_jp": "Overlord",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 35,
+            "Nome_jp": "Mahouka Koukou no Rettousei",
+            "Nome_eng": "The Irregular at Magic High School",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 34,
+            "Nome_jp": "Yuusha, Yamemasu",
+            "Nome_eng": "I'm Quitting Heroing",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1934/122301l.jpg"
+        },
+        {
+            "Id": 33,
+            "Nome_jp": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+            "Nome_eng": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1715/103419l.jpg"
+        },
+        {
+            "Id": 32,
+            "Nome_jp": "Log Horizon",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/84004l.jpg"
+        },
+        {
+            "Id": 31,
+            "Nome_jp": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+            "Nome_eng": "The Misfit of Demon King Academy",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 30,
+            "Nome_jp": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+            "Nome_eng": "GATE",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 29,
+            "Nome_jp": "Owari no Seraph",
+            "Nome_eng": "Seraph of the End: Vampire Reign",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 28,
+            "Nome_jp": "Sword Art Online",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 27,
+            "Nome_jp": "Shingeki no Kyojin",
+            "Nome_eng": "Attack on Titan",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 26,
+            "Nome_jp": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+            "Nome_eng": "Skeleton Knight in Another World",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1656/120621l.jpg"
+        },
+        {
+            "Id": 25,
+            "Nome_jp": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+            "Nome_eng": "Classroom of the Elite",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 24,
+            "Nome_jp": "Isekai Cheat Magician",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 23,
+            "Nome_jp": "Tate no Yuusha no Nariagari",
+            "Nome_eng": "The Rising of the Shield Hero",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 22,
+            "Nome_jp": "Kumo desu ga, Nani ka?",
+            "Nome_eng": "So I'm a Spider, So What?",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 21,
+            "Nome_jp": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
+            "Nome_eng": "Ascendance of a Bookworm",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 20,
+            "Nome_jp": "Hitori no Shita: The Outcast",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 19,
+            "Nome_jp": "Edens Zero",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 18,
+            "Nome_jp": "Steins; Gate",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 17,
+            "Nome_jp": "Haikyuu",
+            "Nome_eng": "", 
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 16,
+            "Nome_jp": "Jujutsu Kaisen",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 15,
+            "Nome_jp": "Mushoku Tensei",
+            "Nome_eng": "Jobless Reincarnation",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 14,
+            "Nome_jp": "Black Clover",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 13,
+            "Nome_jp": "Dr.Stone",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 12,
+            "Nome_jp": "One Punch Man",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 11,
+            "Nome_jp": "Naruto",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 10,
+            "Nome_jp": "Arifureta Shokugyou de sekai Saikyou",
+            "Nome_eng": "From Common Job Class to the Strongest in the World",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 9,
+            "Nome_jp": "Tensei Shitara Slime Datta Ken",
+            "Nome_eng": "That Time I Got Reincarned as a Slime",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 8,
+            "Nome_jp": "Kimetsu no Yaiba",
+            "Nome_eng": "Deamon Slayer",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 7,
+            "Nome_jp": "Enen no Shouboutai",
+            "Nome_eng": "Fire Force",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
             "Id": 6,
             "Nome_jp": "Re:Zero Kara Hajimeru Isekai Sekaitsu",
             "Nome_eng": "",
