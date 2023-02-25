@@ -61,6 +61,8 @@
 
 //readfromtxt()
 
+let totalAnimesRegistados //total de mangas regitados
+
 const perPage = 2; // quantidade de itens por página
 let currentPage = 1; // página atual
 let totalItems = 0; // total de itens a serem exibidos
@@ -77,6 +79,7 @@ function readfromJson(anime, page = 1, perPage = 5) {
 		.then(data => {
 			// arquivo JSON foi convertido em um objeto JavaScript
 			//console.log(data);
+			totalAnimesRegistados = data.animes.length
 
 			searchAnime(data.animes)
 
@@ -100,15 +103,19 @@ function addAnimeToTable(array) {
 	//console.log(array)
 
 	tabela.innerHTML = '';
+	let total = 0
 
 	for (const anime of array) {
 		tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=anime">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
+		total++;
 	}
 
 	//if the array is empty
 	if (array.length == 0) {
 		tabela.innerHTML += `<tr><td colspan="2">Nenhum anime encontrado</td></tr>`
 	}
+
+	document.getElementById('total_resultados').innerText=`listados ${total} de ${totalAnimesRegistados}`
 
 	totalItems = array.length;
 	totalPages = Math.ceil(totalItems / perPage);
