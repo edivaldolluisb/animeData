@@ -82,6 +82,7 @@ function readfromJson(anime, page = 1, perPage = 5) {
 			totalAnimesRegistados = data.animes.length
 
 			searchAnime(data.animes)
+			filter(data.animes)
 
 			//dados para paginação
 			const start = (page - 1) * perPage;
@@ -115,7 +116,7 @@ function addAnimeToTable(array) {
 		tabela.innerHTML += `<tr><td colspan="2">Nenhum anime encontrado</td></tr>`
 	}
 
-	document.getElementById('total_resultados').innerText=`listados ${total} de ${totalAnimesRegistados}`
+	document.getElementById('total_resultados').innerText = `listados ${total} de ${totalAnimesRegistados}`
 
 	totalItems = array.length;
 	totalPages = Math.ceil(totalItems / perPage);
@@ -169,21 +170,18 @@ function searchAnime(array) {
 	searchbar.addEventListener('keyup', function () {
 		const value = this.value
 		const data = searchTable(value, array)
-		//console.log('Value:', value)
-		//console.log(array)
-		//console.log(data)
-		//console.log('filtered:', data)
+
 		addAnimeToTable(data)
 	})
 }
 
-//função de filtro
+//função de filtrar por nome
 function searchTable(value, data) {
-	var filteredData = []
+	let filteredData = []
 
 	for (const anime of data) {
 		value = value.toLowerCase()
-		var name = anime.Nome_jp.toLowerCase()
+		let name = anime.Nome_jp.toLowerCase()
 
 		if (name.includes(value)) {
 			filteredData.push(anime)
@@ -192,6 +190,29 @@ function searchTable(value, data) {
 
 	return filteredData
 }
+
+//filtrar por status
+function filter(array) {
+	let filterfield = document.getElementById('filtro')
+	filterfield.addEventListener('change', function () {
+		console.log(array)
+		let value = filterfield.value;
+		let filteredData = []
+
+		for (const element of array) {
+			const status = element.Status.toLowerCase()
+
+			if (status == value) {
+				filteredData.push(element)
+			}
+		}
+
+		addAnimeToTable(filteredData)
+
+	})
+
+}
+
 
 
 
