@@ -1,7 +1,314 @@
 {
-    "total": 91,
+    "total": 136,
     "animes": [
-
+        {
+            "Id": 136,
+            "Nome_jp": "Death Note",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 135,
+            "Nome_jp": "Nanatsu no Taizai",
+            "Nome_eng": "The Seven Deadly Sins",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 134,
+            "Nome_jp": "Noragami",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 133,
+            "Nome_jp": "Kami no Tou",
+            "Nome_eng": "Tower of God",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 132,
+            "Nome_jp": "Bleach",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 131,
+            "Nome_jp": "Fullmetal Alchemist: Brotherhood",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 130,
+            "Nome_jp": "Fullmetal Alchemist",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 129,
+            "Nome_jp": "The Legend of Heroes: Sen no Kiseki - Northern War",
+            "Nome_eng": "The Legend of Heroes: Trails of Cold Steel - Northern War",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 128,
+            "Nome_jp": "Kyoukai no Kanata",
+            "Nome_eng": "Beyond the Boundary",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 127,
+            "Nome_jp": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+            "Nome_eng": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 126,
+            "Nome_jp": "Mairimashita! Iruma-kun",
+            "Nome_eng": "Welcome to Demon School! Iruma-kun",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 125,
+            "Nome_jp": "Majo no Tabitabi",
+            "Nome_eng": "Pretendo Assistir",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 124,
+            "Nome_jp": "Golden Kamuy",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 123,
+            "Nome_jp": "Yuukoku no Moriarty",
+            "Nome_eng": "Moriarty the Patriot",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 122,
+            "Nome_jp": "Tales of Zestiria the X",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 121,
+            "Nome_jp": "Durarara!!",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 120,
+            "Nome_jp": "Isekai Nonbiri Nouka",
+            "Nome_eng": "Farming Life in Another World",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 119,
+            "Nome_jp": "Ars no Kyojuu",
+            "Nome_eng": "Giant Beasts of Ars",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 118,
+            "Nome_jp": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+            "Nome_eng": "Saving 80,000 Gold in Another World for My Retirement",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 117,
+            "Nome_jp": "Kuro no Shoukanshi",
+            "Nome_eng": "Those Snow White Notes",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 116,
+            "Nome_jp": "Mashiro no Oto",
+            "Nome_eng": "Those Snow White Notes",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 115,
+            "Nome_jp": "Ooyukiumi no Kaina",
+            "Nome_eng": "Kaina of the Great Snow Sea",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 114,
+            "Nome_jp": "Ballroom e Youkoso",
+            "Nome_eng": "Welcome to the Ballroom",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 113,
+            "Nome_jp": "Hoshi no Samidare",
+            "Nome_eng": "Lucifer and the Biscuit Hammer",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 112,
+            "Nome_jp": "Kami-tachi ni Hirowareta Otoko",
+            "Nome_eng": "By the Grace of the Gods",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 111,
+            "Nome_jp": "Kyokou Suiri",
+            "Nome_eng": "In/Spectre",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 110,
+            "Nome_jp": "Black Lagoon",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 109,
+            "Nome_jp": "Lycoris Recoil",
+            "Nome_eng": "LycoReco",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 108,
+            "Nome_jp": "Aharen-san wa Hakarenai",
+            "Nome_eng": "Aharen Is Indecipherable",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 107,
+            "Nome_jp": "86",
+            "Nome_eng": "86 Eighty Six",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 106,
+            "Nome_jp": "Heion Sedai no Idaten-tachi",
+            "Nome_eng": "The Idaten Deities Know Only Peace",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 105,
+            "Nome_jp": "Wu Shan Wu Xing",
+            "Nome_eng": "Fog Hill of Five Elements",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 104,
+            "Nome_jp": "A Will Eternal",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 103,
+            "Nome_jp": "Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+            "Nome_eng": " Shinka no Mi 2nd Season, The Fruit of Evolution: Before I Knew It, My Life Had It Made Season 2",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 102,
+            "Nome_jp": "Tensei Oujo to Tensai Reijou no Mahou Kakumei",
+            "Nome_eng": "Tenten Kakumei, The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 101,
+            "Nome_jp": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+            "Nome_eng": "Magia Record: Puella Magi Madoka Magica Side Story",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 99,
+            "Nome_jp": "Princess Connect! Re:Dive",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 98,
+            "Nome_jp": "Highschool of the Dead",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 97,
+            "Nome_jp": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+            "Nome_eng": "How a Realist Hero Rebuilt the Kingdom",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 96,
+            "Nome_jp": "Da Wang Rao Ming",
+            "Nome_eng": "Spare Me, Great Lord!",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 95,
+            "Nome_jp": "King's Raid: Ishi wo Tsugumono-tachi",
+            "Nome_eng": "King's Raid: Successors of the Will",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 94,
+            "Nome_jp": "Grancrest Senki",
+            "Nome_eng": "Record of Grancrest War",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 93,
+            "Nome_jp": "Katekyo Hitman Reborn!",
+            "Nome_eng": "Reborn!",
+            "Status": "Pretendo Assistir",
+            "Image": ""
+        },
+        {
+            "Id": 92,
+            "Nome_jp": "Yakusoku No Neverland",
+            "Nome_eng": "The Promised Neverland",
+            "Status": "Completo",
+            "Image": ""
+        },
         {
             "Id": 91,
             "Nome_jp": "Infinite Dendrogram",
