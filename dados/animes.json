@@ -1,6 +1,364 @@
 {
-    "total": 40,
+    "total": 91,
     "animes": [
+
+        {
+            "Id": 91,
+            "Nome_jp": "Infinite Dendrogram",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://mangathrill.com/wp-content/uploads/2020/02/Infinite-Dendrogram-key-visual-2-scaled1280x720.jpg"
+        },
+        {
+            "Id": 90,
+            "Nome_jp": "Kenja no Mago",
+            "Nome_eng": "Wise Man's Grandchild",
+            "Status": "Completo",
+            "Image": "https://wallpaperaccess.com/full/2127472.jpg"
+        },
+        {
+            "Id": 89,
+            "Nome_jp": "Boku no Hero Academia",
+            "Nome_eng": "My Hero Academia",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 88,
+            "Nome_jp": "Rokka no Yuusha",
+            "Nome_eng": "Rokka: Braves of the Six Flowers",
+            "Status": "Completo",
+            "Image": "https://pm1.narvii.com/5775/6bc241700837deebdad9c1dea9ee8efcdc084b80_hq.jpg"
+        },
+        {
+            "Id": 87,
+            "Nome_jp": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
+            "Nome_eng": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+            "Status": "Completo",
+            "Image": "https://pics.indavideo.hu/videos/003/614/630/7-2.jpg"
+        },
+        {
+            "Id": 86,
+            "Nome_jp": "Noumin Kanren no Skill bakka Agetetara Nazeka Tsuyoku Natta",
+            "Nome_eng": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
+            "Status": "Completo",
+            "Image": "https://img1.ak.crunchyroll.com/i/spire1/fe59b730ceaac8d709a7a7dd9b68be111653448641_main.png"
+        },
+        {
+            "Id": 85,
+            "Nome_jp": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu",
+            "Nome_eng": "Vermeil in Gold",
+            "Status": "Completo",
+            "Image": "https://www.animeunited.com.br/oomtumtu/2022/08/portada_kinsou-no-vermil-5.jpg"
+        },
+        {
+            "Id": 84,
+            "Nome_jp": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+            "Nome_eng": "I've Been Killing Slimes for 300 Years and Maxed Out My Level",
+            "Status": "Completo",
+            "Image": "https://ramenparados.com/wp-content/uploads/2020/10/Slime-Taoshite-300-nen-key-2-1024x722.jpg"
+        },
+        {
+            "Id": 83,
+            "Nome_jp": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
+            "Nome_eng": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 82,
+            "Nome_jp": "Soul Eater",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 81,
+            "Nome_jp": "Deadman Wonderland",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 80,
+            "Nome_jp": "Koutetsujou no Kabaneri",
+            "Nome_eng": "Kabaneri of the Iron Fortress",
+            "Status": "Completo",
+            "Image": "https://mangathrill.com/wp-content/uploads/2019/11/adasdasdasd.png"
+        },
+        {
+            "Id": 79,
+            "Nome_jp": "Fugou Keiji: Balance:Unlimited",
+            "Nome_eng": "The Millionaire Detective – Balance: UNLIMITED",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1066/106556l.jpg"
+        },
+        {
+            "Id": 78,
+            "Nome_jp": "Otome Game Sekai wa Mob ni Kibishii Sekai desu",
+            "Nome_eng": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1161/121462l.jpg"
+        },
+        {
+            "Id": 77,
+            "Nome_jp": "Darwin's Game",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 76,
+            "Nome_jp": "Deca-Dence",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 75,
+            "Nome_jp": "No Guns Life",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 74,
+            "Nome_jp": "ID:Invaded",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 73,
+            "Nome_jp": "Darling In The FranXX",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 72,
+            "Nome_jp": "Youjo Senki",
+            "Nome_eng": "Saga of Tanya the Evil",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 71,
+            "Nome_jp": "Tokyo Ghoul",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 70,
+            "Nome_jp": "Death Parade",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 69,
+            "Nome_jp": "Globin Slayer",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 68,
+            "Nome_jp": "Hajimete no Gal",
+            "Nome_eng": "My First Girlfriend is a Gal",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 67,
+            "Nome_jp": "No Game No Life",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 66,
+            "Nome_jp": "Fairy Tail",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 65,
+            "Nome_jp": "Black Bullet",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 64,
+            "Nome_jp": "Jibaku Shounen Hanako-kun",
+            "Nome_eng": "Toilet-Bound Hanako-kun",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 63,
+            "Nome_jp": "Sukitte li na yo",
+            "Nome_eng": "Say I Love You",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 62,
+            "Nome_jp": "Gamers!",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 61,
+            "Nome_jp": "Mob Psycho 100",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 60,
+            "Nome_jp": "Hunter X Hunter",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 59,
+            "Nome_jp": "2.43: Seiin Koukou Danshi Volley-bu",
+            "Nome_eng": "2.43: Seiin High School Boys Volleyball Team",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 58,
+            "Nome_jp": "Rakudai Kishi no Cavalry",
+            "Nome_eng": "Chivalry of a Failed Knight",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 57,
+            "Nome_jp": "Pluderer",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 56,
+            "Nome_jp": "Garo:Vanishing Line",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 55,
+            "Nome_jp": "Yofukashi no Uta",
+            "Nome_eng": "Call of the Night",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 54,
+            "Nome_jp": "Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
+            "Nome_eng": "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1436/124788l.jpg"
+        },
+        {
+            "Id": 53,
+            "Nome_jp": "Isekai Yakkyoku",
+            "Nome_eng": "Parallel World Pharmacy",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 52,
+            "Nome_jp": "Tomodachi Game",
+            "Nome_eng": "Friends Game",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 51,
+            "Nome_jp": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+            "Nome_eng": "Beast Tamer",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 50,
+            "Nome_jp": "Tensei Shitara Ken Deshita",
+            "Nome_eng": "Reincarnated as a Sword",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 49,
+            "Nome_jp": "Kekkai Sensen & Beyond",
+            "Nome_eng": "Blood Blockade Battlefront & Beyond / Bloodline Battlefront & Beyond",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 48,
+            "Nome_jp": "Kekkai Sensen",
+            "Nome_eng": "Blood Blockade Battlefront / Bloodline Battlefront",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 47,
+            "Nome_jp": "Beastars",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 46,
+            "Nome_jp": "Takt Op.Destiny",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 45,
+            "Nome_jp": "Tsuki ga Michibiku Isekai Douchuu",
+            "Nome_eng": "Tsukimichi: Moonlit Fantasy, Moon-led Journey Across Another World",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 44,
+            "Nome_jp": "Kemono Jihen",
+            "Nome_eng": "Monster Incidents",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 43,
+            "Nome_jp": "Vivy: Floourite Eye's Song",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 42,
+            "Nome_jp": "Noblesse",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 41,
+            "Nome_jp": "Afro Samurai",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
         {
             "Id": 40,
             "Nome_jp": "Dorohedoro",
