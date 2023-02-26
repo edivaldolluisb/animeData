@@ -63,7 +63,7 @@
 
 let totalAnimesRegistados //total de mangas regitados
 
-const perPage = 2; // quantidade de itens por página
+const perPage = 20; // quantidade de itens por página
 let currentPage = 1; // página atual
 let totalItems = 0; // total de itens a serem exibidos
 let totalPages = 1; // total de páginas
@@ -72,7 +72,7 @@ var tabela = document.querySelector('table > tbody');
 
 
 //read json file
-function readfromJson(anime, page = 1, perPage = 5) {
+function readfromJson(anime, page = 1, perPage = 20) {
 	//write to a json file
 	fetch("./dados/animes.json")
 		.then(response => response.json())
