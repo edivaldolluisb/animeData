@@ -1,6 +1,83 @@
 {
-    "total": 136,
+    "total": 138,
     "animes": [
+        {
+            "Id": 147,
+            "Nome_jp": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+            "Nome_eng": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+            "Status": "Assistindo",
+            "Image": ""
+        },
+        {
+            "Id": 146,
+            "Nome_jp": "Taboo Tattoo",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 145,
+            "Nome_jp": "Btooom!",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 144,
+            "Nome_jp": "Killing Bites",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 143,
+            "Nome_jp": "Prison School",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 142,
+            "Nome_jp": "Hinomaruzumou",
+            "Nome_eng": "Hinomaru Sumo",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 141,
+            "Nome_jp": "Sarazanmai",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 140,
+            "Nome_jp": "Juuni Taisen",
+            "Nome_eng": "Juni Taisen: Zodiac War",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 139,
+            "Nome_jp": "Ansatsu Kyoushitsu",
+            "Nome_eng": "Assassination Classroom",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 138,
+            "Nome_jp": "Akame ga Kill!",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 137,
+            "Nome_jp": "Gleipnir",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": ""
+        },
         {
             "Id": 136,
             "Nome_jp": "Death Note",
