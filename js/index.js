@@ -182,8 +182,9 @@ function searchTable(value, data) {
 	for (const anime of data) {
 		value = value.toLowerCase()
 		let name = anime.Nome_jp.toLowerCase()
+		let name_engl = anime.Nome_eng.toLowerCase()
 
-		if (name.includes(value)) {
+		if (name.includes(value) || name_engl.includes(value)) {
 			filteredData.push(anime)
 		}
 	}
