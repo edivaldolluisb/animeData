@@ -2,6 +2,34 @@
     "total": 138,
     "animes": [
         {
+            "Id": 151,
+            "Nome_jp": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
+            "Nome_eng": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/9/9e/9e805e1620edf8c8dfb5b83d36d22016.jpg"
+        },
+        {
+            "Id": 150,
+            "Nome_jp": "Benriya Saitou-san, Isekai ni Iku;",
+            "Nome_eng": "Handyman Saitou in Another World",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/0/01/01729c50f64f8dcec4b9dc44891910db.jpg"
+        },
+        {        
+            "Id": 149,
+            "Nome_jp": "Hyouken no Majutsushi ga Sekai wo Suberu",
+            "Nome_eng": "The Iceblade Sorcerer Shall Rule the World",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
+            "Id": 148,
+            "Nome_jp": "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
+            "Nome_eng": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
+            "Status": "Completo",
+            "Image": ""
+        },
+        {
             "Id": 147,
             "Nome_jp": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
             "Nome_eng": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
