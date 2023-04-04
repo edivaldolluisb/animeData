@@ -2,6 +2,20 @@
     "total": 138,
     "animes": [
         {
+            "Id": 152,
+            "Nome_jp": "Saikyou Onmyouji no Isekai Tenseiki",
+            "Nome_eng": "The Reincarnation of the Strongest Exorcist in Another World",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/e/e0/e0d403e9fd7b962bbc053b2f461834e3.jpg"
+        },
+        {
+            "Id": 152,
+            "Nome_jp": "Buddy Daddies",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/9/9f/9f4855db98bb6923ea807bf2bdbdc3dd.jpg"
+        },
+        {
             "Id": 151,
             "Nome_jp": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
             "Nome_eng": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
@@ -222,7 +236,7 @@
             "Id": 120,
             "Nome_jp": "Isekai Nonbiri Nouka",
             "Nome_eng": "Farming Life in Another World",
-            "Status": "Pretendo Assistir",
+            "Status": "Completo",
             "Image": ""
         },
         {
