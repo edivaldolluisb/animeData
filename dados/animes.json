@@ -1,8 +1,36 @@
 {
-    "total": 138,
+    "total": 157,
     "animes": [
         {
-            "Id": 152,
+            "Id": 157,
+            "Nome_jp": "Revenger",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/4/46/46d62d0113b54de0a13a50fd6c142f81.jpg"
+        },
+        {
+            "Id": 156,
+            "Nome_jp": "Cop Craft",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2019/07/ab207fa3efd1c961e80e53a505a71dbe.jpg"
+        },
+        {
+            "Id": 155,
+            "Nome_jp": "Toaru Kagaku no Accelerator",
+            "Nome_eng": "A Certain Scientific Accelerator",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2019/07/c768d573c8c351d2fca926f58a6d814b.jpg"
+        },
+        {
+            "Id": 154,
+            "Nome_jp": "PSYCHO-PASS",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2018/04/e555cc4d57ce82103dbdb307776f2ed4.jpg"
+        },
+        {
+            "Id": 153,
             "Nome_jp": "Saikyou Onmyouji no Isekai Tenseiki",
             "Nome_eng": "The Reincarnation of the Strongest Exorcist in Another World",
             "Status": "Completo",
