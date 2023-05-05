@@ -1,6 +1,20 @@
 {
-    "total": 157,
+    "total": 159,
     "animes": [
+        {
+            "Id": 159,
+            "Nome_jp": "Spy Kyoushitsu",
+            "Nome_eng": "Spy Classroom",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/c/c3/c374f3c0315cdd71da73116b19fbe51c.jpg"
+        },
+        {
+            "Id": 158,
+            "Nome_jp": "Revenger",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/4/46/46d62d0113b54de0a13a50fd6c142f81.jpg"
+        },
         {
             "Id": 157,
             "Nome_jp": "Revenger",
@@ -201,7 +215,7 @@
             "Id": 129,
             "Nome_jp": "The Legend of Heroes: Sen no Kiseki - Northern War",
             "Nome_eng": "The Legend of Heroes: Trails of Cold Steel - Northern War",
-            "Status": "Pretendo Assistir",
+            "Status": "Completo",
             "Image": ""
         },
         {
