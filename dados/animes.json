@@ -1,13 +1,7 @@
 {
-    "total": 164,
+    "total": 163,
     "animes": [
-        {
-            "Id": 164,
-            "Nome_jp": "Kuro no Shoukanshi",
-            "Nome_eng": "Black Summoner",
-            "Status": "Completo",
-            "Image": "https://static.bunnycdn.ru/i/cache/images/0/04/043424ef9383e8a6b7729b367ae61525.jpg"
-        },
+
         {
             "Id": 163,
             "Nome_jp": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru",
@@ -334,8 +328,8 @@
             "Id": 117,
             "Nome_jp": "Kuro no Shoukanshi",
             "Nome_eng": "Those Snow White Notes",
-            "Status": "Pretendo Assistir",
-            "Image": ""
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/0/04/043424ef9383e8a6b7729b367ae61525.jpg"
         },
         {
             "Id": 116,
