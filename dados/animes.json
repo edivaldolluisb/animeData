@@ -1,6 +1,41 @@
 {
-    "total": 159,
+    "total": 164,
     "animes": [
+        {
+            "Id": 164,
+            "Nome_jp": "Kuro no Shoukanshi",
+            "Nome_eng": "Black Summoner",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/0/04/043424ef9383e8a6b7729b367ae61525.jpg"
+        },
+        {
+            "Id": 163,
+            "Nome_jp": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru",
+            "Nome_eng": "Level Up wa Jinsei wo Kaeta; I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2/2c/2c1726673f01a355c08a18c7a24985c4.jpg"
+        },
+        {
+            "Id": 162,
+            "Nome_jp": "Jigokuraku",
+            "Nome_eng": "Hell’s Paradise",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/8/82/82c101b11f9c31d56487724dd94e1067.jpg"
+        },
+        {
+            "Id": 161,
+            "Nome_jp": "Oshi No Ko",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/8/84/849230dc44c98b5d8796d9dea6fbb0fc.jpg"
+        },
+        {
+            "Id": 160,
+            "Nome_jp": "Girls und Panzer",
+            "Nome_eng": "Girls und Panzer",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2018/04/7a66edb935693b7db318bd36a054f136.jpg"
+        },
         {
             "Id": 159,
             "Nome_jp": "Spy Kyoushitsu",
