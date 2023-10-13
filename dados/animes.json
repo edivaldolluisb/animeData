@@ -1,8 +1,13 @@
 {
     "total": 163,
     "animes": [
-
         {
+            "Id": 163,
+            "Nome_jp": "Hachi-nan tte, Sore wa Nai deshou!",
+            "Nome_eng": "The 8th Son? Are You Kidding Me?",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2020/04/87dcf6277b30d0c9d7a24b9e3eacfdee.jpg"
+        },{
             "Id": 163,
             "Nome_jp": "Dead Mount Death Play",
             "Nome_eng": "",
