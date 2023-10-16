@@ -1,8 +1,21 @@
 {
-    "total": 163,
+    "total": 166,
     "animes": [
         {
-            "Id": 163,
+            "Id": 166,
+            "Nome_jp": "Digimon Adventure",
+            "Nome_eng": "Digimon: Digital Monsters",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/2018/04/a6ffe1c5a369c3b5a5b211f1d41040cd.jpg"
+        },{
+            "Id": 165,
+            "Nome_jp": "Nanatsu no Maken ga Shihai Suru",
+            "Nome_eng": "Reign of the Seven Spellblades",
+            "Status": "Completo",
+            "Image": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg"
+        },
+        {
+            "Id": 164,
             "Nome_jp": "Hachi-nan tte, Sore wa Nai deshou!",
             "Nome_eng": "The 8th Son? Are You Kidding Me?",
             "Status": "Completo",
