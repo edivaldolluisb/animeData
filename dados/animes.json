@@ -1,6 +1,13 @@
 {
-    "total": 166,
+    "total": 167,
     "animes": [
+        {
+            "Id": 167,
+            "Nome_jp": "Jitsu wa Ore, Saikyou Deshita?",
+            "Nome_eng": "Am I Actually the Strongest?",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1496/136558l.jpg"
+        },
         {
             "Id": 166,
             "Nome_jp": "Digimon Adventure",
