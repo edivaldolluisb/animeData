@@ -1,7 +1,25 @@
 {
-    "total": 168,
+    "total": 171,
     "animes": [
         {
+            "Id": 171,
+            "Nome_jp": "NieR:Automata Ver1.1a",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1399/128318.jpg"
+        },{
+            "Id": 170,
+            "Nome_jp": "Mashle",
+            "Nome_eng": "Mashle: Magic and Muscles",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1706/134359l.jpg"
+        },{
+            "Id": 169,
+            "Nome_jp": "Quanzhi Gaoshou",
+            "Nome_eng": "The King's Avatar",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/7/81892.jpg"
+        },{
             "Id": 168,
             "Nome_jp": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
             "Nome_eng": "Samurai X",
