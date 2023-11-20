@@ -3,6 +3,12 @@
     "animes": [
         {
             "Id": 171,
+            "Nome_jp": "Eiyuu Kyoushitsu",
+            "Nome_eng": "Classroom for Heroes",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1179/136000.jpg"
+        },{
+            "Id": 171,
             "Nome_jp": "NieR:Automata Ver1.1a",
             "Nome_eng": "",
             "Status": "Completo",
