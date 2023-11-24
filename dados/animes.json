@@ -1,8 +1,14 @@
 {
-    "total": 171,
+    "total": 173,
     "animes": [
         {
-            "Id": 171,
+            "Id": 173,
+            "Nome_jp": "Long Zu",
+            "Nome_eng": "Dragon Raja",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1179/136000.jpg"
+        },{
+            "Id": 172,
             "Nome_jp": "Eiyuu Kyoushitsu",
             "Nome_eng": "Classroom for Heroes",
             "Status": "Completo",
