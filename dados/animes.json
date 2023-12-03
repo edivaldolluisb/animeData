@@ -1,7 +1,19 @@
 {
-    "total": 173,
+    "total": 175,
     "animes": [
         {
+            "Id": 175,
+            "Nome_jp": "THE GOD OF HIGH SCHOOL",
+            "Nome_eng": "The God of High School",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1722/107269l.jpg"
+        },{
+            "Id": 174,
+            "Nome_jp": "SPYxFAMILY",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg"
+        },{
             "Id": 173,
             "Nome_jp": "Long Zu",
             "Nome_eng": "Dragon Raja",
