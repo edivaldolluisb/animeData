@@ -3,6 +3,12 @@
     "animes": [
         {
             "Id": 175,
+            "Nome_jp": "Boushoku no Berserk",
+            "Nome_eng": "Berserk of Gluttony",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1951/138462l.jpg"
+        },{
+            "Id": 175,
             "Nome_jp": "THE GOD OF HIGH SCHOOL",
             "Nome_eng": "The God of High School",
             "Status": "Completo",
