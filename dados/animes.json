@@ -1,8 +1,14 @@
 {
-    "total": 175,
+    "total": 177,
     "animes": [
         {
-            "Id": 175,
+            "Id": 177,
+            "Nome_jp": "Toaru Ossan no VRMMO Katsudouki",
+            "Nome_eng": "A Playthrough of a Certain Dude's VRMMO Life",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1786/137574l.jpg"
+        },{
+            "Id": 176,
             "Nome_jp": "Boushoku no Berserk",
             "Nome_eng": "Berserk of Gluttony",
             "Status": "Completo",
@@ -343,7 +349,7 @@
             "Id": 126,
             "Nome_jp": "Mairimashita! Iruma-kun",
             "Nome_eng": "Welcome to Demon School! Iruma-kun",
-            "Status": "Pretendo Assistir",
+            "Status": "Assistindo",
             "Image": ""
         },
         {
@@ -357,7 +363,7 @@
             "Id": 124,
             "Nome_jp": "Golden Kamuy",
             "Nome_eng": "",
-            "Status": "Pretendo Assistir",
+            "Status": "Assistindo",
             "Image": ""
         },
         {
