@@ -1,7 +1,13 @@
 {
-    "total": 178,
+    "total": 179,
     "animes": [
         {
+            "Id": 179,
+            "Nome_jp": "Kamonohashi Ron no Kindan Suiri",
+            "Nome_eng": "Ron Kamonohashi's Forbidden Deductions",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1799/137123l.jpg"
+        },{
             "Id": 178,
             "Nome_jp": "Seiken Gakuin no Maken Tsukai",
             "Nome_eng": "The Demon Sword Master of Excalibur Academy",
