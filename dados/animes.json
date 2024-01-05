@@ -1,7 +1,19 @@
 {
-    "total": 179,
+    "total": 181,
     "animes": [
         {
+            "Id": 181,
+            "Nome_jp": "Bullbuster",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1074/138192l.jpg"
+        },{
+            "Id": 180,
+            "Nome_jp": "Hametsu no Oukoku",
+            "Nome_eng": "The Kingdoms of Ruin",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1610/138189l.jpg"
+        },{
             "Id": 179,
             "Nome_jp": "Kamonohashi Ron no Kindan Suiri",
             "Nome_eng": "Ron Kamonohashi's Forbidden Deductions",
