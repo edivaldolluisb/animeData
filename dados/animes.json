@@ -1,7 +1,13 @@
 {
-    "total": 181,
+    "total": 182,
     "animes": [
         {
+            "Id": 182,
+            "Nome_jp": "Megumi no Daigo: Kyuukoku no Orange",
+            "Nome_eng": "Firefighter Daigo: Rescuer in Orange",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1006/138934l.jpg"
+        },{
             "Id": 181,
             "Nome_jp": "Bullbuster",
             "Nome_eng": "",
