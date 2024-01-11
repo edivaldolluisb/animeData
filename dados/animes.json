@@ -1,7 +1,13 @@
 {
-    "total": 182,
+    "total": 183,
     "animes": [
         {
+            "Id": 183,
+            "Nome_jp": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S Rank ni Natteta",
+            "Nome_eng": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1271/137727l.jpg"
+        },{
             "Id": 182,
             "Nome_jp": "Megumi no Daigo: Kyuukoku no Orange",
             "Nome_eng": "Firefighter Daigo: Rescuer in Orange",
