@@ -3,6 +3,12 @@
     "animes": [
         {
             "Id": 183,
+            "Nome_jp": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+            "Nome_eng": "Zom 100: Bucket List of the Dead",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1384/136408l.jpg"
+        },{
+            "Id": 183,
             "Nome_jp": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S Rank ni Natteta",
             "Nome_eng": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
             "Status": "Completo",
