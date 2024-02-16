@@ -2,6 +2,90 @@
     "total": 184,
     "animes": [
         {
+            "Id": 196,
+            "Nome_jp": "Undead Unluck",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1136/138410l.jpg"
+        },
+        {
+            "Id": 195,
+            "Nome_jp": "Ragna Crimson",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1763/140359l.jpg"
+        },
+        {
+            "Id": 194,
+            "Nome_jp": "Kusuriya no Hitorigoto",
+            "Nome_eng": "The Apothecary Diaries",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1708/138033l.jpg"
+        },
+        {
+            "Id": 193,
+            "Nome_jp": "Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su - Saishin Wa made Maruwakari! Chousoku Digest",
+            "Nome_eng": "Shangri-La Frontier: Get Yourselves Caught up With This Light-Speed Recap!",
+            "Status": "Assistindo",
+            "Image": "https://anime.shangrilafrontier.com/global/_assets/images/fv/webp/v_pc.webp"
+        },
+        {
+            "Id": 192,
+            "Nome_jp": "Ninja Kamui",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1142/141351l.jpg"
+        },
+        {
+            "Id": 191,
+            "Nome_jp": "Ishura",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1426/140122l.jpg"
+        },
+        {
+            "Id": 190,
+            "Nome_jp": "Dungeon Meshi",
+            "Nome_eng": "Delicious in Dungeon",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1938/140374l.jpg"
+        },
+        {
+            "Id": 189,
+            "Nome_jp": "Sasaki to Pii-chan",
+            "Nome_eng": "Sasaki and Peeps",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1624/139672l.jpg"
+        },
+        {
+            "Id": 188,
+            "Nome_jp": "Nozomanu Fushi no Boukensha",
+            "Nome_eng": "The Unwanted Undead Adventurer",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1008/140287l.jpg"
+        },
+        {
+            "Id": 187,
+            "Nome_jp": "Sousou no Frieren",
+            "Nome_eng": "Frieren: Beyond Journey's End",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1036/140549l.jpg"
+        },
+        {
+            "Id": 186,
+            "Nome_jp": "Chiyu Mahou no Machigatta Tsukaikata",
+            "Nome_eng": "The Wrong Way to Use Healing Magic",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1451/140235l.jpg"
+        },
+        {
+            "Id": 185,
+            "Nome_jp": "Sengoku Youko",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1645/140627l.jpg"
+        },
+        {
             "Id": 184,
             "Nome_jp": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
             "Nome_eng": "Zom 100: Bucket List of the Dead",
