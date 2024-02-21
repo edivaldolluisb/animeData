@@ -1,6 +1,13 @@
 {
-    "total": 184,
+    "total": 197,
     "animes": [
+        {
+            "Id": 197,
+            "Nome_jp": "Kikansha no Mahou wa Tokubetsu desu",
+            "Nome_eng": "A Returner's Magic Should Be Special",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1630/134741l.jpg"
+        },
         {
             "Id": 196,
             "Nome_jp": "Undead Unluck",
