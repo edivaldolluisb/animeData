@@ -1,6 +1,13 @@
 {
-    "total": 197,
+    "total": 198,
     "animes": [
+        {
+            "Id": 198,
+            "Nome_jp": "Shikkakumon no Saikyou Kenja",
+            "Nome_eng": "The Strongest Sage with the Weakest Crest",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1132/120388l.jpg"
+        },
         {
             "Id": 197,
             "Nome_jp": "Kikansha no Mahou wa Tokubetsu desu",
