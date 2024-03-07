@@ -1,6 +1,13 @@
 {
-    "total": 198,
+    "total": 199,
     "animes": [
+        {
+            "Id": 199,
+            "Nome_jp": "Seirei Gensouki",
+            "Nome_eng": "Seirei Gensouki: Spirit Chronicles",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1094/110385l.jpg"
+        },
         {
             "Id": 198,
             "Nome_jp": "Shikkakumon no Saikyou Kenja",
