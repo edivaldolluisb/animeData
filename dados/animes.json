@@ -1,6 +1,13 @@
 {
-    "total": 200,
+    "total": 201,
     "animes": [
+        {
+            "Id": 201,
+            "Nome_jp": "Akuyaku Reijou nanode Last Boss wo Kattemimashita",
+            "Nome_eng": "I'm the Villainess, So I'm Taming the Final Boss",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1247/121726l.jpg"
+        },
         {
             "Id": 200,
             "Nome_jp": "Tondemo Skill de Isekai Hourou Meshi",
