@@ -1,6 +1,13 @@
 {
-    "total": 201,
+    "total": 202,
     "animes": [
+        {
+            "Id": 202,
+            "Nome_jp": "High Card",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1803/131345l.jpg"
+        },
         {
             "Id": 201,
             "Nome_jp": "Akuyaku Reijou nanode Last Boss wo Kattemimashita",
