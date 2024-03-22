@@ -1,6 +1,13 @@
 {
-    "total": 202,
+    "total": 203,
     "animes": [
+        {
+            "Id": 203,
+            "Nome_jp": "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
+            "Nome_eng": "My Instant Death Ability is So Overpowered, No One in This Other World Stands a Chance Against Me!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1734/139673l.jpg"
+        },
         {
             "Id": 202,
             "Nome_jp": "High Card",
