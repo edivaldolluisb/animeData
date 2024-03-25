@@ -1,6 +1,13 @@
 {
-    "total": 203,
+    "total": 204,
     "animes": [
+        {
+            "Id": 204,
+            "Nome_jp": "Nozomanu Fushi no Boukensha",
+            "Nome_eng": "The Unwanted Undead Adventurer",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1008/140287l.jpg"
+        },
         {
             "Id": 203,
             "Nome_jp": "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
