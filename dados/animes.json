@@ -1,6 +1,13 @@
 {
-    "total": 204,
+    "total": 205,
     "animes": [
+        {
+            "Id": 205,
+            "Nome_jp": "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
+            "Nome_eng": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1750/138355l.jpg"
+        },
         {
             "Id": 204,
             "Nome_jp": "Nozomanu Fushi no Boukensha",
