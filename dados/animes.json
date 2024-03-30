@@ -1,6 +1,13 @@
 {
-    "total": 205,
+    "total": 206,
     "animes": [
+        {
+            "Id": 206,
+            "Nome_jp": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru",
+            "Nome_eng": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1910/137891l.jpg"
+        },
         {
             "Id": 205,
             "Nome_jp": "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
