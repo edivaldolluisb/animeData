@@ -1,6 +1,13 @@
 {
-    "total": 206,
+    "total": 207,
     "animes": [
+        {
+            "Id": 207,
+            "Nome_jp": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
+            "Nome_eng": "The Weakest Tamer Began a Journey to Pick Up Trash",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1280/138474l.jpg"
+        },
         {
             "Id": 206,
             "Nome_jp": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru",
