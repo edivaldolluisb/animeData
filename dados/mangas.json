@@ -1,20 +1,274 @@
 {
-    "total": 0,
+    "total": 3,
     "mangas": [
+
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": ,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": 30,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": 29,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": 28,
+            "Nome_jp": "",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": ""
+        },
+        {
+            "Id": 27,
+            "Nome_jp": "Reformation of the Deadbeat Noble",
+            "Nome_eng": "The Lazy Lord Masters the Sword; The Lazy Prince Becomes a Genius",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/f/fc/fcb065a73b45e13aea466a91c67b83a8.jpg",
+            "cap": 91
+        },
+        {
+            "Id": 26,
+            "Nome_jp": "Quest Supremacism",
+            "Nome_eng": "QUESTISM",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/7/76/762750efd8cc7750c2c652e6274a75e7.jpg"
+        },
+        {
+            "Id": 25,
+            "Nome_jp": "Overpowered Sword",
+            "Nome_eng": "Disciple of the Holy Sword",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/a/a9/a95e0acb894841c97a666898b251460a.jpg",
+            "cap": 78
+        },
+        {
+            "Id": 24,
+            "Nome_jp": "Overgeared",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/0/06/0635d36da191929430bb2b94c8757e00.jpg",
+            "cap": 198
+        },
+        {
+            "Id": 23,
+            "Nome_jp": "Otherworldly Sword King's Survival Records",
+            "Nome_eng": "Latna Saga: Survival of a Sword King",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/a/af/af27406d1cf5cc5a0027a3f78578718a.jpg"
+        },
+        {
+            "Id": 22,
+            "Nome_jp": "Omniscient Reader",
+            "Nome_eng": "Omniscient Reader's Viewpoint",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/2/238873l.jpg"
+        },
+        {
+            "Id": 21,
+            "Nome_jp": "Martial Peak",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/a/a3/a3ec102f90441b8f09bfe5aac580b8cf.jpg",
+            "cap": 2093
+        },
+        {
+            "Id": 20,
+            "Nome_jp": "Lightning Degree",
+            "Nome_eng": "Masters of Lightning Knives; Lightning Swords",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/d/d1/d1c459c86ab983a8e583140c1ff1144e.jpg",
+            "cap": 170
+        },
+        {
+            "Id": 19,
+            "Nome_jp": "The Legend of the Northern Blade",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/243483l.jpg",
+            "cap": 162
+        },
+        {
+            "Id": 18,
+            "Nome_jp": "Isekai Nonbiri Nouka",
+            "Nome_eng": "Farming Life in Another World",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/8/89/89de3290f7a808d2292283bf9589461a.jpg",
+            "cap": 60
+        },
+        {
+            "Id": 17,
+            "Nome_jp": "Infinite Mage",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/d/d1/d183f80a03e8ab9ac838573f1a70c35b.jpg",
+            "cap": 51
+        },
+        {
+            "Id": 16,
+            "Nome_jp": "I Picked a Hammer to Save the World",
+            "Nome_eng": "The Hammer",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/279967l.jpg"
+        },
+        {
+            "Id": 15,
+            "Nome_jp": "How to Live as a Villain",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/268211l.jpg"
+        },
+        {
+            "Id": 14,
+            "Nome_jp": "How to Fight",
+            "Nome_eng": "Viral Hit!",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/248716l.jpg"
+        },
+        {
+            "Id": 13,
+            "Nome_jp": "God of Martial Arts",
+            "Nome_eng": "Peerless Martial God",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/0/05/055bb66855f4597bf2a91b03fd80e7ac.jpg"
+        },
+        {
+            "Id": 12,
+            "Nome_jp": "God of Blackfield",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/2/261694l.jpg"
+        },
+        {
+            "Id": 11,
+            "Nome_jp": "Fist Demon of Mount Hua",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/0/04/04bee642309b544936de2e8c4f69fb42.jpg"
+        },
+        {
+            "Id": 10,
+            "Nome_jp": "Damn Reincarnation",
+            "Nome_eng": "My Blasted Reincarnated Life",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/e/e0/e0040bddc879f4d2715d85477be21fec.jpg"
+        },
+        {
+            "Id": 9,
+            "Nome_jp": "Chāo Shén Chǒng Shòu Diàn",
+            "Nome_eng": "Astral Pet Store; Super God Pet Shop",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/6/60/60d295b8cd52c75623d1988b5b742f53.jpg"
+        },
+        {
+            "Id": 8,
+            "Nome_jp": "Black Sun",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/a/a9/a9f56db5fd891e75546a32803bfb50eb.jpg"
+        },
+        {
+            "Id": 7,
+            "Nome_jp": "The Academy's Undercover Professor",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/2/265658l.jpg"
+        },
+        {
+            "Id": 6,
+            "Nome_jp": "Ranker's Return",
+            "Nome_eng": "Ranker's Return (2021)",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/9/9e/9e3850559e246bde4d5296a63ec20eed.jpg"
+        },
+        {
+            "Id": 5,
+            "Nome_jp": "Superhuman Battlefield",
+            "Nome_eng": "The Esper's Game; Superhuman Battlefield",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/265097l.jpg"
+        },
+        {
+            "Id": 4,
+            "Nome_jp": "Descent of the Demon Master",
+            "Nome_eng": "The Descent of the Demonic Master",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/262743l.jpg"
+        },
+        {
+            "Id": 3,
+            "Nome_jp": "Solo Max-Level Newbie",
+            "Nome_eng": "I’m the Max-Level Newbie",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/274479l.jpg"
+        },
         
         {
             "Id": 2,
-            "Nome_jp": "Return of The 8th Class Magician",
-            "Nome_eng": "",
+            "Nome_jp": "The Return of The 8th Class Magician",
+            "Nome_eng": "Revolution of the 8th Class Mage",
             "Status": "Completo",
-            "Image": ""
+            "Image": "https://cdn.myanimelist.net/images/manga/3/263074l.jpg"
         },
         {
             "Id": 1,
             "Nome_jp": "One Piece",
             "Nome_eng": "",
-            "Status": "Acompanhando",
-            "Image": ""
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/250752l.jpg"
         }
     ]
 }
