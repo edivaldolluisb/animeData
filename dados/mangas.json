@@ -3,74 +3,505 @@
     "mangas": [
 
         {
-            "Id": ,
-            "Nome_jp": "",
-            "Nome_eng": "",
+            "Id": 91,
+            "Nome_jp": "The Frozen Player Returns",
+            "Nome_eng": "Return of the Frozen Player",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-frozen-player-returns-1.webp?t=1647320858"
         },
         {
-            "Id": ,
-            "Nome_jp": "",
+            "Id": 91,
+            "Nome_jp": "The Worn and Torn Newbie",
             "Nome_eng": "",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-worn-and-torn-newbie-1.webp?t=1639195323",
+            "cap": 150
         },
         {
-            "Id": ,
-            "Nome_jp": "",
-            "Nome_eng": "",
+            "Id": 90,
+            "Nome_jp": "Return of the crazy Demon",
+            "Nome_eng": "Return of the Mad Demon",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/return-of-the-mad-demon-1.jpg?t=1628029765",
+            "cap": 85
         },
         {
-            "Id": ,
-            "Nome_jp": "",
-            "Nome_eng": "",
+            "Id": 89,
+            "Nome_jp": "The Max Level will Has Returned!",
+            "Nome_eng": "The Max Level Hero Has Returned!; The Max Level Hero Strikes Back!",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-max-level-hero-strikes-back-1.webp?t=1644520001",
+            "cap": 138
         },
         {
-            "Id": ,
-            "Nome_jp": "",
-            "Nome_eng": "",
+            "Id": 88,
+            "Nome_jp": "The Dark Magician Transmigrates After 66666 Years",
+            "Nome_eng": "66,666 Years: Advent of the Dark Mage; The Black mage Who Reincarnated after 66666 Years; Black Mage Reborn After 66666 Years;",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/66666-years-advent-of-the-dark-mage-1.webp?t=1697839300",
+            "cap": 100
         },
         {
-            "Id": ,
-            "Nome_jp": "",
-            "Nome_eng": "",
+            "Id": 87,
+            "Nome_jp": "Shaman of magnanimous Spirit",
+            "Nome_eng": "Wandering Warrior of Wudang; The Grand Mudang Saga; Path of the Shaman",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-grand-mudang-saga-1.webp?t=1644520164",
+            "cap": 102
         },
         {
-            "Id": ,
-            "Nome_jp": "",
+            "Id": 86,
+            "Nome_jp": "Seeking the Flying Sword Path",
+            "Nome_eng": "Path of Soaring Sword; Soaring Sword Odyssey",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/seeking-the-flying-sword-path-1.jpg?t=1625834476",
+            "cap": 104
+        },
+        {
+            "Id": 85,
+            "Nome_jp": "Second Life Ranker",
             "Nome_eng": "",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.anime-planet.com/manga/primary/second-life-ranker-1.jpg?t=1628880491",
+            "cap": 161
+        },
+        {
+            "Id": 84,
+            "Nome_jp": "Reverse Villain",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/reverse-villain-1.webp?t=1652289275"
+        },
+        {
+            "Id": 83,
+            "Nome_jp": "Return of the Mount Hua Sect",
+            "Nome_eng": "Return of the Blossoming Blade; Return of Sword Master; Volcanic Return",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/return-of-the-blossoming-blade-1.webp?t=1649675722",
+            "cap": 88
+        },
+        {
+            "Id": 82,
+            "Nome_jp": "Reincarnation of the Battle God",
+            "Nome_eng": "Doom Breaker; Reincarnation of the Suicidal Battle God",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/doom-breaker-1.webp?t=1685204866",
+            "cap": 88
+        },
+        {
+            "Id": 81,
+            "Nome_jp": "Regressor Instruction Manual",
+            "Nome_eng": "How to Use a Returner",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/how-to-use-a-returner-1.webp?t=1648779830",
+            "cap": 87
+        },
+        {
+            "Id": 80,
+            "Nome_jp": "One Hit Teacher, Master Baek",
+            "Nome_eng": "Best Teacher Baek; Star Instructor, Master Baek",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/best-teacher-baek-1.jpg?t=1651714803",
+            "cap": 70
+        },
+        {
+            "Id": 79,
+            "Nome_jp": "Noblesse",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/noblesse-1.jpg?t=1625784020"
+        },
+        {
+            "Id": 78,
+            "Nome_jp": "My School Life Pretending To Be a Worthless Person",
+            "Nome_eng": "My F-Rank High School Life",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/my-f-rank-high-school-life-1.webp?t=1690519636",
+            "cap": 52
+        },
+        {
+            "Id": 77,
+            "Nome_jp": "Murim Login",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/murim-login-1.jpg?t=1625863834",
+            "cap": 166
+        },
+        {
+            "Id": 76,
+            "Nome_jp": "Mujang",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/mujang-1.jpg?t=1625802933"
+        },
+        {
+            "Id": 75,
+            "Nome_jp": "Housekeeper is the Magic Emperor",
+            "Nome_eng": "Mo Huang Da Guan Jia; The Devil Butler",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-servant-is-the-demon-king-1.webp?t=1651929530",
+            "cap": 450
+        },
+        {
+            "Id": 74,
+            "Nome_jp": "Mercenary Enrollment",
+            "Nome_eng": "Teenage Mercenary",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/teenage-mercenary-1.jpg?t=1625870543",
+            "cap": 155
+        },
+        {
+            "Id": 73,
+            "Nome_jp": "Legend of Asura - The Venom Dragon",
+            "Nome_eng": "Legend of an Asura: The Poison Dragon",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/legend-of-an-asura-the-poison-dragon-1.webp?t=1691720790",
+            "cap": 133
+        },
+        {
+            "Id": 72,
+            "Nome_jp": "Kill the Hero",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/kill-the-hero-1.webp?t=1644519943"
+        },
+        {
+            "Id": 71,
+            "Nome_jp": "Kage no Jitsuryokusha ni Naritakute!",
+            "Nome_eng": "The Eminence in Shadow",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-eminence-in-shadow-1.jpg?t=1636013231"
+        },
+        {
+            "Id": 70,
+            "Nome_jp": "Jungle Juice",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/jungle-juice-1.jpg?t=1625872599",
+            "cap": 89
+        },
+        {
+            "Id": 69,
+            "Nome_jp": "The Celestial Returned from Hell",
+            "Nome_eng": "The Celestial Returned from Hell; Jiogeseo Doraon Seongjwanim",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-celestial-returned-from-hell-1.webp?t=1650938059",
+            "cap": 105
+        },
+        {
+            "Id": 68,
+            "Nome_jp": "I Am The Sorcerer King",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/i-am-the-sorcerer-king-1.webp?t=1632861753"
+        },
+        {
+            "Id": 67,
+            "Nome_jp": "Heavenly Grand Archive's Young Master",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/heavenly-grand-archives-young-master-1.webp?t=1673711039",
+            "cap": 36
+        },
+        {
+            "Id": 66,
+            "Nome_jp": "Get Schooled",
+            "Nome_eng": "True Education; The Real Lesson",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/get-schooled-1.webp?t=1685205090",
+            "cap": 114
+        },
+        {
+            "Id": 65,
+            "Nome_jp": "Existence",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/existence-1.webp?t=1661003129",
+            "cap": 57
+        },
+        {
+            "Id": 64,
+            "Nome_jp": "Everyone Else is A Returnee",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/last-on-earth-1.webp?t=1693690014",
+            "cap": 46
+        },
+        {
+            "Id": 63,
+            "Nome_jp": "Chronicles of Heavenly Demon",
+            "Nome_eng": "Heavenly Demon Reborn!",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/heavenly-demon-reborn-1.jpg?t=1625830231",
+            "cap": 211
+        },
+        {
+            "Id": 62,
+            "Nome_jp": "Black Clover",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/black-clover-1.webp?t=1667516512",
+            "cap": 368
+        },
+        {
+            "Id": 61,
+            "Nome_jp": "Dungeon Reset",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/dungeon-reset-1.jpg?t=1625856325",
+            "cap": 164
+        },
+        {
+            "Id": 60,
+            "Nome_jp": "The Swordmaster's son",
+            "Nome_eng": "Swordmaster's Youngest Son; Youngest Son of the Renowned Swordsmanship Clan",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-swordmasters-son-1.webp?t=1662084944",
+            "cap": 105
+        },
+        {
+            "Id": 59,
+            "Nome_jp": "L.A.G",
+            "Nome_eng": "Unlimited Passive",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/lag-1.webp?t=1661134848",
+            "cap": 84
+        },
+        {
+            "Id": 58,
+            "Nome_jp": "Nano Machine",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/2/262456l.jpg",
+            "cap": 200
+        },
+        {
+            "Id": 57,
+            "Nome_jp": "A Returner's Magic Should Be Special",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/a-returners-magic-should-be-special-1.webp?t=1664639836",
+            "cap": 230
+        },
+        {
+            "Id": 56,
+            "Nome_jp": "The Undefeatable Swordsman",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-undefeatable-swordsman-1.webp?t=1644519324",
+            "cap": 169
+        },
+        {
+            "Id": 55,
+            "Nome_jp": "Pick Me Up!",
+            "Nome_eng": "Infinite Gacha",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/pick-me-up-1.webp?t=1709767815"
+        },
+        {
+            "Id": 54,
+            "Nome_jp": " A Disaster Class Hero Has Returned",
+            "Nome_eng": "The Return of the Disaster-Class Hero; Resurrection of the Catastrophic Hero",
+            "Status": "Lendo",
+            "Image": "https://cdn.anime-planet.com/manga/primary/the-return-of-the-disaster-class-hero-1.webp?t=1693038216",
+            "cap": 74
+        },
+        {
+            "Id": 53,
+            "Nome_jp": "Mashle: Magic and Muscles",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/230705l.jpg"
+        },
+        {
+            "Id": 52,
+            "Nome_jp": "Yuan Zun",
+            "Nome_eng": "Dragon Prince Yuan",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/0/06/062fc561b65cb8088c02586f6fcc3d88.jpg",
+            "cap": 318
+        },
+        {
+            "Id": 51,
+            "Nome_jp": "The Boxer",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://static.mangafire.to/i/7/7f/7fdf03fc5123da02f8ecce5283ab0c34.jpg"
+        },
+        {
+            "Id": 50,
+            "Nome_jp": "Villain to Kill",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/4/4b/4b99916c3b476cad118bcdfbff2f68ef.jpg",
+            "cap": 111
+        },
+        {
+            "Id": 49,
+            "Nome_jp": "Study Group",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/0/08/08a8f9ff09fe0862acb1d267ce4b00fe.jpg",
+            "cap": 184
+        },
+        {
+            "Id": 48,
+            "Nome_jp": "Reaper of the Drifting Moon",
+            "Nome_eng": "The Reaper; Grim Reaper's Floating Moon",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/2/2e/9639f97c15d5c26908c52c27057e5a29.jpg",
+            "cap": 55
+        },
+        {
+            "Id": 47,
+            "Nome_jp": "The World After the Fall",
+            "Nome_eng": "The World After the End; The Post-Destruction World",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/260852l.jpg",
+            "cap": 88
+        },
+        {
+            "Id": 46,
+            "Nome_jp": "Skeleton Soldier Couldn't Protect the Dungeon",
+            "Nome_eng": "The Skeleton Soldier Failed to Defend the Dungeon",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/260756l.jpg", 
+            "cap": 239
+        },
+        {
+            "Id": 45,
+            "Nome_jp": "I Obtained a Mythic Item",
+            "Nome_eng": "Mythic Item Obtained",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/1/14/1426c3be50ade13101b8be39ea07ba2a.jpg"
+        },
+        {
+            "Id": 44,
+            "Nome_jp": "GOSU",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/1/261692l.jpg",
+            "cap": 205
+        },
+        {
+            "Id": 43,
+            "Nome_jp": "Wo Neng Fu Zhi Tian Fu",
+            "Nome_eng": "I Can Copy Talents; Your Talent is Mine",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/c/cb/cb4e404c4d21d5db868d31b368eebc7b.jpg"
+        },
+        {
+            "Id": 42,
+            "Nome_jp": "Volcanic Age",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/c/c2/c2156b0e92dd04f0637d67f4cbf3f178.jpg",
+            "cap": 244
+        },
+        {
+            "Id": 41,
+            "Nome_jp": "VERSUS",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/8/8e/8e3c89554aece36413e10d7f91a6a6cb.jpg",
+            "cap": 5
+        },
+        {
+            "Id": 40,
+            "Nome_jp": "Trash of the Count's Family",
+            "Nome_eng": "Lout of Count’s Family",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/1/11/118c5475227b59e8971a82434545dff9.jpg",
+            "cap": 79
+        },
+        {
+            "Id": 39,
+            "Nome_jp": "Kami no Tou",
+            "Nome_eng": "Tower of God",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/2/223694l.jpg",
+            "cap": "530 S3-113"
+        },
+        {
+            "Id": 38,
+            "Nome_jp": "Tomb Raider King",
+            "Nome_eng": "Grave Robber - King",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/9/93/937a4a976b97a391f4ecf095985093ad.jpg",
+            "cap":169
+        },
+        {
+            "Id": 37,
+            "Nome_jp": "The S-Ranks That I Raised",
+            "Nome_eng": "My S-Class Hunters",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/d/d3/d3059515bb30aa4fd0f71a22d5e56217.jpg"
+        },
+        {
+            "Id": 36,
+            "Nome_jp": "The Great mage Returns After 4000 Years",
+            "Nome_eng": "The Archmage Returns After 4000 Years; My return after 4000 years",
+            "Status": "Lendo",
+            "Image": "",
+            "cap": 187
+        },
+        {
+            "Id": 35,
+            "Nome_jp": "The Beginning After the End",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://www.mangaread.org/wp-content/uploads/2019/12/Pixaloop_10_10_2021_00_00_20_1080000-1.gif",
+            "cap": 141
+        },
+        {
+            "Id": 34,
+            "Nome_jp": "Survival Story of a Sword King in a Fantasy World",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.myanimelist.net/images/manga/3/243388l.jpg"
+        },
+        {
+            "Id": 33,
+            "Nome_jp": "Starting From Today I'll Work as a City Lord",
+            "Nome_eng": "Become the Castellan in Another World",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/7/79/79f7438b0c19cea9cb35c9f7ecdaca74.jpg"
+        },
+        {
+            "Id": 32,
+            "Nome_jp": "SSS-Class Revival Hunter",
+            "Nome_eng": "SSS-Class Suicide Hunter; ",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/f/f7/f76b728f8f9851381914339a6fe0faa3.jpg",
+            "cap": 36
+        },
+        {
+            "Id": 31,
+            "Nome_jp": "Solo Necromancy",
+            "Nome_eng": "The Lone Necromancer",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/d/dc/dcb44806cf58773a82f28dbe9166d31d.jpg"
         },
         {
             "Id": 30,
-            "Nome_jp": "",
+            "Nome_jp": "Solo Leveling",
             "Nome_eng": "",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.myanimelist.net/images/manga/1/227594l.jpg"
         },
         {
             "Id": 29,
-            "Nome_jp": "",
+            "Nome_jp": "Seoul Station's Necromancer",
             "Nome_eng": "",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://static.mangafire.to/i/1/1d/1d59a7ea5de8a20e5196472a53a7c705.jpg"
         },
         {
             "Id": 28,
-            "Nome_jp": "",
+            "Nome_jp": "Release that Witch",
             "Nome_eng": "",
             "Status": "Lendo",
-            "Image": ""
+            "Image": "https://cdn.myanimelist.net/images/manga/1/253631l.jpg"
         },
         {
             "Id": 27,
