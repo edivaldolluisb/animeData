@@ -81,10 +81,10 @@ function addPagination(data, currentPage, perPage) {
 		paginationElement.innerHTML += previousPageElement;
 
 		for (let i = 1; i <= totalPages; i++) {
-			if (i === currentPage) {
-				paginationElement.innerHTML += `<a class="active" href="#">${i}</a>`;
-			} else {
-				paginationElement.innerHTML += `<a href="#" data-page="${i}">${i}</a>`;
+			// ir colocar apenas a pagina atual a anterior e a seguinte
+			if (i === currentPage - 1 || i === currentPage || i === currentPage + 1) {
+				const active = i === currentPage ? "active" : "";
+				paginationElement.innerHTML += `<a href="#" data-page="${i}" class="${active}">${i}</a>`;
 			}
 		}
 

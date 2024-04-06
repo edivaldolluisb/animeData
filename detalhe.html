@@ -32,6 +32,7 @@
             <p id="nome_anime">Nome do anime</p>
             <p id="nome_eng">Nome alternativo: </p>
             <p id="status">Status: </p>
+            <p id="cap">Read until: </p>
         </div>
     </section>
 
@@ -55,6 +56,8 @@
             status = document.querySelector('#status')
             nome_eng = document.querySelector('#nome_eng')
 
+            var cap = document.querySelector('#cap')
+            cap.style.display = 'none'
 
             var url = "./dados/animes.json"
             if (tipo == "manga") {
@@ -64,7 +67,7 @@
             fetch(url)
                 .then((resp) => resp.json())
                 .then(function (data) {
-                    console.log('Data:', data)
+                    // console.log('Data:', data)
 
                     let anime;
                     let array_dados = data.animes
@@ -83,6 +86,20 @@
 
                     //verficar se o anime tem imagem
                     if (anime.Image != '') {
+                        //try getting the image, and check for errors
+                        
+                        // fetch(anime.Image)
+                        //     .then((response) => {
+                        //         if (response.ok) {
+                        //             imagem_anime.src = anime.Image
+                        //         } else {
+                        //             imagem_anime.src = './imagens/haikkyu.jpg'
+                        //         }
+                        //     })
+                        //     .catch((error) => {
+                        //         console.error('Error:', error);
+                        //     });
+                        
                         imagem_anime.src = anime.Image
                     }
                     nome_anime.innerHTML = anime.Nome_jp
@@ -94,6 +111,13 @@
                         nome_eng.innerHTML += anime.Nome_eng
                     }
                     status.innerHTML += anime.Status
+
+                    // if there is anime.cap, display cap and assign anime.cap to cap
+                    if (anime.cap) {
+                        cap.style.display = 'block'
+                        cap.innerHTML += anime.cap
+                    }
+
 
                 })
 
