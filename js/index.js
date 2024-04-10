@@ -115,6 +115,7 @@ function searchAnime(array) {
 		const data = searchTable(value, array)
 
 		addAnimeToTable(data)
+		// addPagination(data.animes=data, currentPage, perPage)
 	})
 }
 
