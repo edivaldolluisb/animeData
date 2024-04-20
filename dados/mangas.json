@@ -3,6 +3,13 @@
     "mangas": [
 
         {
+            "Id": 93,
+            "Nome_jp": "The Last Human",
+            "Nome_eng": "Mortals of the Doom; Survivor of Doomsday",
+            "Status": "Lendo",
+            "Image": "https://static.mangafire.to/i/8/8d/8d452ecfe4ab7fbe5d6979fb57ac0740.jpg"
+        },
+        {
             "Id": 92,
             "Nome_jp": "The Frozen Player Returns",
             "Nome_eng": "Return of the Frozen Player",
