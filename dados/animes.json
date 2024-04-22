@@ -1,6 +1,13 @@
 {
-    "total": 207,
+    "total": 208,
     "animes": [
+        {
+            "Id": 208,
+            "Nome_jp": "Ore dake Level Up na Ken",
+            "Nome_eng": "Solo Leveling",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1926/140799l.jpg"
+        },
         {
             "Id": 207,
             "Nome_jp": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
