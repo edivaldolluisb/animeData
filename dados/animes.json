@@ -308,7 +308,7 @@
             "Id": 163,
             "Nome_jp": "Dead Mount Death Play",
             "Nome_eng": "",
-            "Status": "Completo",
+            "Status": "Assistindo",
             "Image": "https://cdn.myanimelist.net/images/anime/1930/133758l.jpg"
         },{
             "Id": 162,
@@ -328,7 +328,7 @@
             "Id": 160,
             "Nome_jp": "Oshi No Ko",
             "Nome_eng": "",
-            "Status": "Completo",
+            "Status": "Assistindo",
             "Image": "https://static.bunnycdn.ru/i/cache/images/8/84/849230dc44c98b5d8796d9dea6fbb0fc.jpg"
         },
         {
@@ -518,7 +518,8 @@
             "Nome_jp": "Kami no Tou",
             "Nome_eng": "Tower of God",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1702/106229l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1702/106229l.jpg",
+            "top": true
         },
         {
             "Id": 132,
@@ -572,7 +573,7 @@
         {
             "Id": 125,
             "Nome_jp": "Majo no Tabitabi",
-            "Nome_eng": "Pretendo Assistir",
+            "Nome_eng": "Wandering Witch: The Journey of Elaina",
             "Status": "Pretendo Assistir",
             "Image": "https://cdn.myanimelist.net/images/anime/1802/108501l.jpg"
         },
@@ -741,7 +742,7 @@
             "Id": 101,
             "Nome_jp": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
             "Nome_eng": "Magia Record: Puella Magi Madoka Magica Side Story",
-            "Status": "Pretendo Assistir",
+            "Status": "Assistindo",
             "Image": "https://cdn.myanimelist.net/images/anime/1688/102993l.jpg"
         },
         {
@@ -861,7 +862,8 @@
             "Nome_jp": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
             "Nome_eng": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1579/113812l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1579/113812l.jpg",
+            "top": true
         },
         {
             "Id": 82,
@@ -980,7 +982,8 @@
             "Nome_jp": "Fairy Tail",
             "Nome_eng": "",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1403/100602l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1403/100602l.jpg",
+            "top": true
         },
         {
             "Id": 65,
@@ -1015,14 +1018,16 @@
             "Nome_jp": "Mob Psycho 100",
             "Nome_eng": "",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/5/79183l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/5/79183l.jpg",
+            "top": true
         },
         {
             "Id": 60,
             "Nome_jp": "Hunter X Hunter",
             "Nome_eng": "",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1940/139867l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1940/139867l.jpg",
+            "top": true
         },
         {
             "Id": 59,
@@ -1127,7 +1132,8 @@
             "Nome_jp": "Tsuki ga Michibiku Isekai Douchuu",
             "Nome_eng": "Tsukimichi: Moonlit Fantasy, Moon-led Journey Across Another World",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1950/116474l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1950/116474l.jpg",
+            "top": true
         },
         {
             "Id": 44,
@@ -1190,7 +1196,8 @@
             "Nome_jp": "Overlord",
             "Nome_eng": "",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1945/136600l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1945/136600l.jpg",
+            "top": true
         },
         {
             "Id": 35,
@@ -1246,7 +1253,8 @@
             "Nome_jp": "Sword Art Online",
             "Nome_eng": "",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1600/139451l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1600/139451l.jpg",
+            "top": true
         },
         {
             "Id": 27,
@@ -1281,7 +1289,8 @@
             "Nome_jp": "Tate no Yuusha no Nariagari",
             "Nome_eng": "The Rising of the Shield Hero",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1188/136926l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1188/136926l.jpg",
+            "top": true
         },
         {
             "Id": 22,
@@ -1323,7 +1332,8 @@
             "Nome_jp": "Haikyuu",
             "Nome_eng": "", 
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1694/104929l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1694/104929l.jpg",
+            "top": true
         },
         {
             "Id": 16,
@@ -1379,7 +1389,8 @@
             "Nome_jp": "Tensei Shitara Slime Datta Ken",
             "Nome_eng": "That Time I Got Reincarned as a Slime",
             "Status": "Completo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1394/93898l.jpg"
+            "Image": "https://cdn.myanimelist.net/images/anime/1394/93898l.jpg",
+            "top": true
         },
         {
             "Id": 8,
@@ -1414,14 +1425,16 @@
             "Nome_jp": "One Piece",
             "Nome_eng": "",
             "Status": "Assistindo",
-            "Image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/236f44583009506b8d9d012c4d3119a5.jpe"
+            "Image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/236f44583009506b8d9d012c4d3119a5.jpe",
+            "top": true
         },
         {
             "Id": 3,
             "Nome_jp": "Ousama Ranking",
             "Nome_eng": "Ranking of Kings",
             "Status": "Completo",
-            "Image": "https://btbtt16.com/upload/attach/005/428/26f86d4226541ccf26a02dfa476e9eed.jpg"
+            "Image": "https://btbtt16.com/upload/attach/005/428/26f86d4226541ccf26a02dfa476e9eed.jpg",
+            "top": true
         },
         {
             "Id": 2,
