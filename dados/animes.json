@@ -1,6 +1,13 @@
 {
-    "total": 209,
+    "total": 110,
     "animes": [
+        {
+            "Id": 110,
+            "Nome_jp": "Re:Monster",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1523/141680l.jpg"
+        },
         {
             "Id": 209,
             "Nome_jp": "Kyoukai no Kanata",
