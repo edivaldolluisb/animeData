@@ -10,7 +10,7 @@ var tabela = document.querySelector('table > tbody');
 
 
 //read json file
-function readfromJson(manga, page = 1, perPage = 5) {
+function readfromJson(manga, page = 1, perPage = 20) {
 	//write to a json file
 	fetch("./dados/mangas.json")
 		.then(response => response.json())
