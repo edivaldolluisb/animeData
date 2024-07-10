@@ -1,6 +1,41 @@
 {
-    "total": 110,
+    "total": 115,
     "animes": [
+        {
+            "Id": 115,
+            "Nome_jp": "Kaijuu 8-gou",
+            "Nome_eng": "Kaiju No. 8",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1370/140362l.jpg"
+        },
+        {
+            "Id": 114,
+            "Nome_jp": "Sentai Daishikkaku",
+            "Nome_eng": "Go! Go! Loser Ranger!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1183/141489l.jpg"
+        },
+        {
+            "Id": 113,
+            "Nome_jp": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+            "Nome_eng": "Chillin' in Another World with Level 2 Super Cheat Powers",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1103/142513l.jpg"
+        },
+        {
+            "Id": 112,
+            "Nome_jp": "Unnamed Memory",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1143/142439l.jpg"
+        },
+        {
+            "Id": 111,
+            "Nome_jp": "Wind Breaker",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1438/141816l.jpg"
+        },
         {
             "Id": 110,
             "Nome_jp": "Re:Monster",
