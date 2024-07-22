@@ -1,6 +1,20 @@
 {
-    "total": 110,
+    "total": 112,
     "animes": [
+        {
+            "Id": 112,
+            "Nome_jp": "Tensei Kizoku, Kantei Skill de Nariagaru",
+            "Nome_eng": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1763/139538l.jpg"
+        },
+        {
+            "Id": 111,
+            "Nome_jp": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+            "Nome_eng": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1580/141243l.jpg"
+        },
         {
             "Id": 110,
             "Nome_jp": "Re:Monster",
