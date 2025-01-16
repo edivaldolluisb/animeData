@@ -1,6 +1,20 @@
 {
-    "total": 227,
+    "total": 229,
     "animes": [
+        {
+            "Id": 229,
+            "Nome_jp": "Sword Art Online Alternative: Gun Gale Online",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1347/137169l.jpg"
+        },
+        {
+            "Id": 228,
+            "Nome_jp": "Hai to Gensou no Grimgar",
+            "Nome_eng": "Grimgar: Ashes and Illusions",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/13/77976l.jpg"
+        },
         {
             "Id": 227,
             "Nome_jp": "Hitoribocchi no Isekai Kouryaku",
