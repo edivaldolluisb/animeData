@@ -1,6 +1,13 @@
 {
-    "total": 229,
+    "total": 230,
     "animes": [
+        {
+            "Id": 230,
+            "Nome_jp": "Sing a Bit of Harmony",
+            "Nome_eng": "Ai no Utagoe wo Kikasete",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1535/116583l.jpg"
+        },
         {
             "Id": 229,
             "Nome_jp": "Sword Art Online Alternative: Gun Gale Online",
