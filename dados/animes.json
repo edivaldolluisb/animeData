@@ -1,6 +1,20 @@
 {
-    "total": 230,
+    "total": 232,
     "animes": [
+        {
+            "Id": 232,
+            "Nome_jp": "Fuguushoku 'Kanteishi' ga Jitsu wa Saikyou Datta",
+            "Nome_eng": "Even Given the Worthless 'Appraiser' Class, I'm Actually the Strongest",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1683/146293l.jpg"
+        },
+        {
+            "Id": 231,
+            "Nome_jp": "The Aristocrat's Otherworldly Adventure: Serving Gods Who Go Too Far",
+            "Nome_eng": "Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1402/134000l.jpg"
+        },
         {
             "Id": 230,
             "Nome_jp": "Sing a Bit of Harmony",
