@@ -1,6 +1,13 @@
 {
-    "total": 232,
+    "total": 233,
     "animes": [
+        {
+            "Id": 233,
+            "Nome_jp": "Übel Blatt",
+            "Nome_eng": "Ubel Blatt",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1647/146961l.jpg"
+        },
         {
             "Id": 232,
             "Nome_jp": "Fuguushoku 'Kanteishi' ga Jitsu wa Saikyou Datta",
