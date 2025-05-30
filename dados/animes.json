@@ -1,6 +1,13 @@
 {
-    "total": 233,
+    "total": 234,
     "animes": [
+        {
+            "Id": 234,
+            "Nome_jp": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
+            "Nome_eng": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1407/145395l.jpg"
+        },
         {
             "Id": 233,
             "Nome_jp": "Übel Blatt",
