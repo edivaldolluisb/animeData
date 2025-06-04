@@ -1,6 +1,13 @@
 {
-    "total": 234,
+    "total": 235,
     "animes": [
+        {
+            "Id": 235,
+            "Nome_jp": "Dandadan",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1541/142082l.jpg"
+        },
         {
             "Id": 234,
             "Nome_jp": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
