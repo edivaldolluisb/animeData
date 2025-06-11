@@ -1,6 +1,13 @@
 {
-    "total": 235,
+    "total": 236,
     "animes": [
+        {
+            "Id": 236,
+            "Nome_jp": "Hazure Skill (Kinomi Master): Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
+            "Nome_eng": "Bogus Skill <<Fruitmaster>>: About That Time I Became Able to Eat Unlimited Numbers of Skill Fruits (That Kill You)",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1703/146128l.jpg"
+        },
         {
             "Id": 235,
             "Nome_jp": "Dandadan",
