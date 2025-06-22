@@ -1,6 +1,13 @@
 {
-    "total": 236,
+    "total": 237,
     "animes": [
+        {
+            "Id": 237,
+            "Nome_jp": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
+            "Nome_eng": "The Brilliant Healer's New Life in the Shadows",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1211/147335l.jpg"
+        },
         {
             "Id": 236,
             "Nome_jp": "Hazure Skill (Kinomi Master): Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
