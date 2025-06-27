@@ -1,6 +1,13 @@
 {
-    "total": 237,
+    "total": 238,
     "animes": [
+        {
+            "Id": 238,
+            "Nome_jp": "Katainaka no Ossan, Kensei ni Naru",
+            "Nome_eng": "From Old Country Bumpkin to Master Swordsman",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1069/148148l.jpg"
+        },
         {
             "Id": 237,
             "Nome_jp": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
