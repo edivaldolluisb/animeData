@@ -1,6 +1,13 @@
 {
-    "total": 238,
+    "total": 239,
     "animes": [
+        {
+            "Id": 239,
+            "Nome_jp": "Sakamoto Days",
+            "Nome_eng": "Sakamoto Days",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1026/146459l.jpg"
+        },
         {
             "Id": 238,
             "Nome_jp": "Katainaka no Ossan, Kensei ni Naru",
