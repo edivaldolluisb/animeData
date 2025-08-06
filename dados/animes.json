@@ -3,6 +3,13 @@
     "animes": [
         {
             "Id": 239,
+            "Nome_jp": "Gachiakuta",
+            "Nome_eng": "Gachiakuta",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1682/150432l.jpg"
+        },
+        {
+            "Id": 239,
             "Nome_jp": "Sakamoto Days",
             "Nome_eng": "Sakamoto Days",
             "Status": "Completo",
