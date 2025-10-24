@@ -1,8 +1,22 @@
 {
-    "total": 239,
+    "total": 242,
     "animes": [
         {
-            "Id": 239,
+            "Id": 242,
+            "Nome_jp": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+            "Nome_eng": "Secrets of the Silent Witch",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1669/149732l.jpg"
+        },
+        {
+            "Id": 241,
+            "Nome_jp": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha",
+            "Nome_eng": "Clevatess",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1353/146697l.jpg"
+        },
+        {
+            "Id": 240,
             "Nome_jp": "Gachiakuta",
             "Nome_eng": "Gachiakuta",
             "Status": "Assistindo",
