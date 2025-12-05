@@ -1,6 +1,13 @@
 {
-    "total": 242,
+    "total": 243,
     "animes": [
+        {
+            "Id": 243,
+            "Nome_jp": "Kami wa Game ni Ueteiru.",
+            "Nome_eng": "Gods' Game We Play",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1578/141782l.jpg"
+        },
         {
             "Id": 242,
             "Nome_jp": "Silent Witch: Chinmoku no Majo no Kakushigoto",
