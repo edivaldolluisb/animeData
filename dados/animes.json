@@ -1,6 +1,34 @@
 {
-    "total": 243,
+    "total": 247,
     "animes": [
+        {
+            "Id": 247,
+            "Nome_jp": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+            "Nome_eng": "My Status as an Assassin Obviously Exceeds the Hero's",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1276/151118l.jpg"
+        },
+        {
+            "Id": 246,
+            "Nome_jp": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+            "Nome_eng": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
+            "Status": "Completo",
+            "Image": "javascript:;"
+        },
+        {
+            "Id": 245,
+            "Nome_jp": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+            "Nome_eng": "Sentenced to Be a Hero",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1062/151911l.jpg"
+        },
+        {
+            "Id": 244,
+            "Nome_jp": "Tougen Anki",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1155/147400l.jpg"
+        },
         {
             "Id": 243,
             "Nome_jp": "Kami wa Game ni Ueteiru.",
