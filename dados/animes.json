@@ -1,6 +1,13 @@
 {
-    "total": 247,
+    "total": 248,
     "animes": [
+        {
+            "Id": 248,
+            "Nome_jp": "Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga",
+            "Nome_eng": "Hero Without a Class: Who Even Needs Skills?!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1721/151097l.jpg"
+        },
         {
             "Id": 247,
             "Nome_jp": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
