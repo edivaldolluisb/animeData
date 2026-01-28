@@ -1,6 +1,13 @@
 {
-    "total": 248,
+    "total": 249,
     "animes": [
+        {
+            "Id": 249,
+            "Nome_jp": "Zenshuu",
+            "Nome_eng": "Zenshu",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1666/146838l.jpg"
+        },
         {
             "Id": 248,
             "Nome_jp": "Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga",
