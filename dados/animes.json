@@ -1,6 +1,27 @@
 {
-    "total": 249,
+    "total": 252,
     "animes": [
+        {
+            "Id": 252,
+            "Nome_jp": "Yuusha Party wo Oidasareta Kiyoubinbou",
+            "Nome_eng": "Jack-of-All-Trades, Party of None",
+            "Status": "Completo",
+            "Image": "https://myanimelist.net/images/anime/1486/153135l.jpg"
+        },
+        {
+            "Id": 251,
+            "Nome_jp": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+            "Nome_eng": "Sentenced to Be a Hero",
+            "Status": "Completo",
+            "Image": "https://myanimelist.net/images/anime/1062/151911l.jpg"
+        },
+        {
+            "Id": 250,
+            "Nome_jp": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
+            "Nome_eng": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+            "Status": "Completo",
+            "Image": "https://myanimelist.net/images/anime/1151/152479l.jpg"
+        },
         {
             "Id": 249,
             "Nome_jp": "Zenshuu",
