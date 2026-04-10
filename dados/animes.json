@@ -1,6 +1,13 @@
 {
-    "total": 252,
+    "total": 253,
     "animes": [
+        {
+            "Id": 253,
+            "Nome_jp": "Marriagetoxin",
+            "Nome_eng": "",
+            "Status": "Assistindo",
+            "Image": "https://myanimelist.net/images/anime/1019/152407l.jpg"
+        },
         {
             "Id": 252,
             "Nome_jp": "Yuusha Party wo Oidasareta Kiyoubinbou",
