@@ -38,13 +38,34 @@ body {
 
 #imagem_anime {
   width: 100%;
-  max-width: 220px;
+  max-width: min(280px, 72vw);
   aspect-ratio: 2 / 3;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
   object-fit: cover;
   display: block;
   background-color: var(--amber-faint);
+  box-shadow:
+    0 0 0 2px rgba(220, 182, 125, 0.35),
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: img-enter 380ms var(--ease-out) both;
+}
+
+@keyframes img-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #imagem_anime {
+    animation: none;
+  }
 }
 
 #dados_detalhe > div {
@@ -178,7 +199,7 @@ body {
   }
 
   #imagem_anime {
-    max-width: 200px;
+    max-width: 260px;
     flex-shrink: 0;
   }
 
