@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-15T00:00:00Z",
+  "title": "Design System: Ani-Mangalist",
+  "extensions": {
+    "colorMeta": {
+      "tatami-gold":         { "role": "primary",   "displayName": "Tatami Gold",        "canonical": "oklch(76% 0.065 68)",  "tonalRamp": ["oklch(20% 0.065 68)","oklch(30% 0.065 68)","oklch(40% 0.065 68)","oklch(50% 0.065 68)","oklch(60% 0.065 68)","oklch(70% 0.065 68)","oklch(80% 0.065 68)","oklch(93% 0.012 68)"] },
+      "tatami-gold-muted":   { "role": "primary",   "displayName": "Tatami Gold Muted",  "canonical": "oklch(76% 0.065 68 / 0.85)", "tonalRamp": ["oklch(20% 0.055 68)","oklch(30% 0.055 68)","oklch(40% 0.055 68)","oklch(50% 0.055 68)","oklch(60% 0.055 68)","oklch(70% 0.055 68)","oklch(80% 0.055 68)","oklch(93% 0.010 68)"] },
+      "shiso-green":         { "role": "secondary", "displayName": "Shiso Green",         "canonical": "oklch(59% 0.148 145)", "tonalRamp": ["oklch(18% 0.148 145)","oklch(28% 0.148 145)","oklch(38% 0.148 145)","oklch(48% 0.148 145)","oklch(58% 0.148 145)","oklch(68% 0.120 145)","oklch(78% 0.080 145)","oklch(93% 0.025 145)"] },
+      "shiso-green-dark":    { "role": "secondary", "displayName": "Shiso Green Dark",    "canonical": "oklch(49% 0.140 145)", "tonalRamp": ["oklch(15% 0.140 145)","oklch(25% 0.140 145)","oklch(35% 0.140 145)","oklch(45% 0.140 145)","oklch(55% 0.130 145)","oklch(65% 0.110 145)","oklch(75% 0.075 145)","oklch(90% 0.020 145)"] },
+      "deep-lacquer":        { "role": "neutral",   "displayName": "Deep Lacquer",        "canonical": "oklch(12% 0.022 55)",  "tonalRamp": ["oklch(8% 0.022 55)","oklch(18% 0.022 55)","oklch(28% 0.022 55)","oklch(38% 0.022 55)","oklch(50% 0.018 55)","oklch(62% 0.014 55)","oklch(76% 0.010 55)","oklch(92% 0.005 55)"] },
+      "aged-parchment":      { "role": "neutral",   "displayName": "Aged Parchment",      "canonical": "oklch(38% 0.032 55)",  "tonalRamp": ["oklch(12% 0.032 55)","oklch(22% 0.032 55)","oklch(32% 0.032 55)","oklch(42% 0.028 55)","oklch(52% 0.022 55)","oklch(64% 0.016 55)","oklch(78% 0.010 55)","oklch(92% 0.005 55)"] },
+      "translucent-surface": { "role": "neutral",   "displayName": "Translucent Surface", "canonical": "oklch(100% 0 0 / 0.92)", "tonalRamp": ["oklch(100% 0 0 / 0.20)","oklch(100% 0 0 / 0.35)","oklch(100% 0 0 / 0.50)","oklch(100% 0 0 / 0.62)","oklch(100% 0 0 / 0.72)","oklch(100% 0 0 / 0.82)","oklch(100% 0 0 / 0.92)","oklch(100% 0 0 / 1.00)"] }
+    },
+    "typographyMeta": {
+      "headline": { "displayName": "Headline", "purpose": "Page title h1. Appears once per page. Always inside an amber chip wrapper." },
+      "title":    { "displayName": "Title",    "purpose": "Table headers, nav labels, stat chips. Structural weight layer." },
+      "body":     { "displayName": "Body",     "purpose": "Table row content, general text. Max 65ch line length." },
+      "label":    { "displayName": "Label",    "purpose": "Stats, counts, pagination numbers, filter controls." }
+    },
+    "shadows": [
+      { "name": "shadow-sm", "value": "0 1px 3px rgba(0,0,0,.14), 0 1px 2px rgba(0,0,0,.08)", "purpose": "Nav links, search bar, stat chips. Confirms element is distinct from background." },
+      { "name": "shadow-md", "value": "0 4px 18px rgba(0,0,0,.22)", "purpose": "Table, pagination, detail cards. Marks a contained surface region." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "All interactive transitions. Entering elements." },
+      { "name": "duration-fast", "value": "150ms", "purpose": "Row hover, color shifts, small state changes." },
+      { "name": "duration-base", "value": "160ms", "purpose": "Nav and button press feedback." },
+      { "name": "duration-medium", "value": "200ms", "purpose": "Search input focus glow." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "768px", "purpose": "Below this: width switches from min(70%,Xpx) to 92vw." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Nav Active",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "Active page tab. Shiso Green fill, white text.",
+      "html": "<nav><a class=\"ds-nav-active\" href=\"#\">Anime</a><a class=\"ds-nav-inactive\" href=\"#\">Mangá</a></nav>",
+      "css": ".ds-nav-active, .ds-nav-inactive { text-decoration: none; padding: 7px 20px; border-radius: 6px; font-family: Poppins, sans-serif; font-weight: 600; font-size: 0.875rem; box-shadow: 0 1px 3px rgba(0,0,0,.14); transition: transform 160ms cubic-bezier(0.23,1,0.32,1), box-shadow 160ms cubic-bezier(0.23,1,0.32,1), background-color 160ms ease; display: inline-block; margin-right: 8px; } .ds-nav-active { background-color: #34a44c; color: #fff; } .ds-nav-active:hover { background-color: #287d3b; transform: translateY(-1px); } .ds-nav-inactive { background-color: rgba(255,255,255,0.92); color: #1c1208; } .ds-nav-inactive:hover { transform: translateY(-1px); box-shadow: 0 4px 18px rgba(0,0,0,.22); } .ds-nav-active:active, .ds-nav-inactive:active { transform: scale(0.97); } .ds-nav-active:focus-visible, .ds-nav-inactive:focus-visible { outline: 2px solid #34a44c; outline-offset: 3px; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Full-width search field with green focus ring.",
+      "html": "<input class=\"ds-search\" type=\"search\" placeholder=\"Pesquise\">",
+      "css": ".ds-search { width: 100%; padding: 10px 16px; border: none; border-radius: 10px; background: rgba(255,255,255,0.92); font-family: Poppins, sans-serif; font-size: 0.9375rem; color: #1c1208; box-shadow: 0 1px 3px rgba(0,0,0,.14); transition: box-shadow 200ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-search:focus { outline: none; background-color: #fff; box-shadow: 0 0 0 3px rgba(52,164,76,0.3), 0 4px 18px rgba(0,0,0,.22); }"
+    },
+    {
+      "name": "Table",
+      "kind": "card",
+      "refersTo": "table-header",
+      "description": "The product. Amber headers, alternating rows, hover tint.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Nome</th><th>Status</th></tr></thead><tbody><tr><td><a href=\"#\">One Piece</a></td><td>Completo</td></tr><tr><td><a href=\"#\">Naruto</a></td><td>Assistindo</td></tr></tbody></table>",
+      "css": ".ds-table { width: 100%; border-collapse: collapse; background: rgba(255,255,255,0.92); border-radius: 10px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,.22); font-family: Poppins, sans-serif; } .ds-table th { background-color: #dcb67d; padding: 14px 16px; font-weight: 600; font-size: 0.9375rem; text-align: center; color: #1c1208; } .ds-table td { padding: 10px 16px; text-align: center; color: #1c1208; } .ds-table tbody tr { transition: background-color 150ms ease; } .ds-table tbody tr:hover { background-color: rgba(220,182,125,0.18); } .ds-table tr:nth-child(even) { background-color: rgba(220,182,125,0.85); } .ds-table tr:nth-child(even):hover { background-color: rgba(220,182,125,1); } .ds-table a { text-decoration: none; color: #1c1208; font-weight: 500; transition: color 150ms ease; } .ds-table a:hover { color: #287d3b; } .ds-table a:focus-visible { outline: 2px solid #34a44c; outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Pagination Bar",
+      "kind": "nav",
+      "refersTo": "pagination-active",
+      "description": "Compact pill with active green page indicator.",
+      "html": "<div class=\"ds-pagination\"><a href=\"#\">&laquo;</a><a href=\"#\">1</a><a class=\"active\" href=\"#\">2</a><a href=\"#\">3</a><a href=\"#\">&raquo;</a></div>",
+      "css": ".ds-pagination { display: flex; align-items: center; justify-content: center; gap: 3px; background: rgba(255,255,255,0.92); border-radius: 10px; padding: 5px; box-shadow: 0 1px 3px rgba(0,0,0,.14); width: fit-content; } .ds-pagination a { color: #1c1208; display: inline-flex; align-items: center; justify-content: center; min-width: 36px; height: 36px; padding: 0 12px; text-decoration: none; border-radius: 6px; font-family: Poppins, sans-serif; font-size: 0.875rem; font-weight: 500; transition: background-color 150ms cubic-bezier(0.23,1,0.32,1), transform 150ms cubic-bezier(0.23,1,0.32,1); } .ds-pagination a:hover:not(.active) { background-color: rgba(220,182,125,0.18); transform: translateY(-1px); } .ds-pagination a:active { transform: scale(0.95); } .ds-pagination a.active { background-color: #34a44c; color: #fff; } .ds-pagination a:focus-visible { outline: 2px solid #34a44c; outline-offset: 2px; }"
+    },
+    {
+      "name": "Amber Chip (Stat / Heading)",
+      "kind": "custom",
+      "refersTo": "table-header",
+      "description": "Amber background chip used for h1, total count, and filter bar.",
+      "html": "<div class=\"ds-amber-chip\">Minha lista de <span>Animes</span></div>",
+      "css": ".ds-amber-chip { background-color: #dcb67d; border-radius: 6px; padding: 8px 20px; font-family: Poppins, sans-serif; font-weight: 700; font-size: 1.375rem; text-align: center; color: #1c1208; box-shadow: 0 1px 3px rgba(0,0,0,.14); } .ds-amber-chip span { color: #34a44c; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Sala de Troféus",
+    "overview": "Every entry in this list is a trophy. The interface exists to honor that collection: warm, personal, yours alone. The amber tones evoke the worn spines of manga volumes stacked on a shelf, the green marks something alive and in progress. Behind it all, a dark background image bleeds through surfaces, grounding the UI in the world of anime it tracks.\n\nThe system is simultaneously dense and celebratory, precise and tactile. The table is the product; everything else exists to serve it. Surfaces are translucent to let the world beneath breathe. Color is structural, not decorative: amber identifies, green activates, dark lacquer anchors.\n\nThis is not a SaaS dashboard. It is not a media catalog with carousels and hero images. It is a handwritten list made legible by software.",
+    "keyCharacteristics": [
+      "Amber is structure, not accent — it appears in every header and even row",
+      "Green is reserved for active states and actions only",
+      "Translucent surfaces reveal the background without obscuring content",
+      "One font family, four weights — hierarchy through weight contrast alone",
+      "Every interaction confirms itself (scale, color shift, focus ring)"
+    ],
+    "rules": [
+      { "name": "The One-Green Rule", "body": "Shiso Green appears only on active/selected states and focus rings. Never use it for decorative purposes. Its scarcity is what makes it mean 'here.'", "section": "colors" },
+      { "name": "The Amber-as-Structure Rule", "body": "Tatami Gold is not an accent. It is a structural color that occupies table headers, h1 wrappers, and stat bars. Do not reduce it to 10% presence; it belongs at 40-60%.", "section": "colors" },
+      { "name": "The No-Thin Rule", "body": "Weight 200 is prohibited. Body runs at 400 minimum; nothing thinner exists in the system.", "section": "typography" },
+      { "name": "The Flat-by-Default Rule", "body": "Nothing gets a shadow unless it needs to be readable against the background image. Add shadow-sm for clickable elements, shadow-md for content containers. No intermediate values.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use Tatami Gold (#dcb67d) as a structural background for every header, h1 wrapper, and stat chip.",
+      "Do reserve Shiso Green exclusively for active states, selected tabs, and focus rings.",
+      "Do keep translucent surfaces at rgba(255,255,255,0.92).",
+      "Do use scale(0.97) on :active for all clickable nav elements and pagination buttons.",
+      "Do apply prefers-reduced-motion globally.",
+      "Do size content columns to min(70%, 720px) on desktop, 92% on mobile.",
+      "Do use Poppins weight 700/600/500/400. No weight below 400."
+    ],
+    "donts": [
+      "Don't use Shiso Green for decorative fills or non-interactive elements.",
+      "Don't add border-left side-stripe accents to table rows or cards.",
+      "Don't apply gradient text or background-clip: text effects.",
+      "Don't use Poppins at weight 200.",
+      "Don't hardcode width: 70% without a min() cap.",
+      "Don't use the broad p {} selector in shared CSS.",
+      "Don't omit prefers-reduced-motion.",
+      "Don't treat this as a dark-mode product — surfaces are warm translucent white."
+    ]
+  }
+}
