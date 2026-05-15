@@ -9,7 +9,14 @@
     <meta name="author" content="Edivaldo">
     <link rel="shortcut icon" href="./icones/icons8-naruto-sign-210.png" type="image/x-icon">
 
+    <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="./anime.css">
+    <style>
+        #menu_anime { background-color: var(--surface); color: var(--text); }
+        #menu_anime:hover { background-color: var(--surface); }
+        #menu_manga { background-color: var(--green); color: #fff; }
+        #menu_manga:hover { background-color: var(--green-dark); }
+    </style>
 
     <title>Mangás</title>
 </head>
@@ -73,6 +80,7 @@
         <a href="#">&raquo;</a>
     </div>
 
+    <script src="./sw.js"></script>
     <script src="./js/manga.js"></script>
     <!--
     <script>
