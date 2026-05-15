@@ -3,6 +3,31 @@ body {
   background-size: cover;
 }
 
+/* Nav active state — reset always-green #menu_anime from anime.css */
+#menu_anime {
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+#menu_anime:hover {
+  background-color: var(--surface);
+}
+
+nav a[aria-current="page"] {
+  background-color: var(--green);
+  color: #fff;
+}
+
+nav a[aria-current="page"]:hover {
+  background-color: var(--green-dark);
+}
+
+/* Hidden until JS populates */
+#nome_eng,
+#cap {
+  display: none;
+}
+
 /* ── Detail section ──────────────────────────────── */
 #dados_detalhe {
   display: flex;
@@ -11,7 +36,7 @@ body {
   gap: 1.5rem;
   padding: 1.5rem;
   width: min(520px, 94%);
-  margin: 1rem auto 0;
+  margin: 2rem auto 0;
 }
 
 #imagem_anime {

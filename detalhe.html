@@ -27,7 +27,7 @@
 <section id="dados_detalhe">
         <!--imagem-->
 
-        <img id="imagem_anime" src="./imagens/haikkyu.jpg" alt="">
+        <img id="imagem_anime" src="data:," alt="" loading="lazy">
 
         <!--dados-->
         <div>
@@ -50,7 +50,9 @@
         const id = params.get("id");
         const tipo = params.get("tipo");
 
-        //console.log(id, tipo);
+        const activeNavId = tipo === 'manga' ? 'menu_manga' : 'menu_anime';
+        document.getElementById(activeNavId).setAttribute('aria-current', 'page');
+
         buildanimeDetail(id, tipo)
 
         //listar os dados do anime
@@ -98,27 +100,13 @@
                         btnNext.removeAttribute('hidden');
                     }
 
-                    //verficar se o anime tem imagem
-                    if (anime.Image != '') {
-                        //try getting the image, and check for errors
-                        
-                        // fetch(anime.Image)
-                        //     .then((response) => {
-                        //         if (response.ok) {
-                        //             imagem_anime.src = anime.Image
-                        //         } else {
-                        //             imagem_anime.src = './imagens/haikkyu.jpg'
-                        //         }
-                        //     })
-                        //     .catch((error) => {
-                        //         console.error('Error:', error);
-                        //     });
-                        
+                    document.title = anime.Nome_jp
+                    nome_anime.textContent = anime.Nome_jp
+
+                    if (anime.Image) {
                         imagem_anime.src = anime.Image
                         imagem_anime.alt = anime.Nome_jp
-                        document.title = anime.Nome_jp
                     }
-                    nome_anime.textContent = anime.Nome_jp
 
                     nome_eng.style.display = 'none'
                     if (anime.Nome_eng) {
