@@ -11,8 +11,9 @@
 
     <link rel="stylesheet" href="./anime.css">
     <link rel="stylesheet" href="./detalhe.css">
+    <meta name="theme-color" content="#dcb67d">
 
-    <title>Animes detalhe</title>
+    <title>Detalhe</title>
 </head>
 
 <body>
@@ -22,6 +23,7 @@
         <a href="./manga.html" id="menu_manga">Mangá</a>
     </nav>
 
+    <main>
     <section id="dados_detalhe">
         <!--imagem-->
 
@@ -32,10 +34,10 @@
             <p id="nome_anime">Nome do anime</p>
             <p id="nome_eng">Nome alternativo: </p>
             <p id="status">Status: </p>
-            <p id="cap">Read until: </p>
+            <p id="cap">Capítulo: </p>
         </div>
     </section>
-
+    </main>
 
     <script>
 
@@ -101,21 +103,20 @@
                         //     });
                         
                         imagem_anime.src = anime.Image
+                        imagem_anime.alt = anime.Nome_jp
                     }
-                    nome_anime.innerHTML = anime.Nome_jp
+                    nome_anime.textContent = anime.Nome_jp
 
-                    //verificar se tem nome alternativo
                     nome_eng.style.display = 'none'
                     if (anime.Nome_eng != '') {
                         nome_eng.style.display = 'block'
-                        nome_eng.innerHTML += anime.Nome_eng
+                        nome_eng.textContent = `Nome alternativo: ${anime.Nome_eng}`
                     }
-                    status.innerHTML += anime.Status
+                    status.textContent = `Status: ${anime.Status}`
 
-                    // if there is anime.cap, display cap and assign anime.cap to cap
                     if (anime.cap) {
                         cap.style.display = 'block'
-                        cap.innerHTML += anime.cap
+                        cap.textContent = `Capítulo: ${anime.cap}`
                     }
 
 

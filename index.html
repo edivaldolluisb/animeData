@@ -12,6 +12,7 @@
     <link rel="manifest" href="./manifest.json">
 
     <link rel="stylesheet" href="./anime.css">
+    <meta name="theme-color" content="#dcb67d">
 
     <title>Animes</title>
 </head>
@@ -19,27 +20,27 @@
 <body>
     <!--Menu de navegação-->
     <nav>
-        <a href="#" id="menu_anime">Anime</a>
+        <a href="#" id="menu_anime" aria-current="page">Anime</a>
         <a href="./manga.html" id="menu_manga">Mangá</a>
     </nav>
 
     <!--bara de pesquisa-->
     <div id="div_de_pesquisa">
-        <form action="" method="get">
-            <input type="search" name="" id="bara_de_pesquisa" placeholder="Pesquise">
+        <form action="" method="get" role="search" aria-label="Pesquisar animes" onsubmit="return false">
+            <input type="search" name="" id="bara_de_pesquisa" placeholder="Pesquise" aria-label="Pesquisar animes">
         </form>
     </div>
 
-
+    <main>
     <h1>Minha lista de <span>Animes</span></h1>
     <div id="total_resultados">Total de resultados: </div>
     <div id="total_filtrados">
-        <select name="" id="filtro">
+        <select name="" id="filtro" aria-label="Filtrar por status">
             <option value="completo">Completos</option>
             <option value="assistindo">Assistindo</option>
             <option value="pretendo assistir">Pretendo Assistir</option>
             <option value="dropado">Dropado</option>
-        </select> 
+        </select>
     </div>
 
     <!--Tabela-->
@@ -51,24 +52,15 @@
             </tr>
         </thead>
         <tbody id="corpo_tabela_animes">
-
-            <!--<tr>
-                <td><a href="./detalhe.html">One Piece</a></td>
-                <td>Aiichiro Oda</td>
-            </tr>-->
         </tbody>
-
-
     </table>
 
     <!--Pagination-->
-    <div class="pagination">
+    <div class="pagination" role="navigation" aria-label="Paginação">
         <a href="#">&laquo;</a>
-        <!--<a href="#">1</a>
-        <a class="active" href="#">2</a>
-        <a href="#">3</a>-->
         <a href="#">&raquo;</a>
     </div>
+    </main>
 
     <!--PWA-->
     <script src="./sw.js"></script>
