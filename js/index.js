@@ -140,7 +140,6 @@ function searchTable(value, data) {
 function filter(array) {
 	let filterfield = document.getElementById('filtro')
 	filterfield.addEventListener('change', function () {
-		console.log(array)
 		let value = filterfield.value;
 		let filteredData = []
 

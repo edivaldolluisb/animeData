@@ -11,6 +11,7 @@
 
     <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="./anime.css">
+    <meta name="theme-color" content="#dcb67d">
     <style>
         #menu_anime { background-color: var(--surface); color: var(--text); }
         #menu_anime:hover { background-color: var(--surface); }
@@ -25,17 +26,17 @@
     <!--Menu de navegação-->
     <nav>
         <a href="./index.html" id="menu_anime">Anime</a>
-        <a href="#" id="menu_manga">Mangá</a>
+        <a href="#" id="menu_manga" aria-current="page">Mangá</a>
     </nav>
 
     <!--bara de pesquisa-->
     <div id="div_de_pesquisa">
-        <form action="" method="get">
-            <input type="search" name="" id="bara_de_pesquisa" placeholder="Pesquise">
+        <form action="" method="get" role="search" aria-label="Pesquisar mangás" onsubmit="return false">
+            <input type="search" name="" id="bara_de_pesquisa" placeholder="Pesquise" aria-label="Pesquisar mangás">
         </form>
     </div>
 
-
+    <main>
     <h1>Minha lista de <span>Mangás</span></h1>
     <div id="total_resultados">Total de resultados: </div>
 
@@ -48,37 +49,15 @@
             </tr>
         </thead>
         <tbody id="corpo_tabela_animes">
-
-            <!--<tr>
-                <td><a href="./detalhe.html">One Piece</a></td>
-                <td>Aiichiro Oda</td>
-            </tr>
-            <tr>
-                <td><a href="./detalhe.html">Fairy Tail</a></td>
-                <td>Mashima</td>
-            </tr>
-            <tr>
-                <td><a href="./detalhe.html">Noragami</a></td>
-                <td>Hitome</td>
-            </tr>
-            <tr>
-                <td><a href="./detalhe.html">Overlord</a></td>
-                <td>Naoyuki</td>
-            </tr>-->
         </tbody>
-
-
     </table>
 
     <!--Pagination-->
-    <div class="pagination">
+    <div class="pagination" role="navigation" aria-label="Paginação">
         <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a class="active" href="#">2</a>
-        <a href="#">3</a>
-
         <a href="#">&raquo;</a>
     </div>
+    </main>
 
     <script src="./sw.js"></script>
     <script src="./js/manga.js"></script>
