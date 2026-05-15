@@ -1,36 +1,66 @@
-body{
-    background: #4b3e3eb2 url(./imagens/lufy.jpg) no-repeat fixed center;
-    background-size: cover;
-
-    /*background-image: url(./imagens/lufy.jpg);
-    background-color: #4b3e3eb2;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-position: center;*/
-
-}
-#dados_detalhe{
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
+body {
+  background: #4b3e3eb2 url(./imagens/lufy.jpg) no-repeat fixed center;
+  background-size: cover;
 }
 
-img{
-    margin: auto;
-    max-width: 80%;
-    width: auto;
+#dados_detalhe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+  width: min(480px, 94%);
+  margin: 0 auto;
 }
-div{
-    background-color: rgba(255, 255, 255, 0.547);
-    border-radius: 5px;
-    text-align: justify;
-    margin:5rem  auto;
-    max-width: 95%;
-    width: 80%;
-}
-/*paragrafo*/
-p{
-    background-color: rgba(220, 182, 125, 1);
-    margin: 2% auto;
 
+#imagem_anime {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+  display: block;
+}
+
+#dados_detalhe > div {
+  background-color: var(--surface);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  width: 100%;
+  box-shadow: var(--shadow-md);
+}
+
+/* Override anime.css broad selectors scoped to this page */
+#dados_detalhe p {
+  background-color: transparent;
+  width: auto;
+  margin: 0.5rem 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+#nome_anime {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+#nome_eng {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 0.875rem !important;
+}
+
+#status {
+  font-weight: 600 !important;
+}
+
+#cap {
+  font-weight: 500 !important;
+  color: var(--green-dark);
 }
