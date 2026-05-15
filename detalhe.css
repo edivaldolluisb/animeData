@@ -3,28 +3,6 @@ body {
   background-size: cover;
 }
 
-/* ── Back button ─────────────────────────────────── */
-#btn-voltar {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--text);
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.875rem;
-  font-weight: 600;
-  background: var(--surface);
-  padding: 0.45rem 1rem;
-  border-radius: var(--radius-sm);
-  box-shadow: var(--shadow-sm);
-  margin: 1.25rem 0 0 1.5rem;
-  transition: transform 160ms var(--ease-out),
-              box-shadow 160ms var(--ease-out);
-}
-
-#btn-voltar:hover  { transform: translateY(-1px); box-shadow: var(--shadow-md); }
-#btn-voltar:active { transform: scale(0.97); }
-#btn-voltar:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
-
 /* ── Detail section ──────────────────────────────── */
 #dados_detalhe {
   display: flex;
