@@ -32,10 +32,10 @@
 
         <!--dados-->
         <div>
-            <p id="nome_anime">Nome do anime</p>
-            <p id="nome_eng">Nome alternativo: </p>
-            <p id="status">Status: </p>
-            <p id="cap">Capítulo: </p>
+            <p id="nome_anime"></p>
+            <p id="nome_eng"></p>
+            <p id="status"></p>
+            <p id="cap"></p>
         </div>
     </section>
     <nav id="nav_detalhe" aria-label="Navegar entre entradas">
@@ -122,15 +122,18 @@
                     nome_anime.textContent = anime.Nome_jp
 
                     nome_eng.style.display = 'none'
-                    if (anime.Nome_eng != '') {
+                    if (anime.Nome_eng) {
                         nome_eng.style.display = 'block'
-                        nome_eng.textContent = `Nome alternativo: ${anime.Nome_eng}`
+                        nome_eng.textContent = anime.Nome_eng
                     }
-                    status.textContent = `Status: ${anime.Status}`
 
+                    status.textContent = anime.Status
+                    status.dataset.status = anime.Status.toLowerCase()
+
+                    cap.style.display = 'none'
                     if (anime.cap) {
                         cap.style.display = 'block'
-                        cap.textContent = `Capítulo: ${anime.cap}`
+                        cap.textContent = String(anime.cap)
                     }
 
 
