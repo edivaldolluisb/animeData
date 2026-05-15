@@ -6,6 +6,52 @@ let filterStatus = '';
 
 const tabela = document.querySelector('table > tbody');
 
+if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    setupPreview();
+}
+
+function setupPreview() {
+    const card = document.createElement('div');
+    card.id = 'preview-card';
+    const img = document.createElement('img');
+    img.alt = '';
+    img.setAttribute('aria-hidden', 'true');
+    card.appendChild(img);
+    document.body.appendChild(card);
+
+    let timer;
+
+    tabela.addEventListener('mouseover', e => {
+        const a = e.target.closest('a[data-image]');
+        clearTimeout(timer);
+        if (!a || !a.dataset.image) {
+            timer = setTimeout(() => card.classList.remove('visible'), 80);
+            return;
+        }
+        timer = setTimeout(() => {
+            img.src = a.dataset.image;
+            card.classList.add('visible');
+        }, 120);
+    });
+
+    tabela.addEventListener('mousemove', e => {
+        const m = 18, w = 158, h = 220;
+        let left = e.clientX + m;
+        let top = e.clientY - h / 2;
+        if (left + w > window.innerWidth - m) left = e.clientX - w - m;
+        top = Math.max(m, Math.min(top, window.innerHeight - h - m));
+        card.style.left = `${left}px`;
+        card.style.top = `${top}px`;
+    });
+
+    tabela.addEventListener('mouseleave', () => {
+        clearTimeout(timer);
+        card.classList.remove('visible');
+    });
+
+    img.onerror = () => card.classList.remove('visible');
+}
+
 function getFiltered() {
     return allAnimes.filter(anime => {
         const matchSearch = !searchTerm
@@ -40,6 +86,7 @@ function renderTable(page = 1) {
             const a = document.createElement('a');
             a.href = `./detalhe.html?id=${anime.Id}&tipo=anime`;
             a.textContent = anime.Nome_jp;
+            if (anime.Image) a.dataset.image = anime.Image;
             tdNome.appendChild(a);
             const tdStatus = document.createElement('td');
             tdStatus.textContent = anime.Status;

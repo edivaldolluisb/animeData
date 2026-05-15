@@ -38,6 +38,10 @@
             <p id="cap">Capítulo: </p>
         </div>
     </section>
+    <nav id="nav_detalhe" aria-label="Navegar entre entradas">
+        <a href="#" id="btn-prev" hidden>← Anterior</a>
+        <a href="#" id="btn-next" hidden>Próximo →</a>
+    </nav>
     </main>
 
     <script>
@@ -79,12 +83,20 @@
                         array_dados = data.mangas
                     }
 
-                    //get anime
-                    for (const $anime of array_dados) {
+                    const idx = array_dados.findIndex(item => item.Id == id);
+                    anime = array_dados[idx];
 
-                        if ($anime.Id == id) {
-                            anime = $anime;
-                        }
+                    const btnPrev = document.getElementById('btn-prev');
+                    const btnNext = document.getElementById('btn-next');
+                    const prevItem = array_dados[idx - 1];
+                    const nextItem = array_dados[idx + 1];
+                    if (prevItem) {
+                        btnPrev.href = `./detalhe.html?id=${prevItem.Id}&tipo=${tipo}`;
+                        btnPrev.removeAttribute('hidden');
+                    }
+                    if (nextItem) {
+                        btnNext.href = `./detalhe.html?id=${nextItem.Id}&tipo=${tipo}`;
+                        btnNext.removeAttribute('hidden');
                     }
 
                     //verficar se o anime tem imagem

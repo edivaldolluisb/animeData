@@ -307,6 +307,35 @@ tr:nth-child(even):hover {
   outline-offset: 2px;
 }
 
+/* ── Hover preview card ──────────────────────────── */
+#preview-card {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 5px;
+  width: 158px;
+  opacity: 0;
+  transform: scale(0.93) translateY(4px);
+  transition: opacity 150ms var(--ease-out),
+              transform 150ms var(--ease-out);
+}
+
+#preview-card.visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+#preview-card img {
+  width: 148px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: calc(var(--radius-md) - 3px);
+  display: block;
+}
+
 /* ── Scrollbar ───────────────────────────────────── */
 ::-webkit-scrollbar        { width: 8px; }
 ::-webkit-scrollbar-track  { background: #f1f1f1; }
