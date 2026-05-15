@@ -1,163 +1,112 @@
+const ITEMS_PER_PAGE = 20;
+let currentPage = 1;
+let allAnimes = [];
+let searchTerm = '';
+let filterStatus = '';
 
-let totalAnimesRegistados //total de mangas regitados
+const tabela = document.querySelector('table > tbody');
 
-const perPage = 20; // quantidade de itens por página
-let currentPage = 1; // página atual
-let totalItems = 0; // total de itens a serem exibidos
-let totalPages = 1; // total de páginas
-
-var tabela = document.querySelector('table > tbody');
-
-
-//read json file
-function readfromJson(anime, page = 1, perPage = 20) {
-	//write to a json file
-	fetch("./dados/animes.json")
-		.then(response => response.json())
-		.then(data => {
-			// arquivo JSON foi convertido em um objeto JavaScript
-			//console.log(data);
-			totalAnimesRegistados = data.animes.length
-
-			searchAnime(data.animes)
-			filter(data.animes)
-
-			//dados para paginação
-			const start = (page - 1) * perPage;
-			const end = start + perPage;
-			const animes = data.animes.slice(start, end);
-			//console.log(animes)
-
-			addAnimeToTable(animes);
-			addPagination(data, page, perPage);
-
-
-		}).catch(error => console.log("Erro ao tentar ler o ficheiro: " + error));
-
-}
-readfromJson()
-
-//list animes
-function addAnimeToTable(array) {
-	//console.log(array)
-
-	tabela.innerHTML = '';
-	let total = 0
-
-	for (const anime of array) {
-		tabela.innerHTML += `<tr><td><a href="./detalhe.html?id=${anime.Id}&tipo=anime">${anime.Nome_jp}</a></td><td>${anime.Status}</td></tr>`
-		total++;
-	}
-
-	//if the array is empty
-	if (array.length == 0) {
-		tabela.innerHTML += `<tr><td colspan="2">Nenhum anime encontrado</td></tr>`
-	}
-
-	document.getElementById('total_resultados').innerText = `listados ${total} de ${totalAnimesRegistados}`
-
-	totalItems = array.length;
-	totalPages = Math.ceil(totalItems / perPage);
-
+function getFiltered() {
+    return allAnimes.filter(anime => {
+        const matchSearch = !searchTerm
+            || anime.Nome_jp.toLowerCase().includes(searchTerm)
+            || anime.Nome_eng.toLowerCase().includes(searchTerm);
+        const matchFilter = !filterStatus
+            || anime.Status.toLowerCase() === filterStatus;
+        return matchSearch && matchFilter;
+    });
 }
 
-//pagination funtionality
-function addPagination(data, currentPage, perPage) {
-	const totalItems = data.animes.length;
-	const totalPages = Math.ceil(totalItems / perPage);
+function renderTable(page = 1) {
+    currentPage = page;
+    const filtered = getFiltered();
+    const start = (page - 1) * ITEMS_PER_PAGE;
+    const pageData = filtered.slice(start, start + ITEMS_PER_PAGE);
 
-	const paginationElement = document.querySelector(".pagination");
-	paginationElement.innerHTML = "";
+    tabela.replaceChildren();
 
-	if (totalPages > 1) {
-		const isFirstPage = currentPage === 1;
-		const isLastPage = currentPage === totalPages;
+    if (pageData.length === 0) {
+        const tr = document.createElement('tr');
+        const td = document.createElement('td');
+        td.colSpan = 2;
+        td.textContent = 'Nenhum anime encontrado';
+        tr.appendChild(td);
+        tabela.appendChild(tr);
+    } else {
+        const fragment = document.createDocumentFragment();
+        for (const anime of pageData) {
+            const tr = document.createElement('tr');
+            const tdNome = document.createElement('td');
+            const a = document.createElement('a');
+            a.href = `./detalhe.html?id=${anime.Id}&tipo=anime`;
+            a.textContent = anime.Nome_jp;
+            tdNome.appendChild(a);
+            const tdStatus = document.createElement('td');
+            tdStatus.textContent = anime.Status;
+            tr.appendChild(tdNome);
+            tr.appendChild(tdStatus);
+            fragment.appendChild(tr);
+        }
+        tabela.appendChild(fragment);
+    }
 
-		const previousPage = currentPage - 1;
-		const nextPage = currentPage + 1;
-
-		const previousPageElement = isFirstPage ? "" : `<a href="#" data-page="${previousPage}">&laquo;</a>`;
-		const nextPageElement = isLastPage ? "" : `<a href="#" data-page="${nextPage}">&raquo;</a>`;
-
-		paginationElement.innerHTML += previousPageElement;
-
-		for (let i = 1; i <= totalPages; i++) {
-			// ir colocar apenas a pagina atual a anterior e a seguinte
-			if (i === currentPage - 1 || i === currentPage || i === currentPage + 1) {
-				const active = i === currentPage ? "active" : "";
-				paginationElement.innerHTML += `<a href="#" data-page="${i}" class="${active}">${i}</a>`;
-			}
-			// if (i === currentPage) {
-			// 	paginationElement.innerHTML += `<a class="active" href="#">${i}</a>`;
-			// } else {
-			// 	paginationElement.innerHTML += `<a href="#" data-page="${i}">${i}</a>`;
-			// }
-		}
-
-		paginationElement.innerHTML += nextPageElement;
-
-		const pageButtons = paginationElement.querySelectorAll("a[data-page]");
-		pageButtons.forEach(button => {
-			button.addEventListener("click", event => {
-				event.preventDefault();
-				const newPage = parseInt(button.dataset.page);
-				readfromJson(data.animes, newPage, perPage);
-			});
-		});
-	}
+    document.getElementById('total_resultados').textContent =
+        `listados ${pageData.length} de ${filtered.length}`;
+    renderPagination(filtered.length, page);
 }
 
-//search anime
-function searchAnime(array) {
-	var searchbar = document.querySelector('#bara_de_pesquisa')
-	searchbar.addEventListener('keyup', function () {
-		const value = this.value
-		const data = searchTable(value, array)
-
-		addAnimeToTable(data)
-		// addPagination(data.animes=data, currentPage, perPage)
-	})
+function createPageLink(pageNum, label, ariaLabel, isActive) {
+    const a = document.createElement('a');
+    a.href = '#';
+    a.dataset.page = pageNum;
+    a.textContent = label;
+    if (ariaLabel) a.setAttribute('aria-label', ariaLabel);
+    if (isActive) {
+        a.classList.add('active');
+        a.setAttribute('aria-current', 'true');
+    }
+    a.addEventListener('click', e => {
+        e.preventDefault();
+        renderTable(parseInt(a.dataset.page));
+    });
+    return a;
 }
 
-//função de filtrar por nome
-function searchTable(value, data) {
-	let filteredData = []
+function renderPagination(totalItems, page) {
+    const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+    const el = document.querySelector('.pagination');
+    el.replaceChildren();
+    if (totalPages <= 1) return;
 
-	for (const anime of data) {
-		value = value.toLowerCase()
-		let name = anime.Nome_jp.toLowerCase()
-		let name_engl = anime.Nome_eng.toLowerCase()
-
-		if (name.includes(value) || name_engl.includes(value)) {
-			filteredData.push(anime)
-		}
-	}
-
-	return filteredData
+    const fragment = document.createDocumentFragment();
+    if (page > 1) {
+        fragment.appendChild(createPageLink(page - 1, '«', 'Página anterior', false));
+    }
+    for (let i = 1; i <= totalPages; i++) {
+        if (i >= page - 1 && i <= page + 1) {
+            fragment.appendChild(createPageLink(i, String(i), null, i === page));
+        }
+    }
+    if (page < totalPages) {
+        fragment.appendChild(createPageLink(page + 1, '»', 'Próxima página', false));
+    }
+    el.appendChild(fragment);
 }
 
-//filtrar por status
-function filter(array) {
-	let filterfield = document.getElementById('filtro')
-	filterfield.addEventListener('change', function () {
-		let value = filterfield.value;
-		let filteredData = []
+fetch('./dados/animes.json')
+    .then(r => r.json())
+    .then(data => {
+        allAnimes = data.animes;
+        renderTable(1);
+    })
+    .catch(err => console.error('Erro ao carregar animes:', err));
 
-		for (const element of array) {
-			const status = element.Status.toLowerCase()
+document.querySelector('#bara_de_pesquisa').addEventListener('keyup', function () {
+    searchTerm = this.value.toLowerCase().trim();
+    renderTable(1);
+});
 
-			if (status == value) {
-				filteredData.push(element)
-			}
-		}
-
-		addAnimeToTable(filteredData)
-
-	})
-
-}
-
-
-
-
-
+document.getElementById('filtro').addEventListener('change', function () {
+    filterStatus = this.value;
+    renderTable(1);
+});

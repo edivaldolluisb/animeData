@@ -38,10 +38,19 @@
 
     <main>
     <h1>Minha lista de <span>Mangás</span></h1>
-    <div id="total_resultados">Total de resultados: </div>
+    <div id="total_resultados" aria-live="polite">Total de resultados: </div>
+    <div id="total_filtrados">
+        <select name="" id="filtro" aria-label="Filtrar por status">
+            <option value="">Todos</option>
+            <option value="lendo">Lendo</option>
+            <option value="completo">Completos</option>
+            <option value="dropado">Dropado</option>
+        </select>
+    </div>
 
     <!--Tabela-->
     <table>
+        <caption>Lista de mangás</caption>
         <thead>
             <tr>
                 <th>Nome</th>

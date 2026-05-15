@@ -24,6 +24,7 @@
     </nav>
 
     <main>
+    <a href="javascript:history.back()" id="btn-voltar">← Voltar</a>
     <section id="dados_detalhe">
         <!--imagem-->
 
@@ -104,6 +105,7 @@
                         
                         imagem_anime.src = anime.Image
                         imagem_anime.alt = anime.Nome_jp
+                        document.title = anime.Nome_jp
                     }
                     nome_anime.textContent = anime.Nome_jp
 

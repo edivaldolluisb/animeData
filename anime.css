@@ -178,12 +178,27 @@ table {
   box-shadow: var(--shadow-md);
 }
 
+table caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  padding: 0 0 0.4rem 0.25rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 th {
   background-color: var(--amber);
   padding: 0.875rem 1rem;
   font-weight: 600;
   font-size: 0.9375rem;
   letter-spacing: 0.01em;
+}
+
+th:last-child {
+  width: 28%;
 }
 
 tbody td {
