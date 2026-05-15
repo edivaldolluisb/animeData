@@ -3,6 +3,37 @@ body {
   background-size: cover;
 }
 
+#btn-voltar {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: var(--surface);
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  margin: 1.25rem 0 0 1.5rem;
+  transition: transform 160ms var(--ease-out),
+              box-shadow 160ms var(--ease-out);
+}
+
+#btn-voltar:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+#btn-voltar:active {
+  transform: scale(0.97);
+}
+
+#btn-voltar:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
 #dados_detalhe {
   display: flex;
   flex-direction: column;
@@ -63,4 +94,22 @@ body {
 #cap {
   font-weight: 500 !important;
   color: var(--green-dark);
+}
+
+@media (min-width: 640px) {
+  #dados_detalhe {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  #imagem_anime {
+    max-width: 220px;
+    flex-shrink: 0;
+  }
+
+  #dados_detalhe > div {
+    flex: 1;
+  }
 }
