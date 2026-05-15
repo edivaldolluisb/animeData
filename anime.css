@@ -137,28 +137,39 @@ h1 span {
   color: var(--green);
 }
 
-#total_resultados,
 #total_filtrados {
-  background-color: var(--amber);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
   width: min(70%, 720px);
   margin: 0.4rem auto;
-  padding: 0.4rem 1.25rem;
-  font-weight: 600;
-  font-size: 0.875rem;
-  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--amber);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
 }
 
+#total_resultados {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 #total_filtrados select {
   border: none;
-  padding: 0.2rem 0.5rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 4px;
-  margin: 0.2rem;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.875rem;
-  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.78);
   cursor: pointer;
+  flex-shrink: 0;
   transition: background-color 150ms ease;
 }
 
@@ -305,7 +316,6 @@ tr:nth-child(even):hover {
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 768px) {
   h1,
-  #total_resultados,
   #total_filtrados { width: 92%; }
   form  { width: 92%; }
   table { width: 92%; }
