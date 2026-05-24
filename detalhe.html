@@ -118,9 +118,12 @@
                     status.dataset.status = anime.Status.toLowerCase()
 
                     cap.style.display = 'none'
-                    if (anime.cap) {
+                    if (tipo === 'manga' && anime.cap) {
                         cap.style.display = 'block'
-                        cap.textContent = String(anime.cap)
+                        cap.textContent = 'Cap: ' + anime.cap
+                    } else if (tipo !== 'manga' && anime.ep) {
+                        cap.style.display = 'block'
+                        cap.textContent = 'Ep: ' + anime.ep
                     }
 
 
