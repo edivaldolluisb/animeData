@@ -6,6 +6,28 @@ let filterStatus = '';
 
 const tabela = document.querySelector('table > tbody');
 
+renderSkeleton();
+
+function renderSkeleton() {
+    tabela.replaceChildren();
+    for (let i = 0; i < 6; i++) {
+        const tr = document.createElement('tr');
+        const tdNome = document.createElement('td');
+        const tdStatus = document.createElement('td');
+        const barNome = document.createElement('span');
+        barNome.className = 'skel';
+        barNome.style.width = `${55 + (i % 3) * 12}%`;
+        const barStatus = document.createElement('span');
+        barStatus.className = 'skel';
+        barStatus.style.width = '70%';
+        barStatus.style.margin = '0 auto';
+        tdNome.appendChild(barNome);
+        tdStatus.appendChild(barStatus);
+        tr.append(tdNome, tdStatus);
+        tabela.appendChild(tr);
+    }
+}
+
 if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
     setupPreview();
 }
@@ -73,6 +95,7 @@ function renderTable(page = 1) {
 
     if (pageData.length === 0) {
         const tr = document.createElement('tr');
+        tr.className = 'linha-aviso';
         const td = document.createElement('td');
         td.colSpan = 2;
         td.textContent = 'Nenhum mangá encontrado';
@@ -85,11 +108,29 @@ function renderTable(page = 1) {
             const tdNome = document.createElement('td');
             const a = document.createElement('a');
             a.href = `./detalhe.html?id=${manga.Id}&tipo=manga`;
-            a.textContent = manga.Nome_jp;
-            if (manga.Image) a.dataset.image = manga.Image;
+            if (manga.Image) {
+                const thumb = document.createElement('img');
+                thumb.className = 'thumb';
+                thumb.src = manga.Image;
+                thumb.alt = '';
+                thumb.loading = 'lazy';
+                a.appendChild(thumb);
+                a.dataset.image = manga.Image;
+            } else {
+                const thumb = document.createElement('span');
+                thumb.className = 'thumb';
+                a.appendChild(thumb);
+            }
+            const nome = document.createElement('span');
+            nome.textContent = manga.Nome_jp;
+            a.appendChild(nome);
             tdNome.appendChild(a);
             const tdStatus = document.createElement('td');
-            tdStatus.textContent = manga.Status;
+            const badge = document.createElement('span');
+            badge.className = 'status-badge';
+            badge.dataset.status = manga.Status.toLowerCase();
+            badge.textContent = manga.Status;
+            tdStatus.appendChild(badge);
             tr.appendChild(tdNome);
             tr.appendChild(tdStatus);
             fragment.appendChild(tr);
@@ -146,7 +187,18 @@ fetch('./dados/mangas.json')
         allMangas = data.mangas;
         renderTable(1);
     })
-    .catch(err => console.error('Erro ao carregar mangás:', err));
+    .catch(err => {
+        console.error('Erro ao carregar mangás:', err);
+        tabela.replaceChildren();
+        const tr = document.createElement('tr');
+        tr.className = 'linha-aviso';
+        const td = document.createElement('td');
+        td.colSpan = 2;
+        td.textContent = 'Não foi possível carregar a lista. Verifique a conexão e recarregue a página.';
+        tr.appendChild(td);
+        tabela.appendChild(tr);
+        document.getElementById('total_resultados').textContent = 'Erro ao carregar a lista';
+    });
 
 document.querySelector('#bara_de_pesquisa').addEventListener('keyup', function () {
     searchTerm = this.value.toLowerCase().trim();

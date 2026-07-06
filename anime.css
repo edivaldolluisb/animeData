@@ -29,9 +29,17 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text);
-  background: #4b3e3eb2 url(./imagens/haikkyu.jpg) no-repeat fixed center;
-  background-size: cover;
+  background-color: #4b3e3e;
   min-height: 100dvh;
+}
+
+/* Camada fixa própria: background-attachment fixed é ignorado/instável no mobile */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #4b3e3eb2 url(./imagens/haikkyu.jpg) no-repeat center / cover;
 }
 
 /* ── Nav ─────────────────────────────────────────── */
@@ -90,7 +98,7 @@ nav a:focus-visible {
 
 form {
   margin: 0 auto;
-  width: min(70%, 600px);
+  width: min(70%, 720px);
 }
 
 input[type="search"] {
@@ -231,6 +239,22 @@ tr a {
   transition: color 150ms ease;
 }
 
+tbody td:first-child a {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.thumb {
+  display: block;
+  width: 34px;
+  height: 48px;
+  border-radius: 4px;
+  object-fit: cover;
+  background-color: var(--amber-faint);
+  flex-shrink: 0;
+}
+
 tr a:hover {
   color: var(--green-dark);
 }
@@ -255,6 +279,64 @@ tr:nth-child(even) {
 
 tr:nth-child(even):hover {
   background-color: var(--amber);
+}
+
+/* ── Status badge ────────────────────────────────── */
+.status-badge {
+  display: inline-block;
+  padding: 0.18rem 0.7rem;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  border: 1.5px solid var(--amber);
+  background: var(--amber-faint);
+  color: var(--text-muted);
+}
+
+.status-badge[data-status="assistindo"],
+.status-badge[data-status="lendo"] {
+  border-color: var(--green);
+  background: rgba(52, 164, 76, 0.1);
+  color: var(--green-dark);
+}
+
+.status-badge[data-status="dropado"] {
+  border-color: #b03a2e;
+  background: rgba(176, 58, 46, 0.08);
+  color: #8b2a20;
+}
+
+.status-badge[data-status="pretendo assistir"],
+.status-badge[data-status="pretendo ler"] {
+  border-color: var(--text-muted);
+  background: rgba(92, 78, 56, 0.08);
+  color: var(--text-muted);
+}
+
+/* ── Loading / error rows ────────────────────────── */
+.skel {
+  display: block;
+  height: 0.95rem;
+  border-radius: 4px;
+  background: linear-gradient(90deg,
+    var(--amber-faint) 25%,
+    rgba(220, 182, 125, 0.4) 50%,
+    var(--amber-faint) 75%);
+  background-size: 200% 100%;
+  animation: skel-shimmer 1.2s ease-in-out infinite;
+}
+
+@keyframes skel-shimmer {
+  from { background-position: 200% 0; }
+  to   { background-position: -200% 0; }
+}
+
+.linha-aviso td {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--text-muted);
 }
 
 /* ── Pagination ──────────────────────────────────── */

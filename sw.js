@@ -10,7 +10,7 @@ console.log('[Service Worker] Install');
 
 //storing the cache
 
-const cacheName = 'Ani-Manga.list-v1';
+const cacheName = 'Ani-Manga.list-v2';
 const appShellFiles = [
     './',
     './icones',
@@ -31,6 +31,14 @@ self.addEventListener('install', (e) => {
       console.log('[Service Worker] Caching all: app shell and content');
     })());
   });
+
+// activate: remove caches de versões antigas
+self.addEventListener('activate', (e) => {
+    e.waitUntil((async () => {
+        const keys = await caches.keys();
+        await Promise.all(keys.filter(k => k !== cacheName).map(k => caches.delete(k)));
+    })());
+});
 
 // fetch
 self.addEventListener('fetch', (e) => {

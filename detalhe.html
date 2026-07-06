@@ -31,12 +31,16 @@
 
         <!--dados-->
         <div>
-            <p id="nome_anime"></p>
+            <h2 id="nome_anime"></h2>
             <p id="nome_eng"></p>
-            <p id="status"></p>
-            <p id="cap"></p>
+            <div id="meta">
+                <p id="status" class="status-badge"></p>
+                <p id="cap"></p>
+                <p id="posicao"></p>
+            </div>
         </div>
     </section>
+    <p id="erro" hidden></p>
     <nav id="nav_detalhe" aria-label="Navegar entre entradas">
         <a href="#" id="btn-prev" hidden>← Anterior</a>
         <a href="#" id="btn-next" hidden>Próximo →</a>
@@ -73,7 +77,10 @@
             }
 
             fetch(url)
-                .then((resp) => resp.json())
+                .then((resp) => {
+                    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                    return resp.json();
+                })
                 .then(function (data) {
                     // console.log('Data:', data)
 
@@ -87,18 +94,31 @@
                     const idx = array_dados.findIndex(item => item.Id == id);
                     anime = array_dados[idx];
 
+                    if (!anime) {
+                        mostrarErro('Entrada não encontrada na lista.');
+                        return;
+                    }
+
                     const btnPrev = document.getElementById('btn-prev');
                     const btnNext = document.getElementById('btn-next');
                     const prevItem = array_dados[idx - 1];
                     const nextItem = array_dados[idx + 1];
                     if (prevItem) {
                         btnPrev.href = `./detalhe.html?id=${prevItem.Id}&tipo=${tipo}`;
+                        btnPrev.textContent = `← ${prevItem.Nome_jp}`;
+                        btnPrev.title = prevItem.Nome_jp;
                         btnPrev.removeAttribute('hidden');
                     }
                     if (nextItem) {
                         btnNext.href = `./detalhe.html?id=${nextItem.Id}&tipo=${tipo}`;
+                        btnNext.textContent = `${nextItem.Nome_jp} →`;
+                        btnNext.title = nextItem.Nome_jp;
                         btnNext.removeAttribute('hidden');
                     }
+
+                    const posicao = document.getElementById('posicao');
+                    posicao.textContent = `nº ${idx + 1} de ${array_dados.length} na lista`;
+                    posicao.style.display = 'block';
 
                     document.title = anime.Nome_jp
                     nome_anime.textContent = anime.Nome_jp
@@ -120,15 +140,31 @@
                     cap.style.display = 'none'
                     if (tipo === 'manga' && anime.cap) {
                         cap.style.display = 'block'
-                        cap.textContent = 'Cap: ' + anime.cap
+                        cap.textContent = 'Capítulo ' + anime.cap
                     } else if (tipo !== 'manga' && anime.ep) {
                         cap.style.display = 'block'
-                        cap.textContent = 'Ep: ' + anime.ep
+                        cap.textContent = 'Episódio ' + anime.ep
                     }
 
+                    document.addEventListener('keydown', (e) => {
+                        if (e.key === 'ArrowLeft' && !btnPrev.hidden) btnPrev.click();
+                        if (e.key === 'ArrowRight' && !btnNext.hidden) btnNext.click();
+                    });
 
                 })
+                .catch((err) => {
+                    console.error('Erro ao carregar detalhe:', err);
+                    mostrarErro('Não foi possível carregar os dados. Verifique a conexão e recarregue a página.');
+                })
 
+        }
+
+        function mostrarErro(mensagem) {
+            document.getElementById('dados_detalhe').hidden = true;
+            document.getElementById('nav_detalhe').hidden = true;
+            const erro = document.getElementById('erro');
+            erro.textContent = mensagem;
+            erro.removeAttribute('hidden');
         }
 
 
