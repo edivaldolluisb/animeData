@@ -2,25 +2,6 @@ body::before {
   background-image: url(./imagens/lufy.jpg);
 }
 
-/* Nav active state — reset always-green #menu_anime from anime.css */
-#menu_anime {
-  background-color: var(--surface);
-  color: var(--text);
-}
-
-#menu_anime:hover {
-  background-color: var(--surface);
-}
-
-nav a[aria-current="page"] {
-  background-color: var(--green);
-  color: #fff;
-}
-
-nav a[aria-current="page"]:hover {
-  background-color: var(--green-dark);
-}
-
 /* Hidden until JS populates */
 #nome_eng,
 #cap,
@@ -146,6 +127,14 @@ nav a[aria-current="page"]:hover {
   font-size: 0.8rem;
   color: var(--text-muted);
 }
+
+#link_mal {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--green-dark);
+}
+
+#link_mal:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
 
 /* ── Prev/Next nav ───────────────────────────────── */
 #nav_detalhe {

@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="./anime.css">
     <meta name="theme-color" content="#dcb67d">
 
-    <title>Animes</title>
+    <title>MyAnimeList</title>
 </head>
 
-<body>
+<body data-tipo="mal">
     <!--Menu de navegação-->
     <nav>
-        <a href="#" id="menu_anime" aria-current="page">Anime</a>
+        <a href="./index.html" id="menu_anime">Anime</a>
         <a href="./manga.html" id="menu_manga">Mangá</a>
-        <a href="./mal.html" id="menu_mal">MAL</a>
+        <a href="#" id="menu_mal" aria-current="page">MAL</a>
     </nav>
 
     <!--bara de pesquisa-->
@@ -33,13 +33,14 @@
     </div>
 
     <main>
-    <h1>Minha lista de <span>Animes</span></h1>
+    <h1>Minha lista do <span>MyAnimeList</span></h1>
     <div id="total_filtrados">
         <span id="total_resultados" aria-live="polite">Total de resultados: </span>
         <select name="" id="filtro" aria-label="Filtrar por status">
             <option value="">Todos</option>
             <option value="completo">Completos</option>
             <option value="assistindo">Assistindo</option>
+            <option value="em pausa">Em Pausa</option>
             <option value="pretendo assistir">Pretendo Assistir</option>
             <option value="dropado">Dropado</option>
         </select>
@@ -47,7 +48,7 @@
 
     <!--Tabela-->
     <table>
-        <caption>Lista de animes</caption>
+        <caption>Lista de animes do MyAnimeList</caption>
         <thead>
             <tr>
                 <th>Nome</th>
@@ -68,8 +69,6 @@
     <!--PWA-->
     <script src="./sw.js"></script>
     <script src="./js/index.js"></script>
-
-    
 </body>
 
 </html>

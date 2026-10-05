@@ -21,6 +21,7 @@
     <nav>
         <a href="./index.html" id="menu_anime">Anime</a>
         <a href="./manga.html" id="menu_manga">Mangá</a>
+        <a href="./mal.html" id="menu_mal">MAL</a>
     </nav>
 
     <main>
@@ -37,6 +38,7 @@
                 <p id="status" class="status-badge"></p>
                 <p id="cap"></p>
                 <p id="posicao"></p>
+                <a id="link_mal" target="_blank" rel="noopener" hidden>Ver no MyAnimeList ↗</a>
             </div>
         </div>
     </section>
@@ -54,7 +56,7 @@
         const id = params.get("id");
         const tipo = params.get("tipo");
 
-        const activeNavId = tipo === 'manga' ? 'menu_manga' : 'menu_anime';
+        const activeNavId = { manga: 'menu_manga', mal: 'menu_mal' }[tipo] || 'menu_anime';
         document.getElementById(activeNavId).setAttribute('aria-current', 'page');
 
         buildanimeDetail(id, tipo)
@@ -74,6 +76,8 @@
             var url = "./dados/animes.json"
             if (tipo == "manga") {
                 url = "./dados/mangas.json"
+            } else if (tipo == "mal") {
+                url = "./dados/mal.json"
             }
 
             fetch(url)
@@ -143,7 +147,13 @@
                         cap.textContent = 'Capítulo ' + anime.cap
                     } else if (tipo !== 'manga' && anime.ep) {
                         cap.style.display = 'block'
-                        cap.textContent = 'Episódio ' + anime.ep
+                        cap.textContent = 'Episódio ' + anime.ep + (anime.eps ? ' de ' + anime.eps : '')
+                    }
+
+                    if (tipo === 'mal') {
+                        const linkMal = document.getElementById('link_mal');
+                        linkMal.href = `https://myanimelist.net/anime/${anime.Id}`;
+                        linkMal.removeAttribute('hidden');
                     }
 
                     document.addEventListener('keydown', (e) => {

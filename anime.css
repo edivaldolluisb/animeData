@@ -79,12 +79,12 @@ nav a:focus-visible {
   outline-offset: 3px;
 }
 
-#menu_anime {
+nav a[aria-current="page"] {
   background-color: var(--green);
   color: #fff;
 }
 
-#menu_anime:hover {
+nav a[aria-current="page"]:hover {
   background-color: var(--green-dark);
 }
 

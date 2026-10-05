@@ -1,4 +1,6 @@
 const ITEMS_PER_PAGE = 20;
+const TIPO = document.body.dataset.tipo || 'anime';
+const DADOS_URL = TIPO === 'mal' ? './dados/mal.json' : './dados/animes.json';
 let currentPage = 1;
 let allAnimes = [];
 let searchTerm = '';
@@ -107,7 +109,7 @@ function renderTable(page = 1) {
             const tr = document.createElement('tr');
             const tdNome = document.createElement('td');
             const a = document.createElement('a');
-            a.href = `./detalhe.html?id=${anime.Id}&tipo=anime`;
+            a.href = `./detalhe.html?id=${anime.Id}&tipo=${TIPO}`;
             if (anime.Image) {
                 const thumb = document.createElement('img');
                 thumb.className = 'thumb';
@@ -181,7 +183,7 @@ function renderPagination(totalItems, page) {
     el.appendChild(fragment);
 }
 
-fetch('./dados/animes.json')
+fetch(DADOS_URL)
     .then(r => r.json())
     .then(data => {
         allAnimes = data.animes;
