@@ -1,5 +1,5 @@
 const TIPO = document.body.dataset.tipo || 'anime';
-const DADOS_URL = { anime: './dados/animes.json', manga: './dados/mangas.json', mal: './dados/mal.json' }[TIPO];
+const DADOS_URL = TIPO === 'manga' ? './dados/mangas.json' : './dados/mal.json';
 const UNIDADE = TIPO === 'manga' ? 'cap' : 'ep';
 
 // Cada status vive num "hall" do catálogo; a letra + posição dão o código (A-001).

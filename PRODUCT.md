@@ -21,7 +21,7 @@ It is one person's curated shelf, not a database. Unlike MyAnimeList or AniList 
 ## Operating Context
 
 - Static site on GitHub Pages; no backend.
-- Three lists: hand-kept anime (`dados/animes.json`), hand-kept manga (`dados/mangas.json`), and MyAnimeList mirror (`dados/mal.json`, refreshed daily by a GitHub Action).
+- Two lists: anime, sourced only from MyAnimeList (`dados/mal.json`, refreshed daily by a GitHub Action), and hand-kept manga (`dados/mangas.json`).
 - Shared detail page for any entry (`detalhe.html?id=&tipo=anime|manga|mal`).
 - Entries are added by editing JSON by hand.
 
