@@ -63,6 +63,7 @@ function celulaVazia() {
 function progresso(item) {
     const feito = item[UNIDADE];
     if (!feito) return '';
+    // capítulos podem passar de mil: na grelha só o número lido, o total fica no detalhe
     return item.eps ? `${UNIDADE} ${feito}/${item.eps}` : `${UNIDADE} ${feito}`;
 }
 

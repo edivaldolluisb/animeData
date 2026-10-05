@@ -56,9 +56,7 @@
                     </div>
                 </dl>
 
-                <a id="link_mal" target="_blank" rel="noopener" hidden>Ver no MyAnimeList
-                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 11 L11 5 M6 5 H11 V10"/></svg>
-                </a>
+                <p id="links"></p>
             </div>
         </article>
 
@@ -134,14 +132,15 @@
                 status.textContent = item.Status;
                 status.dataset.status = item.Status.toLowerCase();
 
-                const feito = tipo === 'manga' ? item.cap : item.ep;
+                const feito = ehManga ? item.cap : item.ep;
+                const total = ehManga ? item.caps : item.eps;
                 if (feito) {
-                    const unidade = tipo === 'manga' ? 'Capítulo' : 'Episódio';
-                    document.getElementById('cap').textContent = `${unidade} ${feito}${item.eps ? ' de ' + item.eps : ''}`;
+                    const unidade = ehManga ? 'Capítulo' : 'Episódio';
+                    document.getElementById('cap').textContent = `${unidade} ${feito}${total ? ' de ' + total : ''}`;
                     // uma casa por episódio, como uma ficha de presença
-                    if (item.eps && item.eps <= 100) {
+                    if (total && total <= 100) {
                         const ticks = document.getElementById('ticks');
-                        for (let i = 1; i <= item.eps; i++) {
+                        for (let i = 1; i <= total; i++) {
                             const t = document.createElement('i');
                             if (i <= feito) t.className = 'on';
                             ticks.appendChild(t);
@@ -155,11 +154,19 @@
                     document.getElementById('nota').hidden = false;
                 }
 
-                if (!ehManga) {
-                    const linkMal = document.getElementById('link_mal');
-                    linkMal.href = `https://myanimelist.net/anime/${item.Id}`;
-                    linkMal.removeAttribute('hidden');
-                }
+                const fontes = ehManga
+                    ? [['MyAnimeList', item.mal && `https://myanimelist.net/manga/${item.mal}`],
+                       ['AniList', item.anilist && `https://anilist.co/manga/${item.anilist}`],
+                       ['MangaUpdates', item.mangaupdates && `https://www.mangaupdates.com/series/${item.mangaupdates}`]]
+                    : [['MyAnimeList', `https://myanimelist.net/anime/${item.Id}`]];
+                document.getElementById('links').replaceChildren(...fontes.filter(([, href]) => href).map(([nome, href]) => {
+                    const a = document.createElement('a');
+                    a.href = href;
+                    a.target = '_blank';
+                    a.rel = 'noopener';
+                    a.innerHTML = `Ver no ${nome} <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 11 L11 5 M6 5 H11 V10"/></svg>`;
+                    return a;
+                }));
 
                 document.addEventListener('keydown', e => {
                     if (e.key === 'ArrowLeft' && !btnPrev.hidden) btnPrev.click();

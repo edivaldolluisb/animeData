@@ -254,7 +254,8 @@ input[type="search"]:focus { outline: none; border-bottom-color: var(--caneta); 
 }
 
 /* marcas de caneta: circulado (a ver) e riscado (dropado) */
-.code .num { position: relative; }
+.code .num { position: relative; white-space: nowrap; flex-shrink: 0; }
+.code .pen { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .marca-caneta {
   position: absolute;
