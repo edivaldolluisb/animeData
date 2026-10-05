@@ -3,171 +3,167 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lista de animes e mangás">
     <meta name="author" content="Edivaldo">
     <link rel="shortcut icon" href="./icones/icons8-naruto-sign-210.png" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&family=Kalam:wght@700&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="./anime.css">
     <link rel="stylesheet" href="./detalhe.css">
-    <meta name="theme-color" content="#dcb67d">
+    <meta name="theme-color" content="#e9e6dc">
 
     <title>Detalhe</title>
 </head>
 
 <body>
-    <!--Menu de navegação-->
-    <nav>
-        <a href="./index.html" id="menu_anime">Anime</a>
-        <a href="./manga.html" id="menu_manga">Mangá</a>
-        <a href="./mal.html" id="menu_mal">MAL</a>
-    </nav>
+    <header class="masthead">
+        <a class="marca" href="./index.html">Ani-Mangalist<span lang="ja">目録</span></a>
+        <nav aria-label="Listas">
+            <a href="./index.html" id="menu_anime">Anime</a>
+            <a href="./manga.html" id="menu_manga">Mangá</a>
+            <a href="./mal.html" id="menu_mal">MAL</a>
+        </nav>
+    </header>
 
     <main>
-<section id="dados_detalhe">
-        <!--imagem-->
+        <article id="dados_detalhe">
+            <figure class="prancha">
+                <img id="imagem_anime" src="data:," alt="">
+            </figure>
 
-        <img id="imagem_anime" src="data:," alt="" loading="lazy">
-
-        <!--dados-->
-        <div>
-            <h2 id="nome_anime"></h2>
-            <p id="nome_eng"></p>
-            <div id="meta">
-                <p id="status" class="status-badge"></p>
-                <p id="cap"></p>
+            <div class="ficha">
                 <p id="posicao"></p>
-                <a id="link_mal" target="_blank" rel="noopener" hidden>Ver no MyAnimeList ↗</a>
+                <h1 id="nome_anime"></h1>
+                <p id="nome_eng"></p>
+
+                <dl id="meta">
+                    <div>
+                        <dt>Status</dt>
+                        <dd><span id="status"></span></dd>
+                    </div>
+                    <div id="progresso" hidden>
+                        <dt>Progresso</dt>
+                        <dd>
+                            <span id="cap"></span>
+                            <span id="ticks" aria-hidden="true"></span>
+                        </dd>
+                    </div>
+                    <div id="nota" hidden>
+                        <dt>Nota</dt>
+                        <dd><span id="nota_valor"></span></dd>
+                    </div>
+                </dl>
+
+                <a id="link_mal" target="_blank" rel="noopener" hidden>Ver no MyAnimeList
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 11 L11 5 M6 5 H11 V10"/></svg>
+                </a>
             </div>
-        </div>
-    </section>
-    <p id="erro" hidden></p>
-    <nav id="nav_detalhe" aria-label="Navegar entre entradas">
-        <a href="#" id="btn-prev" hidden>← Anterior</a>
-        <a href="#" id="btn-next" hidden>Próximo →</a>
-    </nav>
+        </article>
+
+        <p id="erro" class="aviso" hidden></p>
+
+        <nav id="nav_detalhe" aria-label="Navegar entre entradas">
+            <a href="#" id="btn-prev" hidden></a>
+            <a href="#" id="btn-next" hidden></a>
+        </nav>
     </main>
 
     <script>
-
         const params = new URLSearchParams(window.location.search);
-
-        const id = params.get("id");
-        const tipo = params.get("tipo");
+        const id = params.get('id');
+        const tipo = params.get('tipo');
 
         const activeNavId = { manga: 'menu_manga', mal: 'menu_mal' }[tipo] || 'menu_anime';
         document.getElementById(activeNavId).setAttribute('aria-current', 'page');
 
-        buildanimeDetail(id, tipo)
+        const url = { manga: './dados/mangas.json', mal: './dados/mal.json' }[tipo] || './dados/animes.json';
 
-        //listar os dados do anime
-        function buildanimeDetail(id, tipo) {
+        fetch(url)
+            .then(resp => {
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                return resp.json();
+            })
+            .then(data => {
+                const lista = tipo === 'manga' ? data.mangas : data.animes;
+                const idx = lista.findIndex(item => item.Id == id);
+                const item = lista[idx];
 
-            var nome_anime, status, nome_eng
-            var imagem_anime = document.querySelector('#imagem_anime')
-            nome_anime = document.querySelector('#nome_anime')
-            status = document.querySelector('#status')
-            nome_eng = document.querySelector('#nome_eng')
+                if (!item) {
+                    mostrarErro('Entrada não encontrada na lista.');
+                    return;
+                }
 
-            var cap = document.querySelector('#cap')
-            cap.style.display = 'none'
+                const ligar = (el, alvo, texto) => {
+                    if (!alvo) return;
+                    el.href = `./detalhe.html?id=${alvo.Id}&tipo=${tipo}`;
+                    el.textContent = texto(alvo.Nome_jp);
+                    el.title = alvo.Nome_jp;
+                    el.removeAttribute('hidden');
+                };
+                const btnPrev = document.getElementById('btn-prev');
+                const btnNext = document.getElementById('btn-next');
+                ligar(btnPrev, lista[idx - 1], nome => `← ${nome}`);
+                ligar(btnNext, lista[idx + 1], nome => `${nome} →`);
 
-            var url = "./dados/animes.json"
-            if (tipo == "manga") {
-                url = "./dados/mangas.json"
-            } else if (tipo == "mal") {
-                url = "./dados/mal.json"
-            }
+                document.getElementById('posicao').textContent = `Nº ${String(idx + 1).padStart(3, '0')} de ${lista.length}`;
 
-            fetch(url)
-                .then((resp) => {
-                    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-                    return resp.json();
-                })
-                .then(function (data) {
-                    // console.log('Data:', data)
+                document.title = item.Nome_jp;
+                document.getElementById('nome_anime').textContent = item.Nome_jp;
 
-                    let anime;
-                    let array_dados = data.animes
+                const img = document.getElementById('imagem_anime');
+                if (item.Image) {
+                    img.src = item.Image;
+                    img.alt = `Capa de ${item.Nome_jp}`;
+                }
 
-                    if (tipo == 'manga') {
-                        array_dados = data.mangas
+                const nomeEng = document.getElementById('nome_eng');
+                if (item.Nome_eng && item.Nome_eng !== item.Nome_jp) {
+                    nomeEng.textContent = item.Nome_eng;
+                    nomeEng.style.display = 'block';
+                }
+
+                const status = document.getElementById('status');
+                status.textContent = item.Status;
+                status.dataset.status = item.Status.toLowerCase();
+
+                const feito = tipo === 'manga' ? item.cap : item.ep;
+                if (feito) {
+                    const unidade = tipo === 'manga' ? 'Capítulo' : 'Episódio';
+                    document.getElementById('cap').textContent = `${unidade} ${feito}${item.eps ? ' de ' + item.eps : ''}`;
+                    // uma casa por episódio, como uma ficha de presença
+                    if (item.eps && item.eps <= 100) {
+                        const ticks = document.getElementById('ticks');
+                        for (let i = 1; i <= item.eps; i++) {
+                            const t = document.createElement('i');
+                            if (i <= feito) t.className = 'on';
+                            ticks.appendChild(t);
+                        }
                     }
+                    document.getElementById('progresso').hidden = false;
+                }
 
-                    const idx = array_dados.findIndex(item => item.Id == id);
-                    anime = array_dados[idx];
+                if (item.score) {
+                    document.getElementById('nota_valor').textContent = `${item.score}/10`;
+                    document.getElementById('nota').hidden = false;
+                }
 
-                    if (!anime) {
-                        mostrarErro('Entrada não encontrada na lista.');
-                        return;
-                    }
+                if (tipo === 'mal') {
+                    const linkMal = document.getElementById('link_mal');
+                    linkMal.href = `https://myanimelist.net/anime/${item.Id}`;
+                    linkMal.removeAttribute('hidden');
+                }
 
-                    const btnPrev = document.getElementById('btn-prev');
-                    const btnNext = document.getElementById('btn-next');
-                    const prevItem = array_dados[idx - 1];
-                    const nextItem = array_dados[idx + 1];
-                    if (prevItem) {
-                        btnPrev.href = `./detalhe.html?id=${prevItem.Id}&tipo=${tipo}`;
-                        btnPrev.textContent = `← ${prevItem.Nome_jp}`;
-                        btnPrev.title = prevItem.Nome_jp;
-                        btnPrev.removeAttribute('hidden');
-                    }
-                    if (nextItem) {
-                        btnNext.href = `./detalhe.html?id=${nextItem.Id}&tipo=${tipo}`;
-                        btnNext.textContent = `${nextItem.Nome_jp} →`;
-                        btnNext.title = nextItem.Nome_jp;
-                        btnNext.removeAttribute('hidden');
-                    }
-
-                    const posicao = document.getElementById('posicao');
-                    posicao.textContent = `nº ${idx + 1} de ${array_dados.length} na lista`;
-                    posicao.style.display = 'block';
-
-                    document.title = anime.Nome_jp
-                    nome_anime.textContent = anime.Nome_jp
-
-                    if (anime.Image) {
-                        imagem_anime.src = anime.Image
-                        imagem_anime.alt = anime.Nome_jp
-                    }
-
-                    nome_eng.style.display = 'none'
-                    if (anime.Nome_eng) {
-                        nome_eng.style.display = 'block'
-                        nome_eng.textContent = anime.Nome_eng
-                    }
-
-                    status.textContent = anime.Status
-                    status.dataset.status = anime.Status.toLowerCase()
-
-                    cap.style.display = 'none'
-                    if (tipo === 'manga' && anime.cap) {
-                        cap.style.display = 'block'
-                        cap.textContent = 'Capítulo ' + anime.cap
-                    } else if (tipo !== 'manga' && anime.ep) {
-                        cap.style.display = 'block'
-                        cap.textContent = 'Episódio ' + anime.ep + (anime.eps ? ' de ' + anime.eps : '')
-                    }
-
-                    if (tipo === 'mal') {
-                        const linkMal = document.getElementById('link_mal');
-                        linkMal.href = `https://myanimelist.net/anime/${anime.Id}`;
-                        linkMal.removeAttribute('hidden');
-                    }
-
-                    document.addEventListener('keydown', (e) => {
-                        if (e.key === 'ArrowLeft' && !btnPrev.hidden) btnPrev.click();
-                        if (e.key === 'ArrowRight' && !btnNext.hidden) btnNext.click();
-                    });
-
-                })
-                .catch((err) => {
-                    console.error('Erro ao carregar detalhe:', err);
-                    mostrarErro('Não foi possível carregar os dados. Verifique a conexão e recarregue a página.');
-                })
-
-        }
+                document.addEventListener('keydown', e => {
+                    if (e.key === 'ArrowLeft' && !btnPrev.hidden) btnPrev.click();
+                    if (e.key === 'ArrowRight' && !btnNext.hidden) btnNext.click();
+                });
+            })
+            .catch(err => {
+                console.error('Erro ao carregar detalhe:', err);
+                mostrarErro('Não foi possível carregar os dados. Verifique a conexão e recarregue a página.');
+            });
 
         function mostrarErro(mensagem) {
             document.getElementById('dados_detalhe').hidden = true;
@@ -176,14 +172,7 @@
             erro.textContent = mensagem;
             erro.removeAttribute('hidden');
         }
-
-
-
     </script>
-
-
-
-
 </body>
 
 </html>

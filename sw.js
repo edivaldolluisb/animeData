@@ -10,7 +10,7 @@ console.log('[Service Worker] Install');
 
 //storing the cache
 
-const cacheName = 'Ani-Manga.list-v3';
+const cacheName = 'Ani-Manga.list-v4';
 const appShellFiles = [
     './',
     './icones',

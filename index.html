@@ -3,73 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lista de animes e mangás">
     <meta name="author" content="Edivaldo">
     <link rel="shortcut icon" href="./icones/icons8-naruto-sign-210.png" type="image/x-icon">
-    <!--PWA-->
     <link rel="manifest" href="./manifest.json">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&family=Kalam:wght@700&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="./anime.css">
-    <meta name="theme-color" content="#dcb67d">
+    <meta name="theme-color" content="#e9e6dc">
 
     <title>Animes</title>
 </head>
 
-<body>
-    <!--Menu de navegação-->
-    <nav>
-        <a href="#" id="menu_anime" aria-current="page">Anime</a>
-        <a href="./manga.html" id="menu_manga">Mangá</a>
-        <a href="./mal.html" id="menu_mal">MAL</a>
-    </nav>
-
-    <!--bara de pesquisa-->
-    <div id="div_de_pesquisa">
-        <form action="" method="get" role="search" aria-label="Pesquisar animes" onsubmit="return false">
-            <input type="search" name="" id="bara_de_pesquisa" placeholder="Buscar por nome…" aria-label="Pesquisar animes">
-        </form>
-    </div>
+<body data-tipo="anime">
+    <!--
+    THESIS: a coleção é um catálogo de convenção doujin, não uma tabela nem um app de streaming; recusa linhas zebradas e o grid escuro de posters.
+    OWN-WORLD: papel de jornal #e9e6dc com retícula, uma tinta #1a1a1a, caneta vermelha #c8291f só para marcas à mão; capas a uma tinta em células com fios de 1px; Zen Kaku Gothic New 900, M PLUS 1 Code para códigos, Kalam para a caneta.
+    STORY: o visitante vê primeiro o que está a ser visto (circulado), confirma se um título existe pela pesquisa e folheia o resto por halls.
+    FIRST VIEWPORT: barra fina com marca e listas; título enorme à esquerda com contagem; pesquisa sublinhada e filtros com contagem; Hall A a cores, circulado a caneta.
+    FORM: challenger pop-culture-shelf-doujin-event-catalog fundido com tipografia de anuário; seed 065767b2.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+    -->
+    <header class="masthead">
+        <a class="marca" href="./index.html">Ani-Mangalist<span lang="ja">目録</span></a>
+        <nav aria-label="Listas">
+            <a href="./index.html" id="menu_anime" aria-current="page">Anime</a>
+            <a href="./manga.html" id="menu_manga">Mangá</a>
+            <a href="./mal.html" id="menu_mal">MAL</a>
+        </nav>
+    </header>
 
     <main>
-    <h1>Minha lista de <span>Animes</span></h1>
-    <div id="total_filtrados">
-        <span id="total_resultados" aria-live="polite">Total de resultados: </span>
-        <select name="" id="filtro" aria-label="Filtrar por status">
-            <option value="">Todos</option>
-            <option value="completo">Completos</option>
-            <option value="assistindo">Assistindo</option>
-            <option value="pretendo assistir">Pretendo Assistir</option>
-            <option value="dropado">Dropado</option>
-        </select>
-    </div>
-
-    <!--Tabela-->
-    <table>
-        <caption>Lista de animes</caption>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody id="corpo_tabela_animes">
-        </tbody>
-    </table>
-
-    <!--Pagination-->
-    <div class="pagination" role="navigation" aria-label="Paginação">
-        <a href="#">&laquo;</a>
-        <a href="#">&raquo;</a>
-    </div>
+        <div class="titulo">
+            <h1>Catálogo de <span>animes</span></h1>
+            <p id="total_resultados" aria-live="polite"></p>
+        </div>
+        <div class="controles">
+            <input type="search" id="bara_de_pesquisa" placeholder="Procurar título…" aria-label="Pesquisar animes">
+            <div id="filtro" role="group" aria-label="Filtrar por status"></div>
+        </div>
+        <div id="catalogo"></div>
     </main>
 
-    <!--PWA-->
     <script src="./sw.js"></script>
     <script src="./js/index.js"></script>
-
-    
 </body>
 
 </html>

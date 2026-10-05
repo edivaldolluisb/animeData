@@ -3,9 +3,9 @@
     "short_name": "AM.List",
     "start_url": "./index.html",
     "display":"standalone",
-    "background_color":"#ffffff",
-    "theme_color":"#ffffff",
-    "theme-color": "#ffffff",
+    "background_color":"#e9e6dc",
+    "theme_color":"#e9e6dc",
+    "theme-color": "#e9e6dc",
     "description": "Lista de Animes de Mangas",
     "icons": [
         {
