@@ -5,8 +5,8 @@ A minha lista pessoal de animes que já vi e mangás que já li, desenhada como 
 Ver ao vivo: https://edivaldolluisb.github.io/animeData/
 
 - **Anime**: a tua lista pública do [MyAnimeList](https://myanimelist.net), sincronizada todos os dias por um GitHub Action. O MAL é a única fonte dos animes.
-- **Mangá**: importado do export do teu leitor/tracker de mangás (lista com links do MAL, AniList e MangaUpdates); capas e total de capítulos vêm do AniList.
-- **Detalhe**: capa, status, progresso, nota e links para MAL / AniList / MangaUpdates.
+- **Mangá**: a tua lista pública do [AniList](https://anilist.co), sincronizada todos os dias pelo mesmo GitHub Action. Se lês no MangaFire (ou outro leitor), liga-o ao AniList e o progresso chega sozinho ao site.
+- **Detalhe**: capa, status, progresso, nota e links para o MyAnimeList / AniList.
 - Funciona como PWA (dá para instalar no telemóvel).
 
 Não há build, framework nem dependências: é HTML, CSS e JavaScript estáticos.
@@ -33,28 +33,31 @@ Ao fim de 1–2 minutos o site fica no ar no endereço acima.
 Os ficheiros em `dados/` têm a minha lista. Substitui pelos teus:
 
 - `dados/mal.json` — os teus animes, gerado automaticamente a partir do MAL (passo 4); não edites à mão
-- `dados/mangas.json` — os teus mangás, gerado pelo `scripts/import-mangas.mjs` (passo 6); se não quiseres mangás, deixa `{ "total": 0, "mangas": [] }`
+- `dados/mangas.json` — os teus mangás, gerado automaticamente a partir do AniList (passo 4); não edites à mão
 
-Para adicionar ou mudar animes, faz isso no próprio MyAnimeList.
+Para adicionar ou mudar animes, faz isso no MyAnimeList; para mangás, no AniList.
 
-### 4. Sincronizar com o teu MyAnimeList
+### 4. Sincronizar com o MyAnimeList e o AniList
 
-O workflow `.github/workflows/mal.yml` corre todos os dias às 06:00 UTC, descarrega a tua lista e faz commit de `dados/mal.json` se algo mudou.
+O workflow `.github/workflows/mal.yml` corre todos os dias às 06:00 UTC: descarrega os teus animes do MyAnimeList e os teus mangás do AniList, e faz commit de `dados/mal.json` e `dados/mangas.json` se algo mudou. Se um dos sites falhar, o outro ficheiro é atualizado na mesma.
 
-1. **A tua lista do MAL tem de ser pública.** No MAL: *Settings → List → Anime List* visível para todos. Confirma abrindo `https://myanimelist.net/animelist/<o-teu-utilizador>` numa janela anónima.
-2. **Diz ao workflow qual é o teu utilizador.** No fork: **Settings → Secrets and variables → Actions → aba Variables → New repository variable**
-   - Name: `MAL_USER`
-   - Value: o teu nome de utilizador do MAL (ex.: `Edicastro`)
+1. **As tuas listas têm de ser públicas.**
+   - MAL: *Settings → List → Anime List* visível para todos. Confirma em `https://myanimelist.net/animelist/<utilizador>` numa janela anónima.
+   - AniList: *Settings → Lists* sem "Private". Confirma em `https://anilist.co/user/<utilizador>/mangalist` numa janela anónima.
+2. **Diz ao workflow quem és.** No fork: **Settings → Secrets and variables → Actions → aba Variables → New repository variable**
+   - `MAL_USER` = o teu utilizador do MAL (ex.: `Edicastro`)
+   - `ANILIST_USER` = o teu utilizador do AniList (ex.: `edica`)
 
-   Sem esta variável, o script usa `Edicastro` e vais ver a minha lista.
+   Sem estas variáveis, os scripts usam os meus utilizadores e vais ver as minhas listas.
 3. **Dar permissão de escrita ao workflow.** **Settings → Actions → General → Workflow permissions → Read and write permissions** → Save.
 4. **Ativar os workflows no fork.** O GitHub desliga os Actions em forks. Abre a aba **Actions** e carrega em **I understand my workflows, go ahead and enable them**. Os agendados (cron) também precisam de ser ativados lá.
-5. **Primeira execução.** Aba **Actions → Sincronizar MyAnimeList → Run workflow**. Ao fim de ~30 s deve aparecer um commit `DATA: sync MyAnimeList list` e a página Anime passa a mostrar a tua lista.
+5. **Primeira execução.** Aba **Actions → Sincronizar listas (MAL + AniList) → Run workflow**. Ao fim de ~30 s deve aparecer um commit `DATA: sync MyAnimeList and AniList lists`.
 
 Notas:
 
 - O GitHub suspende workflows agendados em repositórios sem atividade há 60 dias; basta voltar a ativar na aba Actions.
 - O MAL pode bloquear pedidos vindos dos servidores do GitHub (erro `HTTP 403` no log). Nesse caso o site continua a mostrar os dados do último commit, e podes atualizar à mão no teu computador (passo seguinte).
+- Não queres mangás? Deixa `dados/mangas.json` como `{ "total": 0, "mangas": [] }` e apaga o passo "Mangás (AniList)" do workflow.
 
 ### 5. Atualizar à mão (opcional)
 
@@ -62,44 +65,15 @@ Precisas de [Node.js](https://nodejs.org) 18 ou mais recente:
 
 ```bash
 node scripts/fetch-mal.mjs <o-teu-utilizador-mal>
-git add dados/mal.json
-git commit -m "DATA: sync MyAnimeList list"
+node scripts/fetch-anilist-mangas.mjs <o-teu-utilizador-anilist>
+git add dados/mal.json dados/mangas.json
+git commit -m "DATA: sync MyAnimeList and AniList lists"
 git push
 ```
 
 Como o workflow também faz commits, faz `git pull --rebase` antes de trabalhares localmente (ou corre uma vez `git config pull.rebase true`).
 
-### 6. Importar os mangás
-
-O script lê um export em texto com este formato (é o que apps como o Kotatsu/Mihon e alguns trackers exportam):
-
-```
-### Reading
-# Solo Leveling
-https://myanimelist.net/manga/121496/
-https://anilist.co/manga/105398/
-https://mangaupdates.com/series/6z1uqw7/
-### Completed
-# ...
-### Plan to Read
-# ...
-```
-
-Secções reconhecidas: `Reading` → Lendo, `Completed` → Completo, `Plan to Read` → Pretendo Ler, `Dropped` → Dropado, `On Hold` → Em Pausa. Os links são opcionais.
-
-```bash
-node scripts/import-mangas.mjs caminho/para/o-export.txt
-```
-
-O script:
-
-- busca capa, título alternativo e total de capítulos no **AniList** (ou no **MangaUpdates** quando não há link do AniList);
-- **mantém** o que já estava em `dados/mangas.json`: o capítulo lido (`cap`) e as entradas que não aparecem no export;
-- usa o status do export (é o mais recente) e reescreve `dados/mangas.json`.
-
-Sempre que exportares de novo, corre o script outra vez e faz commit de `dados/mangas.json`. O ficheiro exportado não precisa de ficar no repositório. Para atualizar o capítulo onde vais, edita o campo `cap` em `dados/mangas.json`.
-
-### 7. Personalizar
+### 6. Personalizar
 
 - Textos dos títulos: `index.html` (animes) e `manga.html`.
 - Cores e tipografia: tokens no topo de `anime.css`; o sistema visual está descrito em `DESIGN.md`.
@@ -127,23 +101,19 @@ A lista vem ordenada pela última atualização no MAL.
 
 ### Mangás (`dados/mangas.json`)
 
-Gerado por `scripts/import-mangas.mjs`. Cada entrada:
-
-```json
-{ "Id": 181, "Nome_jp": "Black Clover", "Nome_eng": "", "Status": "Lendo", "Image": "https://s4.anilist.co/...",
-  "cap": 368, "caps": 392, "mal": 86337, "anilist": 86123, "mangaupdates": "w8nq9bw" }
-```
+Gerado por `scripts/fetch-anilist-mangas.mjs`; não precisas de o editar. Cada entrada:
 
 | Campo | Descrição |
 |---|---|
-| `Id` | número sequencial; o primeiro do ficheiro tem o maior |
-| `Nome_jp` | nome como aparece no teu export (aparece na grelha) |
-| `Nome_eng` | título alternativo do AniList (inglês ou romanizado) |
-| `Status` | `Lendo`, `Completo`, `Pretendo Ler`, `Dropado`, `Em Pausa` |
-| `Image` | capa (AniList / MangaUpdates); se faltar aparece um bloco vazio |
-| `cap` | último capítulo lido (editas tu; o script preserva-o) |
-| `caps` | total de capítulos, quando o AniList sabe |
-| `mal` / `anilist` / `mangaupdates` | ids para os links da página de detalhe |
+| `Id` / `anilist` | id do mangá no AniList |
+| `mal` | id no MyAnimeList, quando o AniList o conhece |
+| `Nome_jp` / `Nome_eng` | título em inglês (ou romanizado) / romanizado |
+| `Status` | convertido do AniList: Reading → Lendo, Completed → Completo, Planning → Pretendo Ler, Paused → Em Pausa, Dropped → Dropado |
+| `Image` | capa |
+| `cap` / `caps` | capítulos lidos / total (quando o AniList sabe) |
+| `score` | a tua nota, de 0 a 10 |
+
+A lista vem ordenada pela última atualização no AniList.
 
 ### Status e secções
 
@@ -178,8 +148,8 @@ detalhe.html                       página de detalhe (?id=X&tipo=anime|manga)
 anime.css, detalhe.css             estilos
 dados/                             dados das listas
 scripts/fetch-mal.mjs              descarrega a lista pública de animes do MAL
-scripts/import-mangas.mjs          importa o export de mangás para dados/mangas.json
-.github/workflows/mal.yml          sincronização diária
+scripts/fetch-anilist-mangas.mjs   descarrega a lista pública de mangás do AniList
+.github/workflows/mal.yml          sincronização diária (MAL + AniList)
 sw.js, manifest.json               PWA
 ```
 

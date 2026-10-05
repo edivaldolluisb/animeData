@@ -1,38 +1,35 @@
 {
-    "total": 184,
+    "total": 151,
     "mangas": [
         {
-            "Id": 184,
+            "Id": 30013,
             "Nome_jp": "One Piece",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30013-BeslEMqiPhlk.jpg",
             "mal": 13,
-            "anilist": 30013,
-            "mangaupdates": "pb8uwds"
+            "anilist": 30013
         },
         {
-            "Id": 183,
+            "Id": 85442,
             "Nome_jp": "The Rising of the Shield Hero",
             "Nome_eng": "Tate no Yuusha no Nariagari",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85442-pIcvm2OjfTjR.jpg",
             "mal": 67615,
-            "anilist": 85442,
-            "mangaupdates": "m76hky3"
+            "anilist": 85442
         },
         {
-            "Id": 182,
+            "Id": 86399,
             "Nome_jp": "That Time I Got Reincarnated as a Slime",
             "Nome_eng": "Tensei Shitara Slime Datta Ken",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86399-NwbRFVh5koqc.jpg",
             "mal": 87609,
-            "anilist": 86399,
-            "mangaupdates": "04gtb06"
+            "anilist": 86399
         },
         {
-            "Id": 181,
+            "Id": 86123,
             "Nome_jp": "Black Clover",
             "Nome_eng": "",
             "Status": "Lendo",
@@ -40,41 +37,37 @@
             "cap": 368,
             "caps": 392,
             "mal": 86337,
-            "anilist": 86123,
-            "mangaupdates": "w8nq9bw"
+            "anilist": 86123
         },
         {
-            "Id": 180,
-            "Nome_jp": "Shangri-La Frontier: From Trash-Game Hunter to God-Tier Game Master!",
-            "Nome_eng": "Shangri-La Frontier",
+            "Id": 122063,
+            "Nome_jp": "Shangri-La Frontier",
+            "Nome_eng": "Shangri-La Frontier: Kusoge Hunter, Kami ge ni Idoman to su",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx122063-j2wIvwb6yzPM.jpg",
             "mal": 130331,
-            "anilist": 122063,
-            "mangaupdates": "qpff7if"
+            "anilist": 122063
         },
         {
-            "Id": 179,
-            "Nome_jp": "Omniscient Reader's Viewpoint",
-            "Nome_eng": "Omniscient Reader",
+            "Id": 119257,
+            "Nome_jp": "Omniscient Reader",
+            "Nome_eng": "Jeonjijeok Dokja Sijeom",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119257-Pi21aq3ey9GG.jpg",
             "mal": 132214,
-            "anilist": 119257,
-            "mangaupdates": "n50wl4o"
+            "anilist": 119257
         },
         {
-            "Id": 178,
+            "Id": 106758,
             "Nome_jp": "The Eminence in Shadow",
             "Nome_eng": "Kage no Jitsuryokusha ni Naritakute!",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106758-jtXpQYQqyNJv.jpg",
             "mal": 119022,
-            "anilist": 106758,
-            "mangaupdates": "ug5qy4o"
+            "anilist": 106758
         },
         {
-            "Id": 177,
+            "Id": 105393,
             "Nome_jp": "A Returner's Magic Should Be Special",
             "Nome_eng": "Gwihwanjaui Mabeobeun Teukbyeolhaeya Hamnida",
             "Status": "Lendo",
@@ -82,22 +75,20 @@
             "cap": 230,
             "caps": 268,
             "mal": 132247,
-            "anilist": 105393,
-            "mangaupdates": "0rpf7qa"
+            "anilist": 105393
         },
         {
-            "Id": 176,
+            "Id": 85143,
             "Nome_jp": "Tower of God",
             "Nome_eng": "Sinui Tap",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85143-23oup3ETbFJk.jpg",
-            "cap": "530 S3-113",
+            "cap": 530,
             "mal": 122663,
-            "anilist": 85143,
-            "mangaupdates": "5z98aus"
+            "anilist": 85143
         },
         {
-            "Id": 175,
+            "Id": 110462,
             "Nome_jp": "Tomb Raider King",
             "Nome_eng": "Dogul Wang",
             "Status": "Lendo",
@@ -105,22 +96,20 @@
             "cap": 169,
             "caps": 411,
             "mal": 130216,
-            "anilist": 110462,
-            "mangaupdates": "khaoov3"
+            "anilist": 110462
         },
         {
-            "Id": 174,
+            "Id": 128067,
             "Nome_jp": "SSS-Class Revival Hunter",
             "Nome_eng": "SSS-geup Jugeoya Saneun Hunter",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx128067-wnLBg6Cy1ncs.jpg",
             "cap": 36,
             "mal": 146909,
-            "anilist": 128067,
-            "mangaupdates": "7v63sfr"
+            "anilist": 128067
         },
         {
-            "Id": 173,
+            "Id": 116506,
             "Nome_jp": "Dungeon Reset",
             "Nome_eng": "",
             "Status": "Lendo",
@@ -128,334 +117,293 @@
             "cap": 164,
             "caps": 266,
             "mal": 147438,
-            "anilist": 116506,
-            "mangaupdates": "gtp0kg2"
+            "anilist": 116506
         },
         {
-            "Id": 172,
+            "Id": 127848,
             "Nome_jp": "Masters of Lightning Knives",
             "Nome_eng": "Biroe-do",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127848-ZaR7DiGxY3Y3.png",
             "cap": 170,
             "mal": 147455,
-            "anilist": 127848,
-            "mangaupdates": "1r7ckm9"
+            "anilist": 127848
         },
         {
-            "Id": 171,
-            "Nome_jp": "Worn and Torn Newbie",
-            "Nome_eng": "The Worn and Torn Newbie",
+            "Id": 127102,
+            "Nome_jp": "The Worn and Torn Newbie",
+            "Nome_eng": "Dalko Dareun Newbie",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127102-UUP1Oj14Wd4Y.jpg",
             "cap": 150,
             "caps": 243,
             "mal": 147843,
-            "anilist": 127102,
-            "mangaupdates": "cvl4x5j"
+            "anilist": 127102
         },
         {
-            "Id": 170,
+            "Id": 146878,
             "Nome_jp": "Jack-of-All-Trades, Party of None",
             "Nome_eng": "Yuusha Party wo Oidasareta Kiyoubinbou: Party Jijou de Fuyojutsushi wo Yatteita Kenshi, Bannou e to Itaru",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx146878-BN1vrmuNqcO8.jpg",
             "mal": 152565,
-            "anilist": 146878,
-            "mangaupdates": "u628msc"
+            "anilist": 146878
         },
         {
-            "Id": 169,
+            "Id": 156553,
             "Nome_jp": "Versus",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b156553-A4LuBaKiHN06.jpg",
             "cap": 5,
             "mal": 152946,
-            "anilist": 156553,
-            "mangaupdates": "6umntff"
+            "anilist": 156553
         },
         {
-            "Id": 168,
+            "Id": 118267,
             "Nome_jp": "God of Blackfield",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118267-hfGEZNguWhiq.jpg",
             "mal": 147532,
-            "anilist": 118267,
-            "mangaupdates": "wlb2ugp"
+            "anilist": 118267
         },
         {
-            "Id": 167,
-            "Nome_jp": "Kaijuu 8-gou",
-            "Nome_eng": "Kaiju No.8",
+            "Id": 120760,
+            "Nome_jp": "Kaiju No.8",
+            "Nome_eng": "Kaijuu 8-gou",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx120760-MtXvMgujLBpe.jpg",
             "caps": 129,
             "mal": 127907,
-            "anilist": 120760,
-            "mangaupdates": "8rwmnpj"
+            "anilist": 120760
         },
         {
-            "Id": 166,
-            "Nome_jp": "Log-In Murim",
-            "Nome_eng": "",
+            "Id": 120385,
+            "Nome_jp": "Log-in Murim",
+            "Nome_eng": "Login Murim",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx120385-4JYGuOR6cn72.jpg",
             "cap": 166,
             "mal": 147389,
-            "anilist": 120385,
-            "mangaupdates": "zbcw2f8"
+            "anilist": 120385
         },
         {
-            "Id": 165,
+            "Id": 110472,
             "Nome_jp": "Study Group",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110472-jxJG7CZ3lf4d.jpg",
             "cap": 184,
             "mal": 146752,
-            "anilist": 110472,
-            "mangaupdates": "qvlxcv9"
+            "anilist": 110472
         },
         {
-            "Id": 164,
+            "Id": 144957,
             "Nome_jp": "The World After the Fall",
             "Nome_eng": "Myeolmang Ihuui Segye",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx144957-h0qIwRwxOEdg.jpg",
             "cap": 88,
             "mal": 147217,
-            "anilist": 144957,
-            "mangaupdates": "i41kc6g"
+            "anilist": 144957
         },
         {
-            "Id": 163,
-            "Nome_jp": "Volcanic Age",
-            "Nome_eng": "Hwasanjeonsaeng",
+            "Id": 101418,
+            "Nome_jp": "Hwasanjeonsaeng",
+            "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101418-YMJ7vXuXyZ1q.png",
             "cap": 244,
             "caps": 303,
             "mal": 147724,
-            "anilist": 101418,
-            "mangaupdates": "bj0un1d"
+            "anilist": 101418
         },
         {
-            "Id": 162,
+            "Id": 150508,
             "Nome_jp": "Disciple of the Holy Sword",
             "Nome_eng": "Geomppallo Level Up",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150508-xh4xwMVQB6Vf.jpg",
             "cap": 78,
             "mal": 148456,
-            "anilist": 150508,
-            "mangaupdates": "bzzcg1z"
+            "anilist": 150508
         },
         {
-            "Id": 161,
+            "Id": 118424,
             "Nome_jp": "The Archmage Returns After 4000 Years",
             "Nome_eng": "4000 Nyeon Mane Gwihwanhan Daemadosa",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118424-JbTApgnIP1ON.jpg",
             "cap": 187,
             "mal": 147693,
-            "anilist": 118424,
-            "mangaupdates": "7u8zgak"
+            "anilist": 118424
         },
         {
-            "Id": 160,
-            "Nome_jp": "Tensei Kizoku, Kantei Skill de Nariagaru: Jakushou Ryouchi o Uketsuida node, Yuushuu na Jinzai o Fuyashiteitara, Saikyou Ryouchi ni Natteta",
-            "Nome_eng": "As a Reincarnated Aristocrat, I’ll Use My Appraisal Skill to Rise in the World",
+            "Id": 121753,
+            "Nome_jp": "As a Reincarnated Aristocrat, I’ll Use My Appraisal Skill to Rise in the World",
+            "Nome_eng": "Tensei Kizoku Kantei Skill de Nariagaru: Jakushou Ryouchi wo Uketsuidanode, Yuushuuna Jinzai wo Fuyashite Itara, Saikyou Ryouchi ni Natteta",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121753-vhvIdfxdaEdF.jpg",
             "mal": 127781,
-            "anilist": 121753,
-            "mangaupdates": "7cfr08f"
+            "anilist": 121753
         },
         {
-            "Id": 159,
+            "Id": 141958,
             "Nome_jp": "My S-Class Hunters",
             "Nome_eng": "Naega Kiun S-Geupdeul",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141958-y46ASozodVNW.jpg",
             "mal": 147202,
-            "anilist": 141958,
-            "mangaupdates": "lp9q2vx"
+            "anilist": 141958
         },
         {
-            "Id": 158,
-            "Nome_jp": "Overgeared (Team Argo)",
-            "Nome_eng": "Overgeared",
+            "Id": 117460,
+            "Nome_jp": "Overgeared",
+            "Nome_eng": "Temppal",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117460-46JbftfHSXoc.jpg",
             "cap": 198,
             "mal": 147727,
-            "anilist": 117460,
-            "mangaupdates": "9dvc1hr"
+            "anilist": 117460
         },
         {
-            "Id": 157,
+            "Id": 131041,
             "Nome_jp": "I Parry Everything: What Do You Mean I'm the Strongest? I'm Not Even an Adventurer Yet!",
             "Nome_eng": "Ore wa Subete wo [Parry] Suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha no Yume wo Miru",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx131041-I06OpqQxE95F.jpg",
             "mal": 139761,
-            "anilist": 131041,
-            "mangaupdates": "z5nhn3c"
+            "anilist": 131041
         },
         {
-            "Id": 156,
-            "Nome_jp": "The Celestial Returned From Hell",
+            "Id": 132457,
+            "Nome_jp": "The Celestial Returned from Hell",
             "Nome_eng": "Jiogeseo Doraon Seongjwanim",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132457-sGQqSZbDoKJR.jpg",
             "cap": 105,
             "mal": 147569,
-            "anilist": 132457,
-            "mangaupdates": "r3mpe2x"
+            "anilist": 132457
         },
         {
-            "Id": 155,
-            "Nome_jp": "How to Live as a Villain",
-            "Nome_eng": "Akdangi Saraganeun Beop",
+            "Id": 141954,
+            "Nome_jp": "Akdangi Saraganeun Beop",
+            "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141954-7C2eS3NdcBx3.jpg",
             "caps": 199,
             "mal": 151440,
-            "anilist": 141954,
-            "mangaupdates": "pjwwn0e"
+            "anilist": 141954
         },
         {
-            "Id": 154,
-            "Nome_jp": "Ranker's Return (2021)",
-            "Nome_eng": "Ranker's Return",
+            "Id": 137969,
+            "Nome_jp": "Ranker's Return",
+            "Nome_eng": "Ranker-ui Gwihwan",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137969-3lgIaXzGgz65.png",
             "mal": 184894,
-            "anilist": 137969,
-            "mangaupdates": "qd1drv8"
+            "anilist": 137969
         },
         {
-            "Id": 153,
+            "Id": 120980,
             "Nome_jp": "Nano Machine",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx120980-RZ9WLd0o9hyo.jpg",
             "cap": 302,
             "mal": 147863,
-            "anilist": 120980,
-            "mangaupdates": "01w7hvo"
+            "anilist": 120980
         },
         {
-            "Id": 152,
+            "Id": 151512,
             "Nome_jp": "My Blasted Reincarnated Life",
             "Nome_eng": "Bireomeogeul Hwansaeng",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx151512-q0Xddr1JNKNq.png",
             "mal": 149438,
-            "anilist": 151512,
-            "mangaupdates": "j7x0kkd"
+            "anilist": 151512
         },
         {
-            "Id": 151,
+            "Id": 100456,
             "Nome_jp": "Farming Life in Another World",
             "Nome_eng": "Isekai Nonbiri Nouka",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx100456-8RMZfz4Tqjln.jpg",
             "cap": 60,
             "mal": 110460,
-            "anilist": 100456,
-            "mangaupdates": "f3p9vzp"
+            "anilist": 100456
         },
         {
-            "Id": 150,
+            "Id": 142352,
             "Nome_jp": "Best Teacher Baek",
             "Nome_eng": "Iltagangsa Baeksabu",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142352-dbb8Ei7a95oZ.jpg",
             "cap": 70,
             "mal": 147662,
-            "anilist": 142352,
-            "mangaupdates": "ed5yz0e"
+            "anilist": 142352
         },
         {
-            "Id": 149,
+            "Id": 136204,
             "Nome_jp": "Descended from Divinity",
             "Nome_eng": "Cheonmaneun Pyeongbeomhage Sal Su Eopda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136204-D4ON9gggIHeX.jpg",
             "mal": 147847,
-            "anilist": 136204,
-            "mangaupdates": "gjguta9"
+            "anilist": 136204
         },
         {
-            "Id": 148,
-            "Nome_jp": "The Max Level Hero Strikes Back",
+            "Id": 125636,
+            "Nome_jp": "The Max Level Hero Strikes Back!",
             "Nome_eng": "Mallep Yeongungnim Kkeseo Gwihwan Hasinda!",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx125636-g0gkyLZbo3Tz.png",
             "cap": 138,
             "mal": 147322,
-            "anilist": 125636,
-            "mangaupdates": "v7vjo3s"
+            "anilist": 125636
         },
         {
-            "Id": 147,
-            "Nome_jp": "Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made",
-            "Nome_eng": "Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells",
+            "Id": 110989,
+            "Nome_jp": "Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells",
+            "Nome_eng": "Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110989-DKLKwQ5ojqXD.jpg",
             "mal": 122650,
-            "anilist": 110989,
-            "mangaupdates": "rrvu4q7"
+            "anilist": 110989
         },
         {
-            "Id": 146,
-            "Nome_jp": "Fist Demon of Mount Hua",
-            "Nome_eng": "Hwasangwonma",
+            "Id": 130210,
+            "Nome_jp": "Hwasangwonma",
+            "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130210-uTICEzqOLxFg.jpg",
             "caps": 182,
             "mal": 150088,
-            "anilist": 130210,
-            "mangaupdates": "80ckfpd"
+            "anilist": 130210
         },
         {
-            "Id": 145,
+            "Id": 109957,
             "Nome_jp": "Second Life Ranker",
             "Nome_eng": "Dubeon Saneun Ranker",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx109957-EgJWdR7l9TBG.jpg",
             "cap": 161,
             "mal": 147324,
-            "anilist": 109957,
-            "mangaupdates": "fsgta4n"
+            "anilist": 109957
         },
         {
-            "Id": 144,
-            "Nome_jp": "L.A.G",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150701-605Auv7M51bv.png",
-            "cap": 84,
-            "mal": null,
-            "anilist": 150701,
-            "mangaupdates": "u56mgqy"
-        },
-        {
-            "Id": 143,
-            "Nome_jp": "The Reaper (INKYO)",
-            "Nome_eng": "The Reaper",
+            "Id": 153432,
+            "Nome_jp": "The Reaper",
+            "Nome_eng": "Sasinpyowol",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx153432-flZLVek7Ei1Z.png",
             "cap": 55,
             "mal": 150422,
-            "anilist": 153432,
-            "mangaupdates": "mw8jsvc"
+            "anilist": 153432
         },
         {
-            "Id": 142,
+            "Id": 120907,
             "Nome_jp": "The Undefeatable Swordsman",
             "Nome_eng": "Bulpaegeomseon",
             "Status": "Lendo",
@@ -463,293 +411,207 @@
             "cap": 169,
             "caps": 309,
             "mal": 184976,
-            "anilist": 120907,
-            "mangaupdates": "5uxnokr"
+            "anilist": 120907
         },
         {
-            "Id": 141,
+            "Id": 87225,
             "Nome_jp": "Tsukimichi: Moonlit Fantasy",
             "Nome_eng": "Tsuki ga Michibiku Isekai Douchuu",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87225-EYFJq2QMzHkk.jpg",
             "mal": 90117,
-            "anilist": 87225,
-            "mangaupdates": "ixgbdrq"
+            "anilist": 87225
         },
         {
-            "Id": 140,
+            "Id": 136220,
             "Nome_jp": "Doom Breaker",
             "Nome_eng": "Tusinjeonsaenggi",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136220-u9sewv3u02mN.jpg",
             "cap": 88,
             "mal": 147172,
-            "anilist": 136220,
-            "mangaupdates": "1qs65a6"
+            "anilist": 136220
         },
         {
-            "Id": 139,
-            "Nome_jp": "God of Martial Arts",
-            "Nome_eng": "Jueshi Wushen",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx101114-j8D60Va6hIvp.png",
-            "mal": null,
-            "anilist": 101114,
-            "mangaupdates": "n9gpvky"
-        },
-        {
-            "Id": 138,
+            "Id": 130149,
             "Nome_jp": "Villain to Kill",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b130149-y63hveWF28Sb.jpg",
             "cap": 111,
             "mal": 147191,
-            "anilist": 130149,
-            "mangaupdates": "uikn3xv"
+            "anilist": 130149
         },
         {
-            "Id": 137,
-            "Nome_jp": "Your Talent Is Mine",
-            "Nome_eng": "Wo Neng Fu Zhi Tian Fu",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138366-DC3t5MSv6v05.jpg",
-            "caps": 106,
-            "mal": null,
-            "anilist": 138366,
-            "mangaupdates": "rom41cw"
-        },
-        {
-            "Id": 136,
-            "Nome_jp": "Gosu",
+            "Id": 86640,
+            "Nome_jp": "GOSU",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b86640-CkvGMkcKAoa3.png",
             "cap": 205,
             "caps": 233,
             "mal": 147530,
-            "anilist": 86640,
-            "mangaupdates": "lye57kr"
+            "anilist": 86640
         },
         {
-            "Id": 135,
+            "Id": 128521,
             "Nome_jp": "Get Schooled",
             "Nome_eng": "Chamgyoyuk",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx128521-e97aqKfciLy5.jpg",
             "cap": 114,
             "mal": 146875,
-            "anilist": 128521,
-            "mangaupdates": "gvxectd"
+            "anilist": 128521
         },
         {
-            "Id": 134,
+            "Id": 141076,
             "Nome_jp": "Murim RPG Simulation",
             "Nome_eng": "Cheonmayukseong",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141076-QqiuAFLz3S6T.jpg",
             "mal": 147642,
-            "anilist": 141076,
-            "mangaupdates": "0sl9clp"
+            "anilist": 141076
         },
         {
-            "Id": 133,
+            "Id": 137595,
             "Nome_jp": "66,666 Years: Advent of the Dark Mage",
             "Nome_eng": "66666-nyeonmane Hwansaenghan Heungmabeopsa",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137595-1m3i7vxyOqXc.png",
             "cap": 100,
             "mal": 147337,
-            "anilist": 137595,
-            "mangaupdates": "zo4943i"
+            "anilist": 137595
         },
         {
-            "Id": 132,
+            "Id": 121991,
             "Nome_jp": "Viral Hit",
             "Nome_eng": "Ssaumdokak",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b121991-hwrVszteyodi.jpg",
             "caps": 222,
             "mal": 139164,
-            "anilist": 121991,
-            "mangaupdates": "vicmj6m"
+            "anilist": 121991
         },
         {
-            "Id": 131,
+            "Id": 130566,
             "Nome_jp": "Legend of an Asura - The Poison Dragon",
             "Nome_eng": "Surajeonseol Dongnyong",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130566-ahDRD0JH2WSr.jpg",
             "cap": 133,
             "mal": 150784,
-            "anilist": 130566,
-            "mangaupdates": "zvxxh2p"
+            "anilist": 130566
         },
         {
-            "Id": 130,
+            "Id": 103156,
             "Nome_jp": "The Skeleton Soldier Failed to Defend the Dungeon",
             "Nome_eng": "Haegolbyeongsaneun Dungeon-eul Jikiji Motaetda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx103156-yTVWAW2N8uGi.jpg",
             "cap": 239,
             "mal": 146761,
-            "anilist": 103156,
-            "mangaupdates": "drc19gf"
+            "anilist": 103156
         },
         {
-            "Id": 129,
-            "Nome_jp": "Soaring Sword Odyssey",
-            "Nome_eng": "Seeking the Flying Sword Path",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b109169-uqLu6rWMwdzu.jpg",
-            "cap": 104,
-            "caps": 163,
-            "mal": null,
-            "anilist": 109169,
-            "mangaupdates": "kbwju0t"
-        },
-        {
-            "Id": 128,
+            "Id": 97770,
             "Nome_jp": "Reborn as a Scholar",
             "Nome_eng": "Hagsajaesaeng",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97770-weDchWK871LI.jpg",
             "caps": 214,
             "mal": 147924,
-            "anilist": 97770,
-            "mangaupdates": "mxtfjrx"
+            "anilist": 97770
         },
         {
-            "Id": 127,
+            "Id": 135325,
             "Nome_jp": "The Lazy Lord Masters the Sword",
             "Nome_eng": "Natae Gongja, Nolyeog Cheonjae Doeda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx135325-YAhEGWro8zFK.jpg",
             "cap": 91,
             "mal": 146827,
-            "anilist": 135325,
-            "mangaupdates": "jz0mbfy"
+            "anilist": 135325
         },
         {
-            "Id": 126,
-            "Nome_jp": "The Devil Butler",
-            "Nome_eng": "Mo Huang Da Guanjia",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116353-DYuIigXuPwpZ.jpg",
-            "cap": 450,
-            "mal": null,
-            "anilist": 116353,
-            "mangaupdates": "1ooc3x6"
-        },
-        {
-            "Id": 125,
+            "Id": 150836,
             "Nome_jp": "The Academy's Undercover Professor",
             "Nome_eng": "Academy Wijangchwieopdanghaetda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150836-RbhplaCkc2dy.jpg",
             "caps": 168,
             "mal": 149801,
-            "anilist": 150836,
-            "mangaupdates": "76fidgc"
+            "anilist": 150836
         },
         {
-            "Id": 124,
+            "Id": 149332,
             "Nome_jp": "The Swordmaster's Son",
             "Nome_eng": "Geomsulmyeongga Mangnaeadeul",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx149332-adkSyOFY3c5U.jpg",
             "cap": 200,
             "mal": 146949,
-            "anilist": 149332,
-            "mangaupdates": "y1efy8l"
+            "anilist": 149332
         },
         {
-            "Id": 123,
+            "Id": 127783,
             "Nome_jp": "The Grand Mudang Saga",
             "Nome_eng": "Mudanggihyeop",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127783-w815MAkxXYr6.jpg",
             "cap": 102,
             "mal": 148454,
-            "anilist": 127783,
-            "mangaupdates": "stqvlu8"
+            "anilist": 127783
         },
         {
-            "Id": 122,
-            "Nome_jp": "Astral Pet Store",
-            "Nome_eng": "Chao Shen Chong Shou Dian",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b160143-0bRijdCKqbWG.jpg",
-            "mal": null,
-            "anilist": 160143,
-            "mangaupdates": "8lke1mq"
-        },
-        {
-            "Id": 121,
-            "Nome_jp": "Pick Me Up!",
-            "Nome_eng": "",
+            "Id": 159441,
+            "Nome_jp": "Pick Me Up",
+            "Nome_eng": "Pick Me Up!",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159441-9W8201jAT9Yv.jpg",
             "mal": 154587,
-            "anilist": 159441,
-            "mangaupdates": "r4ksmo5"
+            "anilist": 159441
         },
         {
-            "Id": 120,
+            "Id": 129920,
             "Nome_jp": "The God of War",
             "Nome_eng": "Pungunjeonsin",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129920-Hc0xFCpzxXn1.jpg",
             "caps": 110,
             "mal": 153295,
-            "anilist": 129920,
-            "mangaupdates": "33q11ed"
+            "anilist": 129920
         },
         {
-            "Id": 119,
-            "Nome_jp": "I'm the Max-Level Newbie",
+            "Id": 137280,
+            "Nome_jp": "I’m the Max-Level Newbie",
             "Nome_eng": "Na Honja Mallep Newbie",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137280-juUL79K7f9s7.png",
             "mal": 147392,
-            "anilist": 137280,
-            "mangaupdates": "upay4jv"
+            "anilist": 137280
         },
         {
-            "Id": 118,
-            "Nome_jp": "The Beginning After the End",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://cdn.mangaupdates.com/image/i473881.jpg",
-            "cap": 141,
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": "rwg23en"
-        },
-        {
-            "Id": 117,
+            "Id": 160693,
             "Nome_jp": "Cheonhwa Archive's Young Master",
             "Nome_eng": "Cheonhwaseogo Daegongja",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx160693-IAEQE4iXLbo5.jpg",
             "cap": 36,
             "mal": 162325,
-            "anilist": 160693,
-            "mangaupdates": "d93dniy"
+            "anilist": 160693
         },
         {
-            "Id": 116,
+            "Id": 159930,
             "Nome_jp": "The Infinite Mage",
             "Nome_eng": "Muhanui Mabeopsa",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159930-qK1P4BNQL0zG.jpg",
             "cap": 51,
             "mal": 154692,
-            "anilist": 159930,
-            "mangaupdates": "ev4ygbg"
+            "anilist": 159930
         },
         {
-            "Id": 115,
+            "Id": 108420,
             "Nome_jp": "Dragon Prince Yuan",
             "Nome_eng": "Yuan Zun",
             "Status": "Lendo",
@@ -757,22 +619,20 @@
             "cap": 318,
             "caps": 652,
             "mal": 119255,
-            "anilist": 108420,
-            "mangaupdates": "o0in1rd"
+            "anilist": 108420
         },
         {
-            "Id": 114,
+            "Id": 137168,
             "Nome_jp": "Becoming the Monarch",
             "Nome_eng": "Maldan Byeongsaeseo Gunjukkaji",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137168-rrbeYeWrI08D.jpg",
             "caps": 146,
             "mal": 148615,
-            "anilist": 137168,
-            "mangaupdates": "99h7oxs"
+            "anilist": 137168
         },
         {
-            "Id": 113,
+            "Id": 153994,
             "Nome_jp": "My F-Rank High School Life",
             "Nome_eng": "Pyegeubin Cheokaetdeon Hakgyosaenghwal",
             "Status": "Lendo",
@@ -780,268 +640,268 @@
             "cap": 52,
             "caps": 153,
             "mal": 151111,
-            "anilist": 153994,
-            "mangaupdates": "tezjnvt"
+            "anilist": 153994
         },
         {
-            "Id": 112,
+            "Id": 141007,
             "Nome_jp": "How to Use a Returner",
             "Nome_eng": "Hoegwija Sayongseolmyeongseo",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141007-mCfbMLgrCv1h.jpg",
             "cap": 87,
             "mal": 147318,
-            "anilist": 141007,
-            "mangaupdates": "7u41beg"
+            "anilist": 141007
         },
         {
-            "Id": 111,
-            "Nome_jp": "Lout of Count's Family",
+            "Id": 123573,
+            "Nome_jp": "Lout of Count’s Family",
             "Nome_eng": "Baekjakgaui Mangnaniga Doeeotda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx123573-LKoCKwRouEMW.png",
             "cap": 79,
             "mal": 147317,
-            "anilist": 123573,
-            "mangaupdates": "d28ax3q"
+            "anilist": 123573
         },
         {
-            "Id": 110,
-            "Nome_jp": "Tensei Shitara Saikyou Shu-tachi ga Sumau Shima deshita.: Kono Shima de Slow Life o Tanoshimimasu",
-            "Nome_eng": "Living a Laid-Back Second Life on the Island of the Strongest Species",
+            "Id": 156718,
+            "Nome_jp": "Living a Laid-Back Second Life on the Island of the Strongest Species",
+            "Nome_eng": "Tensei Shitara Saikyoushutachi ga Sumau Shima Deshita.: Kono Shima de Slow Life wo Tanoshimimasu",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx156718-x7r8xDMb76Q9.png",
             "mal": 160925,
-            "anilist": 156718,
-            "mangaupdates": "c93ftcn"
+            "anilist": 156718
         },
         {
-            "Id": 109,
+            "Id": 161749,
             "Nome_jp": "Last on Earth",
             "Nome_eng": "Na Ppaego Da Gwihwanja",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx161749-Kv6fpyzIxl02.jpg",
             "cap": 46,
             "mal": 156825,
-            "anilist": 161749,
-            "mangaupdates": "yycf393"
+            "anilist": 161749
         },
         {
-            "Id": 108,
+            "Id": 161242,
             "Nome_jp": "The Hammer",
             "Nome_eng": "",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx161242-SAYrPWQHQzQi.png",
             "mal": 157701,
-            "anilist": 161242,
-            "mangaupdates": "r0x6i5t"
+            "anilist": 161242
         },
         {
-            "Id": 107,
+            "Id": 170400,
             "Nome_jp": "The Stellar Swordmaster",
             "Nome_eng": "Byeoreul Pumeun Swordmaster",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx170400-yMIuOIboWuoO.jpg",
             "mal": 163116,
-            "anilist": 170400,
-            "mangaupdates": "cnro3u3"
+            "anilist": 170400
         },
         {
-            "Id": 106,
+            "Id": 174515,
             "Nome_jp": "Nebula's Civilization",
             "Nome_eng": "Seulgiroun Munmyeongsaenghwal",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx174515-Ujnhdtynaedo.png",
             "mal": 165175,
-            "anilist": 174515,
-            "mangaupdates": "ep7zp35"
+            "anilist": 174515
         },
         {
-            "Id": 105,
+            "Id": 153880,
             "Nome_jp": "The Art of Reincarnation",
             "Nome_eng": "Hwansaengui Jeongseok",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx153880-60zEJbCK4yQL.png",
             "mal": 150549,
-            "anilist": 153880,
-            "mangaupdates": "egniw80"
+            "anilist": 153880
         },
         {
-            "Id": 104,
-            "Nome_jp": "The Reborn Young Lord Is an Assassin",
+            "Id": 175262,
+            "Nome_jp": "The Reborn Young Lord is an Assassin",
             "Nome_eng": "Hoegwihan Gongjakgaui Mangnaedoryeonnimeun Amsalja",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx175262-shGEYbbfLHDD.jpg",
             "mal": 167734,
-            "anilist": 175262,
-            "mangaupdates": "2phrgxp"
+            "anilist": 175262
         },
         {
-            "Id": 103,
+            "Id": 176812,
             "Nome_jp": "The Reincarnated King of Fists",
             "Nome_eng": "Gwonwangjeonsaeng",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx176812-fXxJHqdO5Koo.png",
             "mal": 168970,
-            "anilist": 176812,
-            "mangaupdates": "pigqnp8"
+            "anilist": 176812
         },
         {
-            "Id": 102,
+            "Id": 177706,
             "Nome_jp": "The Knight Only Lives Today",
             "Nome_eng": "Oneulman Saneun Gisa",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx177706-3r8dnAr8Prjq.jpg",
             "mal": 170427,
-            "anilist": 177706,
-            "mangaupdates": "gcls85m"
+            "anilist": 177706
         },
         {
-            "Id": 101,
-            "Nome_jp": "Surviving Disaster: Extreme Cold",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://cdn.mangaupdates.com/image/i452476.jpg",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": "8omocm5"
-        },
-        {
-            "Id": 100,
-            "Nome_jp": "Goblin's Ascent: From Loser to Winner",
-            "Nome_eng": "Cong Goblin Dao Goblin Shen",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx181545-dw8MC01xhDVt.jpg",
-            "mal": null,
-            "anilist": 181545,
-            "mangaupdates": "vzfwtjs"
-        },
-        {
-            "Id": 99,
-            "Nome_jp": "Online Game: I Can Evolve Everything",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
-        },
-        {
-            "Id": 98,
-            "Nome_jp": "The Regressed Mercenary's Machinations",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
-        },
-        {
-            "Id": 97,
-            "Nome_jp": "Forging an Industrial Empire in a Magical World",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
-        },
-        {
-            "Id": 96,
-            "Nome_jp": "Destined to Be Loved by the Villains",
+            "Id": 187140,
+            "Nome_jp": "Destined To Be Loved by the Villains",
             "Nome_eng": "Akdangege Sarangbanneun Unmyeongimnida",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx187140-KaOPLwtIStid.png",
             "caps": 56,
             "mal": 179469,
-            "anilist": 187140,
-            "mangaupdates": "tcw9mme"
+            "anilist": 187140
         },
         {
-            "Id": 95,
-            "Nome_jp": "The Turn-Bound Mage",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
-        },
-        {
-            "Id": 94,
+            "Id": 182066,
             "Nome_jp": "The Regressed Mercenary Has a Plan",
             "Nome_eng": "Hoegwihan Yongbyeongeun Da Gyehoegi Itda",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx182066-kqOV7WW1DAH4.jpg",
             "mal": 174559,
-            "anilist": 182066,
-            "mangaupdates": "ya9vyfk"
+            "anilist": 182066
         },
         {
-            "Id": 93,
-            "Nome_jp": "Sihanbu Cheonjaega Saranamneun Beop",
-            "Nome_eng": "Chronicles of a Doomed Prodigy",
+            "Id": 183376,
+            "Nome_jp": "Chronicles of a Doomed Prodigy",
+            "Nome_eng": "Sihanbu Cheonjaega Saranamneun Beop",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx183376-Cw3VnZAItw2a.jpg",
             "mal": 174692,
-            "anilist": 183376,
-            "mangaupdates": null
+            "anilist": 183376
         },
         {
-            "Id": 92,
+            "Id": 202986,
             "Nome_jp": "Too Many Heroes for the Demon Lord",
             "Nome_eng": "Mawanginde Yongsaga Neomu Maneum",
             "Status": "Lendo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx202986-0wn84aV9jlHq.jpg",
             "mal": 189030,
-            "anilist": 202986,
-            "mangaupdates": "6h1mhsx"
+            "anilist": 202986
         },
         {
-            "Id": 91,
-            "Nome_jp": "Boukun Meika no Hangyakusha -Aster-",
-            "Nome_eng": "Bokun Meika no Hangyakusha: Aster",
+            "Id": 130870,
+            "Nome_jp": "The Frozen Player Returns",
+            "Nome_eng": "Eoreobuteun Peulleieoui Gwihwan",
             "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx210001-iR3HewuB6FWc.jpg",
-            "mal": null,
-            "anilist": 210001,
-            "mangaupdates": "m85ad8d"
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130870-hRlgIlkXBgqb.png",
+            "mal": 148156,
+            "anilist": 130870
         },
         {
-            "Id": 90,
+            "Id": 137304,
+            "Nome_jp": "Return of the Mad Demon",
+            "Nome_eng": "Gwangmahoegwi",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137304-XZ91kOmUIMQo.png",
+            "cap": 85,
+            "mal": 147577,
+            "anilist": 137304
+        },
+        {
+            "Id": 132144,
+            "Nome_jp": "Return of the Blossoming Blade",
+            "Nome_eng": "Hwasangwihwan",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132144-i5B4VnG9sRgh.png",
+            "cap": 88,
+            "mal": 146878,
+            "anilist": 132144
+        },
+        {
+            "Id": 126297,
+            "Nome_jp": "Teenage Mercenary",
+            "Nome_eng": "Iphagyongbyeong",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126297-SPiM7QtUnJ4P.jpg",
+            "cap": 155,
+            "mal": 146966,
+            "anilist": 126297
+        },
+        {
+            "Id": 128882,
+            "Nome_jp": "Jungle Juice",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx128882-UxgmKbYEjuEz.jpg",
+            "cap": 89,
+            "mal": 147053,
+            "anilist": 128882
+        },
+        {
+            "Id": 153987,
+            "Nome_jp": "Existence",
+            "Nome_eng": "Jonjae",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b153987-yBPwpPxkHOjv.jpg",
+            "cap": 57,
+            "caps": 73,
+            "mal": 150840,
+            "anilist": 153987
+        },
+        {
+            "Id": 143056,
+            "Nome_jp": "The Return of the Disaster-Class Hero",
+            "Nome_eng": "Jaeanggeup Yeongungnimi Gwihwanhasyeotda",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143056-MEpVxW7346jz.jpg",
+            "cap": 74,
+            "mal": 149013,
+            "anilist": 143056
+        },
+        {
+            "Id": 140896,
+            "Nome_jp": "Seoul Station's Necromancer",
+            "Nome_eng": "Seoul-yeok Necromancer",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx140896-aBT941ybjolV.png",
+            "caps": 150,
+            "mal": 147490,
+            "anilist": 140896
+        },
+        {
+            "Id": 113607,
+            "Nome_jp": "Descent of the Demon Master",
+            "Nome_eng": "Majon Hyeonse Ganglimgi",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx113607-RD07LGoJbEFP.jpg",
+            "mal": 148070,
+            "anilist": 113607
+        },
+        {
+            "Id": 74485,
             "Nome_jp": "The Seven Deadly Sins",
             "Nome_eng": "Nanatsu no Taizai",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx74485-mFbj0sQEcBur.jpg",
             "caps": 367,
             "mal": 44485,
-            "anilist": 74485,
-            "mangaupdates": "stwyptc"
+            "anilist": 74485
         },
         {
-            "Id": 89,
+            "Id": 105398,
             "Nome_jp": "Solo Leveling",
             "Nome_eng": "Na Honjaman Level Up",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105398-b673Vt5ZSuz3.jpg",
             "caps": 201,
             "mal": 121496,
-            "anilist": 105398,
-            "mangaupdates": "6z1uqw7"
+            "anilist": 105398
         },
         {
-            "Id": 88,
+            "Id": 136331,
             "Nome_jp": "The Return of the 8th Class Mage",
             "Nome_eng": "8 Class Mabeopsaui Hoegwi",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136331-cM7yJu8RtCoU.jpg",
             "caps": 81,
             "mal": 148190,
-            "anilist": 136331,
-            "mangaupdates": "6dz8zfk"
+            "anilist": 136331
         },
         {
-            "Id": 87,
+            "Id": 107518,
             "Nome_jp": "Heavenly Demon Reborn!",
             "Nome_eng": "Shinma Gyeongcheongi",
             "Status": "Completo",
@@ -1049,880 +909,563 @@
             "cap": 211,
             "caps": 252,
             "mal": 147572,
-            "anilist": 107518,
-            "mangaupdates": "9bwv7cp"
+            "anilist": 107518
         },
         {
-            "Id": 86,
+            "Id": 114960,
             "Nome_jp": "Mashle: Magic and Muscles",
             "Nome_eng": "MASHLE",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114960-pivAwNQDdiBa.jpg",
             "caps": 162,
             "mal": 124085,
-            "anilist": 114960,
-            "mangaupdates": "07cia7d"
+            "anilist": 114960
         },
         {
-            "Id": 85,
+            "Id": 118593,
             "Nome_jp": "Reverse Villain",
             "Nome_eng": "",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118593-IrSHdpP3PD0q.jpg",
             "caps": 110,
             "mal": 148002,
-            "anilist": 118593,
-            "mangaupdates": "0a1c0at"
+            "anilist": 118593
         },
         {
-            "Id": 84,
-            "Nome_jp": "Legend of the Northern Blade",
-            "Nome_eng": "The Legend of the Northern Blade",
+            "Id": 119521,
+            "Nome_jp": "The Legend of the Northern Blade",
+            "Nome_eng": "Bukgeom Jeongi",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119521-qYqxFvn0NnXo.png",
             "cap": 162,
             "caps": 202,
             "mal": 134744,
-            "anilist": 119521,
-            "mangaupdates": "mgnqe6t"
+            "anilist": 119521
         },
         {
-            "Id": 83,
+            "Id": 150744,
             "Nome_jp": "The Esper's Game",
             "Nome_eng": "Choinui Game",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150744-oItNn4LvB2Pc.jpg",
             "caps": 151,
             "mal": 149463,
-            "anilist": 150744,
-            "mangaupdates": "pgg5eya"
+            "anilist": 150744
         },
         {
-            "Id": 82,
+            "Id": 119174,
             "Nome_jp": "The Boxer",
             "Nome_eng": "",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b119174-nFMZSHbrDDbt.png",
             "caps": 133,
             "mal": 141120,
-            "anilist": 119174,
-            "mangaupdates": "0mtuya9"
+            "anilist": 119174
         },
         {
-            "Id": 81,
+            "Id": 117536,
             "Nome_jp": "Kill the Hero",
             "Nome_eng": "",
             "Status": "Completo",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117536-tnTMgXV1V5KB.jpg",
             "caps": 153,
             "mal": 146979,
-            "anilist": 117536,
-            "mangaupdates": "d8umws7"
+            "anilist": 117536
         },
         {
-            "Id": 80,
+            "Id": 74347,
             "Nome_jp": "One-Punch Man",
-            "Nome_eng": "",
+            "Nome_eng": "One Punch-Man",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74347-sZpmNJ5xLwRK.jpg",
             "mal": 44347,
-            "anilist": 74347,
-            "mangaupdates": "e1096mh"
+            "anilist": 74347
         },
         {
-            "Id": 79,
+            "Id": 59983,
             "Nome_jp": "Noblesse",
             "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx59983-cfSjrRxuAlAD.png",
             "caps": 544,
             "mal": 29983,
-            "anilist": 59983,
-            "mangaupdates": "snvji36"
+            "anilist": 59983
         },
         {
-            "Id": 78,
+            "Id": 73913,
             "Nome_jp": "Feng Shen Ji",
             "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx73913-PG7AL3qV591d.png",
             "caps": 38,
             "mal": 43913,
-            "anilist": 73913,
-            "mangaupdates": "ygzojjg"
+            "anilist": 73913
         },
         {
-            "Id": 77,
-            "Nome_jp": "Dou Luo Da Lu",
-            "Nome_eng": "Soul Land",
+            "Id": 85446,
+            "Nome_jp": "Soul Land",
+            "Nome_eng": "Douluo Dalu",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85446-YmuBl8pnTL9j.jpg",
             "mal": 72303,
-            "anilist": 85446,
-            "mangaupdates": "pz0mh84"
+            "anilist": 85446
         },
         {
-            "Id": 76,
-            "Nome_jp": "Cold Moon Chronicles",
-            "Nome_eng": "Records of the Cold Moon",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97957-KPgFSq1Cs6l5.png",
-            "mal": null,
-            "anilist": 97957,
-            "mangaupdates": "gxay962"
-        },
-        {
-            "Id": 75,
+            "Id": 126608,
             "Nome_jp": "Leveling Up Alone",
             "Nome_eng": "Honja Level Up Hamnida",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126608-BbEFtGuKOhei.jpg",
             "caps": 183,
             "mal": 148118,
-            "anilist": 126608,
-            "mangaupdates": "0xlqe77"
+            "anilist": 126608
         },
         {
-            "Id": 74,
+            "Id": 110042,
             "Nome_jp": "I Am the Sorcerer King",
             "Nome_eng": "Naneun Madowangida",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110042-cHMKKa0lxiaJ.png",
             "caps": 143,
             "mal": 148040,
-            "anilist": 110042,
-            "mangaupdates": "krlvrzv"
+            "anilist": 110042
         },
         {
-            "Id": 73,
+            "Id": 135317,
             "Nome_jp": "I Get Stronger the More I Eat",
             "Nome_eng": "Meogeulsurok Ganghaejim",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx135317-92H8cxa8oHJf.jpg",
             "caps": 100,
             "mal": 147592,
-            "anilist": 135317,
-            "mangaupdates": "bcmqs3c"
+            "anilist": 135317
         },
         {
-            "Id": 72,
+            "Id": 141479,
             "Nome_jp": "The Legendary Spearman Returns",
             "Nome_eng": "Yeokdaegeup Changgisaui Hoegwi",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141479-9h8eyaxyRZP8.jpg",
             "mal": 149163,
-            "anilist": 141479,
-            "mangaupdates": "hdw1nnn"
+            "anilist": 141479
         },
         {
-            "Id": 71,
-            "Nome_jp": "Der Werwolf: The Annals of Veight -Origins-",
+            "Id": 114483,
+            "Nome_jp": "Der Werwolf - The Annals of Veight ~Origins~",
             "Nome_eng": "Jinrou e no Tensei, Maou no Fukukan: Hajimari no Shou",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114483-MEk3dYW8OyTA.png",
             "caps": 55,
             "mal": 106196,
-            "anilist": 114483,
-            "mangaupdates": "28buifk"
+            "anilist": 114483
         },
         {
-            "Id": 70,
+            "Id": 139572,
             "Nome_jp": "The Lone Necromancer",
             "Nome_eng": "Na Honja Necromancer",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139572-e3vwLcOVQISn.jpg",
             "caps": 223,
             "mal": 147450,
-            "anilist": 139572,
-            "mangaupdates": "fcio7ve"
+            "anilist": 139572
         },
         {
-            "Id": 69,
+            "Id": 150193,
             "Nome_jp": "The Exiled Heavy Knight Knows How to Game the System",
             "Nome_eng": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150193-XBdISLm3IDr1.jpg",
             "mal": 147799,
-            "anilist": 150193,
-            "mangaupdates": "8w4pz1z"
+            "anilist": 150193
         },
         {
-            "Id": 68,
+            "Id": 151025,
             "Nome_jp": "Mythic Item Obtained",
             "Nome_eng": "Sinhwageup Gwisok Item-eul Sone Neoeotda",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx151025-j7nZBNb46cv9.jpg",
             "mal": 150561,
-            "anilist": 151025,
-            "mangaupdates": "itm1ceu"
+            "anilist": 151025
         },
         {
-            "Id": 67,
-            "Nome_jp": "Duke Pendragon: Master of the White Dragon",
-            "Nome_eng": "Hakuryuu Koushaku Pendragon",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143025-YL8hzpkVFR5J.jpg",
-            "caps": 131,
-            "mal": null,
-            "anilist": 143025,
-            "mangaupdates": "egvweo7"
-        },
-        {
-            "Id": 66,
-            "Nome_jp": "Become the Castellan in Another World",
-            "Nome_eng": "Cong Jintian Kaishi Dang Chengzhu",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118368-ECZ8w2NpF5E1.png",
-            "mal": null,
-            "anilist": 118368,
-            "mangaupdates": "nl6uadg"
-        },
-        {
-            "Id": 65,
-            "Nome_jp": "Dungeon Kurashi No Moto Yuusha",
-            "Nome_eng": "Dungeon Kurashi no Moto Yuusha THE COMIC",
+            "Id": 108049,
+            "Nome_jp": "Dungeon Kurashi no Moto Yuusha THE COMIC",
+            "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b108049-wtDN3gmAmgx9.jpg",
             "mal": 117002,
-            "anilist": 108049,
-            "mangaupdates": "7ccm96s"
+            "anilist": 108049
         },
         {
-            "Id": 64,
+            "Id": 122395,
             "Nome_jp": "Rooftop Swordmaster",
             "Nome_eng": "Oktapbang Sword Master",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx122395-P6a90DAL4shD.jpg",
             "caps": 125,
             "mal": 148729,
-            "anilist": 122395,
-            "mangaupdates": "18nufsx"
+            "anilist": 122395
         },
         {
-            "Id": 63,
-            "Nome_jp": "Magician's Murim Adventures",
-            "Nome_eng": "Mabeopsa Murime Gada",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129429-ppHj8bHJxYw0.jpg",
-            "caps": 98,
-            "mal": null,
-            "anilist": 129429,
-            "mangaupdates": "jwmiarg"
-        },
-        {
-            "Id": 62,
+            "Id": 150319,
             "Nome_jp": "Return of the War God",
             "Nome_eng": "Musingwihwallok",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150319-Q5hDqxkIk2LR.png",
             "mal": 153399,
-            "anilist": 150319,
-            "mangaupdates": "dmnckia"
+            "anilist": 150319
         },
         {
-            "Id": 61,
-            "Nome_jp": "Strongest Fighter (Junnai)",
-            "Nome_eng": "Dosagangho",
+            "Id": 127983,
+            "Nome_jp": "Dosagangho",
+            "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127983-9yIqbSCkZ6jy.jpg",
             "caps": 118,
             "mal": 169013,
-            "anilist": 127983,
-            "mangaupdates": "ahz7qxm"
+            "anilist": 127983
         },
         {
-            "Id": 60,
+            "Id": 104271,
             "Nome_jp": "Father, Unrivaled",
             "Nome_eng": "Abimussang",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104271-x6qshziGKhGc.png",
             "caps": 296,
             "mal": 184872,
-            "anilist": 104271,
-            "mangaupdates": "k9cv670"
+            "anilist": 104271
         },
         {
-            "Id": 59,
+            "Id": 139500,
             "Nome_jp": "The Challenger",
             "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139500-HXVjQRNB5Ds8.jpg",
             "mal": 149274,
-            "anilist": 139500,
-            "mangaupdates": "od5ueqz"
+            "anilist": 139500
         },
         {
-            "Id": 58,
-            "Nome_jp": "The General",
-            "Nome_eng": "Mujang",
+            "Id": 87185,
+            "Nome_jp": "Mujang",
+            "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87185-Rhun9jbjHvQs.png",
             "caps": 229,
             "mal": 186684,
-            "anilist": 87185,
-            "mangaupdates": "ycnx8jg"
+            "anilist": 87185
         },
         {
-            "Id": 57,
-            "Nome_jp": "I Am the Fated Villain",
-            "Nome_eng": "Wo! Tian Mìng Da Fanpai",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142287-nlT7oSUzHnNv.jpg",
-            "mal": null,
-            "anilist": 142287,
-            "mangaupdates": "yjebcls"
-        },
-        {
-            "Id": 56,
+            "Id": 143117,
             "Nome_jp": "The Divine Twilight's Return",
             "Nome_eng": "Buseojin Seongjwaui Hoegwi",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143117-RkTi17DYV6Ur.jpg",
             "mal": 146385,
-            "anilist": 143117,
-            "mangaupdates": "rc5q6v9"
+            "anilist": 143117
         },
         {
-            "Id": 55,
+            "Id": 148677,
             "Nome_jp": "The Breaker: Eternal Force",
             "Nome_eng": "Eternal Force",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx148677-KbSzJAU3HUhj.jpg",
             "mal": 146867,
-            "anilist": 148677,
-            "mangaupdates": "mzn3htv"
+            "anilist": 148677
         },
         {
-            "Id": 54,
+            "Id": 144126,
             "Nome_jp": "Level 1 Player",
             "Nome_eng": "1 Level Player",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx144126-S3Dfo2Q9qOyO.png",
             "mal": 149138,
-            "anilist": 144126,
-            "mangaupdates": "f0a2o75"
+            "anilist": 144126
         },
         {
-            "Id": 53,
+            "Id": 143059,
             "Nome_jp": "Leveling Beyond the Max",
             "Nome_eng": "Mallepbuteo Level Up",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143059-jy7xn22SBf89.jpg",
             "caps": 103,
             "mal": 147460,
-            "anilist": 143059,
-            "mangaupdates": "z3s4b0y"
+            "anilist": 143059
         },
         {
-            "Id": 52,
-            "Nome_jp": "Hail the King",
-            "Nome_eng": "Guowang Wansui",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b116452-CA7rFt7QzuLD.jpg",
-            "caps": 126,
-            "mal": null,
-            "anilist": 116452,
-            "mangaupdates": "ahcaje1"
-        },
-        {
-            "Id": 51,
+            "Id": 126636,
             "Nome_jp": "The Lone Spellcaster",
             "Nome_eng": "Na Hollo Jumun Sayongja",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126636-QOL1fKpmqm9Z.jpg",
             "caps": 229,
             "mal": 147581,
-            "anilist": 126636,
-            "mangaupdates": "fub9rbc"
+            "anilist": 126636
         },
         {
-            "Id": 50,
-            "Nome_jp": "Manadeshi ni Uragirarete Shinda Ossan Yuusha, Shijou Saikyou no Maou to shite Ikikaeru",
+            "Id": 126279,
+            "Nome_jp": "Manadeshi ni Uragirarete Shinda Ossan Yuusha, Shijou Saikyou no Maou toshite Ikikaeru",
             "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126279-XEDYvpW1fGM5.jpg",
             "mal": 128826,
-            "anilist": 126279,
-            "mangaupdates": "0qm626a"
+            "anilist": 126279
         },
         {
-            "Id": 49,
-            "Nome_jp": "My Master Is a Backseat Gamer",
+            "Id": 143352,
+            "Nome_jp": "My Master is a Backseat Gamer",
             "Nome_eng": "Hunsu Duneun Cheonmanim",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143352-bDvxqCcDrH7v.jpg",
             "caps": 105,
             "mal": 148958,
-            "anilist": 143352,
-            "mangaupdates": "v1dkzap"
+            "anilist": 143352
         },
         {
-            "Id": 48,
+            "Id": 130140,
             "Nome_jp": "A Handsome Swordsman",
             "Nome_eng": "Sinsujeilgeom",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130140-nalvMKjT5uYU.png",
             "caps": 100,
             "mal": 157476,
-            "anilist": 130140,
-            "mangaupdates": "5kzledd"
+            "anilist": 130140
         },
         {
-            "Id": 47,
-            "Nome_jp": "Teihen Ryoushu no Kanchigai Eiyuutan",
-            "Nome_eng": "The Bottom-Tier Baron's Accidental Rise to the Top",
+            "Id": 130048,
+            "Nome_jp": "The Bottom-Tier Baron's Accidental Rise to the Top",
+            "Nome_eng": "Teihen Ryoushu no Kanchigai Eiyuutan: Heimin ni Yasashiku Shite tara, Itsunomanika Kuni to Sensou ni Natteita Ken",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130048-epeq53bJ19XV.jpg",
             "caps": 73,
             "mal": 130363,
-            "anilist": 130048,
-            "mangaupdates": "u0hygd3"
+            "anilist": 130048
         },
         {
-            "Id": 46,
-            "Nome_jp": "The Greatest in the World",
-            "Nome_eng": "Cheonhajeirin",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130119-Bx7ceqHgDKcG.jpg",
-            "caps": 112,
-            "mal": null,
-            "anilist": 130119,
-            "mangaupdates": "yynpu8q"
-        },
-        {
-            "Id": 45,
-            "Nome_jp": "Boss in School",
+            "Id": 135875,
+            "Nome_jp": "Sasangchoegang",
             "Nome_eng": "",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b110645-GFzx1xEfmtFK.jpg",
-            "caps": 118,
-            "mal": null,
-            "anilist": 110645,
-            "mangaupdates": "zewuyhl"
-        },
-        {
-            "Id": 44,
-            "Nome_jp": "Pounding",
-            "Nome_eng": "",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b117951-2xcuG4lTlVJQ.jpg",
-            "caps": 41,
-            "mal": null,
-            "anilist": 117951,
-            "mangaupdates": "yfagbe3"
-        },
-        {
-            "Id": 43,
-            "Nome_jp": "Legend of Sayu",
-            "Nome_eng": "Jeonwangjeongi",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133963-MRdmPYbAxwmw.jpg",
-            "caps": 255,
-            "mal": null,
-            "anilist": 133963,
-            "mangaupdates": "b45jfne"
-        },
-        {
-            "Id": 42,
-            "Nome_jp": "The Strongest Ever",
-            "Nome_eng": "Sasangchoegang",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx135875-X0TNJjwtayK5.png",
             "caps": 188,
             "mal": 159763,
-            "anilist": 135875,
-            "mangaupdates": "f9klzfx"
+            "anilist": 135875
         },
         {
-            "Id": 41,
-            "Nome_jp": "Ichioku-nen Button wo Renda shita Ore wa, Kizuitara Saikyou ni Natteita: Rakudai Kenshi no Gakuin Musou",
-            "Nome_eng": "I Kept Pressing the 100-Million-Year Button and Came Out on Top",
+            "Id": 118725,
+            "Nome_jp": "I Kept Pressing the 100-Million-Year Button and Came Out on Top",
+            "Nome_eng": "Ichiokunen Button wo Rendashita Ore wa, Kizuitara Saikyou ni Natteita: Rakudai Kenshi no Gakuin Musou",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118725-MAmhU7JQIh7K.jpg",
             "mal": 126971,
-            "anilist": 118725,
-            "mangaupdates": "3nn800x"
+            "anilist": 118725
         },
         {
-            "Id": 40,
-            "Nome_jp": "The Boy of Death",
-            "Nome_eng": "Hero Ticket",
+            "Id": 118769,
+            "Nome_jp": "Hero Ticket",
+            "Nome_eng": "Sasinsonyeon",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118769-105GWeG7vzOy.jpg",
             "mal": 146891,
-            "anilist": 118769,
-            "mangaupdates": "sdxx4cl"
+            "anilist": 118769
         },
         {
-            "Id": 39,
-            "Nome_jp": "Realist Maou Niyoru Seiiki Naki Isekai Kaikaku",
-            "Nome_eng": "The Reformation of the World as Overseen by a Realist Demon King",
+            "Id": 107611,
+            "Nome_jp": "The Reformation of the World as Overseen by a Realist Demon King",
+            "Nome_eng": "Realist Maou ni Yoru Seiiki Naki Isekai Kaikaku",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx107611-ymYKdhduLNbJ.jpg",
             "mal": 121731,
-            "anilist": 107611,
-            "mangaupdates": "3w6xi5c"
+            "anilist": 107611
         },
         {
-            "Id": 38,
-            "Nome_jp": "Yeokdaegeup Yeongji Seolgyesa",
-            "Nome_eng": "The Greatest Estate Developer",
+            "Id": 140407,
+            "Nome_jp": "The Greatest Estate Developer",
+            "Nome_eng": "Yeokdaegeum Yeongji Seolgyesa",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx140407-fJQr0fmqq1IO.png",
             "caps": 222,
             "mal": 147272,
-            "anilist": 140407,
-            "mangaupdates": "chin5uq"
+            "anilist": 140407
         },
         {
-            "Id": 37,
-            "Nome_jp": "Does the Lord's Coin Not Shrink?! (Pre-serialization)",
-            "Nome_eng": "The Lord of Coins",
+            "Id": 133708,
+            "Nome_jp": "The Lord of Coins",
+            "Nome_eng": "Yeongjunimui Koini Julji Aneum?!",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133708-LNWYoN4DQEkJ.jpg",
             "mal": 148679,
-            "anilist": 133708,
-            "mangaupdates": "20v6jot"
+            "anilist": 133708
         },
         {
-            "Id": 36,
-            "Nome_jp": "Release That Witch",
+            "Id": 108152,
+            "Nome_jp": "Release that Witch",
             "Nome_eng": "Fangkai Nage Nüwu",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b108152-QG8LtVNX5ox2.png",
             "caps": 695,
             "mal": 136488,
-            "anilist": 108152,
-            "mangaupdates": "lw27gns"
+            "anilist": 108152
         },
         {
-            "Id": 35,
-            "Nome_jp": "A Beginner With the Mightiest Account",
-            "Nome_eng": "Kaiju Jiu You Wang Zhe Zhanghao",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132877-d4lgmefGZLuT.jpg",
-            "mal": null,
-            "anilist": 132877,
-            "mangaupdates": "4bvlrzx"
-        },
-        {
-            "Id": 34,
+            "Id": 140837,
             "Nome_jp": "QUESTISM",
             "Nome_eng": "Quest Jisangjuui",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx140837-xkIGjyOCjd1m.jpg",
             "caps": 174,
             "mal": 148666,
-            "anilist": 140837,
-            "mangaupdates": "yik2p1s"
+            "anilist": 140837
         },
         {
-            "Id": 33,
+            "Id": 148533,
             "Nome_jp": "Returned as the Duke",
             "Nome_eng": "Hoegwihaetdeoni Gongjak",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx148533-Nh4rr4AgV81O.png",
             "caps": 130,
             "mal": 153726,
-            "anilist": 148533,
-            "mangaupdates": "38kkx7q"
+            "anilist": 148533
         },
         {
-            "Id": 32,
+            "Id": 156558,
             "Nome_jp": "House Mayton's Youngest",
             "Nome_eng": "Mabeobmyeongga Maknaeadeul",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx156558-Gws4DG0tPQJH.png",
             "mal": 153519,
-            "anilist": 156558,
-            "mangaupdates": "ntbq5qj"
+            "anilist": 156558
         },
         {
-            "Id": 31,
-            "Nome_jp": "All Hail the Sect Leader",
-            "Nome_eng": "Wan Gu Zui Qiang Zong",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136499-OFtjS1mJXKZ1.jpg",
-            "mal": null,
-            "anilist": 136499,
-            "mangaupdates": "oyvebmw"
-        },
-        {
-            "Id": 30,
+            "Id": 114605,
             "Nome_jp": "Latna Saga: Survival of a Sword King",
             "Nome_eng": "Igye Geomwang Saengjongi",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114605-MYUWMsdjry6m.jpg",
             "mal": 146982,
-            "anilist": 114605,
-            "mangaupdates": "pelidfc"
+            "anilist": 114605
         },
         {
-            "Id": 29,
+            "Id": 143512,
             "Nome_jp": "The Stormy Inn",
             "Nome_eng": "Pungungaekjan",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143512-O3onSqHHNXdH.png",
             "caps": 145,
             "mal": 149572,
-            "anilist": 143512,
-            "mangaupdates": "g3pmepx"
+            "anilist": 143512
         },
         {
-            "Id": 28,
+            "Id": 155967,
             "Nome_jp": "Yongsa High: Dungeon Raiders",
             "Nome_eng": "Yongsagogyo Deonjeongongryakgwa",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx155967-UYbp88lyVXfS.jpg",
             "mal": 152825,
-            "anilist": 155967,
-            "mangaupdates": "x0yjpbp"
+            "anilist": 155967
         },
         {
-            "Id": 27,
-            "Nome_jp": "The Devil Never Cries",
-            "Nome_eng": "Wo, Jinhua, Emo",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163536-v7YMGxY4AVIx.jpg",
-            "mal": null,
-            "anilist": 163536,
-            "mangaupdates": "2a9rjmf"
-        },
-        {
-            "Id": 26,
+            "Id": 161482,
             "Nome_jp": "Martial Streamer",
-            "Nome_eng": "",
+            "Nome_eng": "Jal Boineun Murim TV",
             "Status": "Pretendo Ler",
-            "Image": "https://cdn.mangaupdates.com/image/i407095.jpg",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": "s3a9qxn"
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx161482-nCJcwANXScoK.jpg",
+            "caps": 50,
+            "mal": 158181,
+            "anilist": 161482
         },
         {
-            "Id": 25,
+            "Id": 163448,
             "Nome_jp": "The Constellations Are My Disciples",
             "Nome_eng": "Seongjwadeuri Nae Jeja",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163448-X8vjJHWrSTx8.jpg",
             "mal": 156892,
-            "anilist": 163448,
-            "mangaupdates": "4v7jbit"
+            "anilist": 163448
         },
         {
-            "Id": 24,
+            "Id": 132128,
             "Nome_jp": "Updater",
             "Nome_eng": "",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132128-R8zW3UPocEpI.jpg",
             "caps": 136,
             "mal": 149063,
-            "anilist": 132128,
-            "mangaupdates": "3l15zx3"
+            "anilist": 132128
         },
         {
-            "Id": 23,
+            "Id": 138798,
             "Nome_jp": "Return of the Scholar",
             "Nome_eng": "Haksagwihwan",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138798-jk8EXtGXi2af.jpg",
             "caps": 202,
             "mal": 149349,
-            "anilist": 138798,
-            "mangaupdates": "4xy7n94"
+            "anilist": 138798
         },
         {
-            "Id": 22,
-            "Nome_jp": "Extraordinary Evolution",
-            "Nome_eng": "Chaofan Jinhua",
-            "Status": "Pretendo Ler",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138766-IXW3YzoFDBCY.jpg",
-            "caps": 141,
-            "mal": null,
-            "anilist": 138766,
-            "mangaupdates": "hr2ulyp"
-        },
-        {
-            "Id": 21,
+            "Id": 163824,
             "Nome_jp": "Revenge of the Baskerville Bloodhound",
             "Nome_eng": "Cheolhyeolgeomga Sanyanggaeui Hoegwi",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163824-KiablxybJD6i.jpg",
             "mal": 157888,
-            "anilist": 163824,
-            "mangaupdates": "5v7h9gf"
+            "anilist": 163824
         },
         {
-            "Id": 20,
+            "Id": 147520,
             "Nome_jp": "Land of the Crimson Moon",
             "Nome_eng": "Jeogworui Nara",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx147520-COIDRA6cRyzj.jpg",
             "caps": 54,
             "mal": 149027,
-            "anilist": 147520,
-            "mangaupdates": "6qknvdp"
+            "anilist": 147520
         },
         {
-            "Id": 19,
+            "Id": 166635,
             "Nome_jp": "All-Master Necromancer",
-            "Nome_eng": "",
+            "Nome_eng": "All Master Necromancer",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx166635-6Y7R6AZe52Fv.jpg",
             "caps": 96,
             "mal": 160118,
-            "anilist": 166635,
-            "mangaupdates": "gpwyxvw"
+            "anilist": 166635
         },
         {
-            "Id": 18,
-            "Nome_jp": "Chetamja: The King's Eyes",
-            "Nome_eng": "",
+            "Id": 171292,
+            "Nome_jp": "Chetamja: The King’s Eyes",
+            "Nome_eng": "Chetamja",
             "Status": "Pretendo Ler",
-            "Image": "https://cdn.mangaupdates.com/image/i492251.jpg",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": "3m9ibqn"
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx171292-BZkN3mRprRb1.jpg",
+            "mal": 172831,
+            "anilist": 171292
         },
         {
-            "Id": 17,
+            "Id": 170724,
             "Nome_jp": "Returned by the King",
             "Nome_eng": "Wangui Himeuro Hoegwihanda",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b170724-ZRBQGuYBi3nU.png",
             "mal": 164820,
-            "anilist": 170724,
-            "mangaupdates": "v9btf4k"
+            "anilist": 170724
         },
         {
-            "Id": 16,
-            "Nome_jp": "I have 90 billion licking gold",
-            "Nome_eng": "",
+            "Id": 172619,
+            "Nome_jp": "The Extra’s Academy Survival Guide",
+            "Nome_eng": "Academy-eseo Saranamgi",
             "Status": "Pretendo Ler",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx172619-LSoXY45QAas4.jpg",
+            "mal": 166865,
+            "anilist": 172619
         },
         {
-            "Id": 15,
-            "Nome_jp": "The Extra's Academy Survival Guide",
-            "Nome_eng": "",
-            "Status": "Pretendo Ler",
-            "Image": "",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": null
-        },
-        {
-            "Id": 14,
-            "Nome_jp": "Conquering Dungeons With Copy Paste!",
-            "Nome_eng": "",
-            "Status": "Pretendo Ler",
-            "Image": "https://cdn.mangaupdates.com/image/i493436.jpg",
-            "mal": null,
-            "anilist": null,
-            "mangaupdates": "nanser3"
-        },
-        {
-            "Id": 13,
+            "Id": 186952,
             "Nome_jp": "44th Period: Survival Class",
             "Nome_eng": "44-gyosi Saengjonsueop",
             "Status": "Pretendo Ler",
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx186952-ImNBHlfBE4H8.jpg",
             "mal": 182432,
-            "anilist": 186952,
-            "mangaupdates": "n2sou2v"
-        },
-        {
-            "Id": 12,
-            "Nome_jp": "The Last Human",
-            "Nome_eng": "Mortals of the Doom; Survivor of Doomsday",
-            "Status": "Lendo",
-            "Image": "https://static.mangafire.to/i/8/8d/8d452ecfe4ab7fbe5d6979fb57ac0740.jpg"
-        },
-        {
-            "Id": 11,
-            "Nome_jp": "The Frozen Player Returns",
-            "Nome_eng": "Return of the Frozen Player",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/2/262892l.jpg"
-        },
-        {
-            "Id": 10,
-            "Nome_jp": "Return of the crazy Demon",
-            "Nome_eng": "Return of the Mad Demon",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/3/261793l.jpg",
-            "cap": 85
-        },
-        {
-            "Id": 9,
-            "Nome_jp": "Return of the Mount Hua Sect",
-            "Nome_eng": "Return of the Blossoming Blade; Return of Sword Master; Volcanic Return",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/3/284420l.jpg",
-            "cap": 88
-        },
-        {
-            "Id": 8,
-            "Nome_jp": "Mercenary Enrollment",
-            "Nome_eng": "Teenage Mercenary",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/3/260540l.jpg",
-            "cap": 155
-        },
-        {
-            "Id": 7,
-            "Nome_jp": "Jungle Juice",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/1/260827l.jpg",
-            "cap": 89
-        },
-        {
-            "Id": 6,
-            "Nome_jp": "Existence",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/2/267253l.jpg",
-            "cap": 57
-        },
-        {
-            "Id": 5,
-            "Nome_jp": "A Disaster Class Hero Has Returned",
-            "Nome_eng": "The Return of the Disaster-Class Hero; Resurrection of the Catastrophic Hero",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/3/265184l.jpg",
-            "cap": 74
-        },
-        {
-            "Id": 4,
-            "Nome_jp": "Seoul Station's Necromancer",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://static.mangafire.to/i/1/1d/1d59a7ea5de8a20e5196472a53a7c705.jpg"
-        },
-        {
-            "Id": 3,
-            "Nome_jp": "Martial Peak",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://static.mangafire.to/i/a/a3/a3ec102f90441b8f09bfe5aac580b8cf.jpg",
-            "cap": 2093
-        },
-        {
-            "Id": 2,
-            "Nome_jp": "Black Sun",
-            "Nome_eng": "",
-            "Status": "Lendo",
-            "Image": "https://static.mangafire.to/i/a/a9/a9f56db5fd891e75546a32803bfb50eb.jpg"
-        },
-        {
-            "Id": 1,
-            "Nome_jp": "Descent of the Demon Master",
-            "Nome_eng": "The Descent of the Demonic Master",
-            "Status": "Lendo",
-            "Image": "https://cdn.myanimelist.net/images/manga/1/262743l.jpg"
+            "anilist": 186952
         }
     ]
 }

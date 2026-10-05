@@ -16,14 +16,14 @@ Ani-Mangalist is a personal record of every anime watched and manga read. Succes
 
 ## Positioning
 
-It is one person's curated shelf, not a database. Unlike MyAnimeList or AniList it has no social feed, ratings economy or catalog; it shows only what this person has lived through, in his own words and statuses, and it now mirrors his MyAnimeList list alongside the hand-kept lists.
+It is one person's curated shelf, not a database. Unlike MyAnimeList or AniList it has no social feed, ratings economy or catalog; it shows only what this person has lived through, in his own words and statuses, mirrored from his MyAnimeList (anime) and AniList (manga) lists.
 
 ## Operating Context
 
 - Static site on GitHub Pages; no backend.
-- Two lists: anime, sourced only from MyAnimeList (`dados/mal.json`, refreshed daily by a GitHub Action), and hand-kept manga (`dados/mangas.json`).
-- Shared detail page for any entry (`detalhe.html?id=&tipo=anime|manga|mal`).
-- Entries are added by editing JSON by hand.
+- Two lists: anime, sourced only from MyAnimeList (`dados/mal.json`, refreshed daily by a GitHub Action), and manga, sourced only from AniList (`dados/mangas.json`, same workflow; the owner reads on MangaFire, which syncs to AniList).
+- Shared detail page for any entry (`detalhe.html?id=&tipo=anime|manga`).
+- Entries are added on MyAnimeList / AniList, never by editing the JSON.
 
 ## Capabilities and Constraints
 

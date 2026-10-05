@@ -1,4 +1,4 @@
-name: Sincronizar MyAnimeList
+name: Sincronizar listas (MAL + AniList)
 
 on:
   schedule:
@@ -16,13 +16,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      # Utilizador do MAL: variável de repositório MAL_USER (Settings > Secrets and variables > Actions > Variables)
-      - run: node scripts/fetch-mal.mjs ${{ vars.MAL_USER }}
+      # Utilizadores: variáveis de repositório MAL_USER e ANILIST_USER (Settings > Secrets and variables > Actions > Variables)
+      # Um passo a falhar não impede o outro de atualizar o seu ficheiro.
+      - name: Animes (MyAnimeList)
+        continue-on-error: true
+        run: node scripts/fetch-mal.mjs ${{ vars.MAL_USER }}
+      - name: Mangás (AniList)
+        continue-on-error: true
+        run: node scripts/fetch-anilist-mangas.mjs ${{ vars.ANILIST_USER }}
       - name: Commit se mudou
         run: |
-          [ -z "$(git status --porcelain dados/mal.json)" ] && exit 0
+          [ -z "$(git status --porcelain dados/mal.json dados/mangas.json)" ] && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add dados/mal.json
-          git commit -m "DATA: sync MyAnimeList list"
+          git add dados/mal.json dados/mangas.json
+          git commit -m "DATA: sync MyAnimeList and AniList lists"
           git push
