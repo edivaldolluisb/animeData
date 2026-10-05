@@ -296,6 +296,34 @@ input[type="search"]:focus { outline: none; border-bottom-color: var(--caneta); 
   transform: rotate(-1.5deg);
 }
 
+/* ── Colofão ── */
+.colofao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 2rem;
+  width: calc(min(100%, 1400px) - 2 * clamp(1rem, 4vw, 3rem));
+  margin: 0 auto;
+  padding: 1.25rem 0 2rem;
+  border-top: 1px solid var(--fio);
+  font: 400 0.75rem var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinta-2);
+}
+
+.colofao a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--tinta);
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
+
+.colofao a:hover { color: var(--caneta); }
+.colofao svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+
 /* ── Mobile ── */
 @media (max-width: 600px) {
   .masthead { flex-direction: column; align-items: flex-start; gap: 0.5rem; }

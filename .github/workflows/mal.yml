@@ -16,7 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/fetch-mal.mjs
+      # Utilizador do MAL: variável de repositório MAL_USER (Settings > Secrets and variables > Actions > Variables)
+      - run: node scripts/fetch-mal.mjs ${{ vars.MAL_USER }}
       - name: Commit se mudou
         run: |
           [ -z "$(git status --porcelain dados/mal.json)" ] && exit 0
