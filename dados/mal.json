@@ -1,6 +1,226 @@
 {
-    "total": 413,
+    "total": 435,
     "animes": [
+        {
+            "Id": 1604,
+            "Nome_jp": "Katekyou Hitman Reborn!",
+            "Nome_eng": "Reborn!",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1531/142751.jpg",
+            "ep": 0,
+            "eps": 203,
+            "score": 0
+        },
+        {
+            "Id": 41834,
+            "Nome_jp": "King's Raid: Ishi wo Tsugumono-tachi",
+            "Nome_eng": "King's Raid: Successors of the Will",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1885/109122.jpg",
+            "ep": 0,
+            "eps": 26,
+            "score": 0
+        },
+        {
+            "Id": 44406,
+            "Nome_jp": "Da Wang Rao Ming",
+            "Nome_eng": "Spare Me, Great Lord!",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1417/153842.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 8074,
+            "Nome_jp": "Highschool of the Dead",
+            "Nome_eng": "High School of the Dead",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/11/78311.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 39292,
+            "Nome_jp": "Princess Connect! Re:Dive",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1810/106070.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 38256,
+            "Nome_jp": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+            "Nome_eng": "Magia Record: Puella Magi Madoka Magica Side Story",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1786/104783.jpg",
+            "ep": 0,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 41923,
+            "Nome_jp": "Yi Nian Yong Heng",
+            "Nome_eng": "A Will Eternal",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1517/155868.jpg",
+            "ep": 0,
+            "eps": 52,
+            "score": 0
+        },
+        {
+            "Id": 37936,
+            "Nome_jp": "Wu Shan Wu Xing (2020)",
+            "Nome_eng": "Fog Hill of Five Elements",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1141/112764.jpg",
+            "ep": 0,
+            "eps": 3,
+            "score": 0
+        },
+        {
+            "Id": 41457,
+            "Nome_jp": "86",
+            "Nome_eng": "86 Eighty-Six",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1987/117507.jpg",
+            "ep": 0,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 889,
+            "Nome_jp": "Black Lagoon",
+            "Nome_eng": "Black Lagoon",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1906/121592.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 50891,
+            "Nome_jp": "Hoshi no Samidare",
+            "Nome_eng": "Lucifer and the Biscuit Hammer",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1186/125305.jpg",
+            "ep": 0,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 34636,
+            "Nome_jp": "Ballroom e Youkoso",
+            "Nome_eng": "Welcome to the Ballroom",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/86739.jpg",
+            "ep": 0,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 50864,
+            "Nome_jp": "Ooyukiumi no Kaina",
+            "Nome_eng": "Kaina of the Great Snow Sea",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1064/131833.jpg",
+            "ep": 0,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 42590,
+            "Nome_jp": "Mashiro no Oto",
+            "Nome_eng": "Those Snow White Notes",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1841/111554.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 52461,
+            "Nome_jp": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+            "Nome_eng": "Saving 80,000 Gold in Another World for My Retirement",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1890/131473.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 53179,
+            "Nome_jp": "Ars no Kyojuu",
+            "Nome_eng": "Giant Beasts of Ars",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1866/133949.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 6746,
+            "Nome_jp": "Durarara!!",
+            "Nome_eng": "Durarara!!",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/10/71772.jpg",
+            "ep": 0,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 30911,
+            "Nome_jp": "Tales of Zestiria the Cross",
+            "Nome_eng": "Tales of Zestiria the X",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1739/124338.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 40911,
+            "Nome_jp": "Yuukoku no Moriarty",
+            "Nome_eng": "Moriarty the Patriot",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1464/108330.jpg",
+            "ep": 0,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 40571,
+            "Nome_jp": "Majo no Tabitabi",
+            "Nome_eng": "Wandering Witch: The Journey of Elaina",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1802/108501.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 37347,
+            "Nome_jp": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+            "Nome_eng": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1730/101329.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 28121,
+            "Nome_jp": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+            "Nome_eng": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1172/148981.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
         {
             "Id": 31478,
             "Nome_jp": "Bungou Stray Dogs",
