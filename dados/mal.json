@@ -1,6 +1,1116 @@
 {
-    "total": 303,
+    "total": 413,
     "animes": [
+        {
+            "Id": 31478,
+            "Nome_jp": "Bungou Stray Dogs",
+            "Nome_eng": "Bungo Stray Dogs",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/3/79409.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 40834,
+            "Nome_jp": "Ousama Ranking",
+            "Nome_eng": "Ranking of Kings",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1347/117616.jpg",
+            "ep": 23,
+            "eps": 23,
+            "score": 0
+        },
+        {
+            "Id": 48492,
+            "Nome_jp": "Scarlet Nexus",
+            "Nome_eng": "Scarlet Nexus",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1314/116004.jpg",
+            "ep": 26,
+            "eps": 26,
+            "score": 0
+        },
+        {
+            "Id": 28171,
+            "Nome_jp": "Shokugeki no Souma",
+            "Nome_eng": "Food Wars! Shokugeki no Soma",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1444/148976.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 31240,
+            "Nome_jp": "Re:Zero kara Hajimeru Isekai Seikatsu",
+            "Nome_eng": "Re:ZERO -Starting Life in Another World-",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 51818,
+            "Nome_jp": "Enen no Shouboutai: San no Shou",
+            "Nome_eng": "Fire Force Season 3",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 59229,
+            "Nome_jp": "Enen no Shouboutai: San no Shou Part 2",
+            "Nome_eng": "Fire Force Season 3 Part 2",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1508/152472.jpg",
+            "ep": 0,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 38671,
+            "Nome_jp": "Enen no Shouboutai",
+            "Nome_eng": "Fire Force",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1664/103275.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 37430,
+            "Nome_jp": "Tensei shitara Slime Datta Ken",
+            "Nome_eng": "That Time I Got Reincarnated as a Slime",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1069/123309.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 36882,
+            "Nome_jp": "Arifureta Shokugyou de Sekai Saikyou",
+            "Nome_eng": "Arifureta: From Commonplace to World's Strongest",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1776/97682.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 39535,
+            "Nome_jp": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+            "Nome_eng": "Mushoku Tensei: Jobless Reincarnation",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1530/117776.jpg",
+            "ep": 11,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 40748,
+            "Nome_jp": "Jujutsu Kaisen",
+            "Nome_eng": "Jujutsu Kaisen",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 20583,
+            "Nome_jp": "Haikyuu!!",
+            "Nome_eng": "Haikyu!!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/7/76014.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 42192,
+            "Nome_jp": "Edens Zero",
+            "Nome_eng": "Edens Zero",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1011/111811.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 33421,
+            "Nome_jp": "Yi Ren Zhi Xia",
+            "Nome_eng": "The Outcast Season 1",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/12/80346.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 57466,
+            "Nome_jp": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+            "Nome_eng": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1371/155054.jpg",
+            "ep": 0,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 39468,
+            "Nome_jp": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
+            "Nome_eng": "Ascendance of a Bookworm",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1582/101697.jpg",
+            "ep": 14,
+            "eps": 14,
+            "score": 0
+        },
+        {
+            "Id": 37984,
+            "Nome_jp": "Kumo desu ga, Nani ka?",
+            "Nome_eng": "So I'm a Spider, So What?",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1593/113724.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 62564,
+            "Nome_jp": "Tate no Yuusha no Nariagari Season 5",
+            "Nome_eng": "The Rising of the Shield Hero Season 5",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1123/158862.jpg",
+            "ep": 0,
+            "eps": 0,
+            "score": 0
+        },
+        {
+            "Id": 35790,
+            "Nome_jp": "Tate no Yuusha no Nariagari",
+            "Nome_eng": "The Rising of the Shield Hero",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1490/101365.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 37744,
+            "Nome_jp": "Isekai Cheat Magician",
+            "Nome_eng": "Isekai Cheat Magician",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1282/102248.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 60522,
+            "Nome_jp": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
+            "Nome_eng": "Skeleton Knight in Another World II",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1544/157046.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 48760,
+            "Nome_jp": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+            "Nome_eng": "Skeleton Knight in Another World",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1361/120706.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 26243,
+            "Nome_jp": "Owari no Seraph",
+            "Nome_eng": "Seraph of the End: Vampire Reign",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1879/148979.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 28907,
+            "Nome_jp": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+            "Nome_eng": "GATE",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/8/76222.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 17265,
+            "Nome_jp": "Log Horizon",
+            "Nome_eng": "Log Horizon",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/84004.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 38659,
+            "Nome_jp": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+            "Nome_eng": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1715/103419.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 50175,
+            "Nome_jp": "Yuusha, Yamemasu",
+            "Nome_eng": "I'm Quitting Heroing",
+            "Status": "Dropado",
+            "Image": "https://cdn.myanimelist.net/images/anime/1934/122301.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 20785,
+            "Nome_jp": "Mahouka Koukou no Rettousei",
+            "Nome_eng": "The Irregular at Magic High School",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/11/61039.jpg",
+            "ep": 26,
+            "eps": 26,
+            "score": 0
+        },
+        {
+            "Id": 29803,
+            "Nome_jp": "Overlord",
+            "Nome_eng": "Overlord",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1945/136600.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 32951,
+            "Nome_jp": "Rokudenashi Majutsu Koushi to Akashic Records",
+            "Nome_eng": "Akashic Records of Bastard Magic Instructor",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/8/85593.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 41094,
+            "Nome_jp": "Xian Wang de Richang Shenghuo",
+            "Nome_eng": "The Daily Life of the Immortal King",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1925/105508.jpg",
+            "ep": 15,
+            "eps": 15,
+            "score": 0
+        },
+        {
+            "Id": 57779,
+            "Nome_jp": "Dorohedoro Season 2",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1603/155354.jpg",
+            "ep": 0,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 64290,
+            "Nome_jp": "Dorohedoro Season 3",
+            "Nome_eng": "",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1039/158234.jpg",
+            "ep": 0,
+            "eps": 0,
+            "score": 0
+        },
+        {
+            "Id": 38668,
+            "Nome_jp": "Dorohedoro",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1230/119278.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 1292,
+            "Nome_jp": "Afro Samurai",
+            "Nome_eng": "Afro Samurai",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/3/15874.jpg",
+            "ep": 5,
+            "eps": 5,
+            "score": 0
+        },
+        {
+            "Id": 41345,
+            "Nome_jp": "Noblesse",
+            "Nome_eng": "Noblesse",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1903/111646.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 46095,
+            "Nome_jp": "Vivy: Fluorite Eye's Song",
+            "Nome_eng": "Vivy -Fluorite Eye's Song-",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1551/128960.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 40908,
+            "Nome_jp": "Kemono Jihen",
+            "Nome_eng": "Kemono Jihen",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1258/108331.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 59139,
+            "Nome_jp": "Tsuki ga Michibiku Isekai Douchuu 3rd Season",
+            "Nome_eng": "Tsukimichi -Moonlit Fantasy- Season 3",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1055/143718.jpg",
+            "ep": 0,
+            "eps": 0,
+            "score": 0
+        },
+        {
+            "Id": 43523,
+            "Nome_jp": "Tsuki ga Michibiku Isekai Douchuu",
+            "Nome_eng": "Tsukimichi: Moonlit Fantasy",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1950/116474.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 48556,
+            "Nome_jp": "Takt Op. Destiny",
+            "Nome_eng": "Takt Op. Destiny",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1449/117797.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 39195,
+            "Nome_jp": "Beastars",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1713/145599.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 24439,
+            "Nome_jp": "Kekkai Sensen",
+            "Nome_eng": "Blood Blockade Battlefront",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1449/142053.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 34451,
+            "Nome_jp": "Kekkai Sensen & Beyond",
+            "Nome_eng": "Blood Blockade Battlefront & Beyond",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/3/88282.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 53913,
+            "Nome_jp": "Tensei shitara Ken deshita II",
+            "Nome_eng": "Reincarnated as a Sword Season 2",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1539/159559.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 49891,
+            "Nome_jp": "Tensei shitara Ken deshita",
+            "Nome_eng": "Reincarnated as a Sword",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1191/127909.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 52046,
+            "Nome_jp": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+            "Nome_eng": "Beast Tamer",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1084/126652.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 50273,
+            "Nome_jp": "Tomodachi Game",
+            "Nome_eng": "Tomodachi Game",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1247/121345.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 50346,
+            "Nome_jp": "Yofukashi no Uta",
+            "Nome_eng": "Call of the Night",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1045/123711.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 36144,
+            "Nome_jp": "Garo: Vanishing Line",
+            "Nome_eng": "GARO -VANISHING LINE-",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/10/88236.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 37345,
+            "Nome_jp": "Plunderer",
+            "Nome_eng": "Plunderer",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1534/104784.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 30296,
+            "Nome_jp": "Rakudai Kishi no Cavalry",
+            "Nome_eng": "Chivalry of a Failed Knight",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/9/76493.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 40679,
+            "Nome_jp": "2.43: Seiin Koukou Danshi Volley-bu",
+            "Nome_eng": "2.43: Seiin High School Boys Volleyball Team",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1907/110083.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 32182,
+            "Nome_jp": "Mob Psycho 100",
+            "Nome_eng": "Mob Psycho 100",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/8/80356.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 34280,
+            "Nome_jp": "Gamers!",
+            "Nome_eng": "Gamers!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/4/86828.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 14289,
+            "Nome_jp": "Suki tte Ii na yo.",
+            "Nome_eng": "Say \"I Love You.\"",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/11/39777.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 61339,
+            "Nome_jp": "Jibaku Shounen Hanako-kun 2 Part 2",
+            "Nome_eng": "Toilet-Bound Hanako-kun Season 2 Part 2",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1484/150617.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 53924,
+            "Nome_jp": "Jibaku Shounen Hanako-kun 2",
+            "Nome_eng": "Toilet-Bound Hanako-kun Season 2",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1878/146291.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 39534,
+            "Nome_jp": "Jibaku Shounen Hanako-kun",
+            "Nome_eng": "Toilet-Bound Hanako-kun",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1050/111687.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 20787,
+            "Nome_jp": "Black Bullet",
+            "Nome_eng": "Black Bullet",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1292/94693.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 19815,
+            "Nome_jp": "No Game No Life",
+            "Nome_eng": "No Game, No Life",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1074/111944.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 34403,
+            "Nome_jp": "Hajimete no Gal",
+            "Nome_eng": "My First Girlfriend is a Gal",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/9/86826.jpg",
+            "ep": 10,
+            "eps": 10,
+            "score": 0
+        },
+        {
+            "Id": 37349,
+            "Nome_jp": "Goblin Slayer",
+            "Nome_eng": "Goblin Slayer",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1719/95621.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 28223,
+            "Nome_jp": "Death Parade",
+            "Nome_eng": "Death Parade",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/71553.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 22319,
+            "Nome_jp": "Tokyo Ghoul",
+            "Nome_eng": "Tokyo Ghoul",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1498/134443.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 49233,
+            "Nome_jp": "Youjo Senki II",
+            "Nome_eng": "Saga of Tanya the Evil II",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1917/158371.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 32615,
+            "Nome_jp": "Youjo Senki",
+            "Nome_eng": "Saga of Tanya the Evil",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/82890.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 35849,
+            "Nome_jp": "Darling in the FranXX",
+            "Nome_eng": "DARLING in the FRANXX",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1614/90408.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 40046,
+            "Nome_jp": "Id:Invaded",
+            "Nome_eng": "ID: INVADED",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1889/105337.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 39539,
+            "Nome_jp": "No Guns Life",
+            "Nome_eng": "No Guns Life",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1531/102113.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 40056,
+            "Nome_jp": "Deca-Dence",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1787/132772.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 38656,
+            "Nome_jp": "Darwin's Game",
+            "Nome_eng": "Darwin's Game",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1016/107222.jpg",
+            "ep": 11,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 33520,
+            "Nome_jp": "Koutetsujou no Kabaneri Movie 2: Moeru Inochi",
+            "Nome_eng": "Kabaneri of the Iron Fortress: Life The Burns",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1771/109284.jpg",
+            "ep": 0,
+            "eps": 1,
+            "score": 0
+        },
+        {
+            "Id": 28623,
+            "Nome_jp": "Koutetsujou no Kabaneri",
+            "Nome_eng": "Kabaneri of the Iron Fortress",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/12/79164.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 10
+        },
+        {
+            "Id": 6880,
+            "Nome_jp": "Deadman Wonderland",
+            "Nome_eng": "Deadman Wonderland",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/9/75299.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 3588,
+            "Nome_jp": "Soul Eater",
+            "Nome_eng": "Soul Eater",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1071/149486.jpg",
+            "ep": 51,
+            "eps": 51,
+            "score": 0
+        },
+        {
+            "Id": 40586,
+            "Nome_jp": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+            "Nome_eng": "I've Been Killing Slimes for 300 Years and Maxed Out My Level",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1888/133089.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 9
+        },
+        {
+            "Id": 51213,
+            "Nome_jp": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu",
+            "Nome_eng": "Vermeil in Gold",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1561/125302.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 51128,
+            "Nome_jp": "Noumin Kanren no Skill bakka Agetetara Nazeka Tsuyoku Natta.",
+            "Nome_eng": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1384/127328.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 48415,
+            "Nome_jp": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
+            "Nome_eng": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1904/120095.jpg",
+            "ep": 0,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 54789,
+            "Nome_jp": "Boku no Hero Academia 7th Season",
+            "Nome_eng": "My Hero Academia Season 7",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1573/157212.jpg",
+            "ep": 0,
+            "eps": 21,
+            "score": 0
+        },
+        {
+            "Id": 31964,
+            "Nome_jp": "Boku no Hero Academia",
+            "Nome_eng": "My Hero Academia",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 36407,
+            "Nome_jp": "Kenja no Mago",
+            "Nome_eng": "Wise Man's Grandchild",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1261/100452.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 38909,
+            "Nome_jp": "Infinite Dendrogram",
+            "Nome_eng": "Infinite Dendrogram",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1854/114772.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 37779,
+            "Nome_jp": "Yakusoku no Neverland",
+            "Nome_eng": "The Promised Neverland",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1830/118780.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 50709,
+            "Nome_jp": "Lycoris Recoil",
+            "Nome_eng": "Lycoris Recoil",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1261/127311.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 269,
+            "Nome_jp": "Bleach",
+            "Nome_eng": "Bleach",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1541/147774.jpg",
+            "ep": 366,
+            "eps": 366,
+            "score": 0
+        },
+        {
+            "Id": 20507,
+            "Nome_jp": "Noragami",
+            "Nome_eng": "Noragami",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1886/128266.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 39463,
+            "Nome_jp": "Gleipnir",
+            "Nome_eng": "Gleipnir",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1808/111697.jpg",
+            "ep": 13,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 30654,
+            "Nome_jp": "Ansatsu Kyoushitsu 2nd Season",
+            "Nome_eng": "Assassination Classroom Second Season",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/8/77966.jpg",
+            "ep": 25,
+            "eps": 25,
+            "score": 0
+        },
+        {
+            "Id": 24833,
+            "Nome_jp": "Ansatsu Kyoushitsu",
+            "Nome_eng": "Assassination Classroom",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/75639.jpg",
+            "ep": 22,
+            "eps": 22,
+            "score": 0
+        },
+        {
+            "Id": 35076,
+            "Nome_jp": "Juuni Taisen",
+            "Nome_eng": "Juni Taisen: Zodiac War",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/5/87684.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 37426,
+            "Nome_jp": "Sarazanmai",
+            "Nome_eng": "Sarazanmai",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1159/100455.jpg",
+            "ep": 11,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 37007,
+            "Nome_jp": "Hinomaruzumou",
+            "Nome_eng": "Hinomaru Sumo",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1974/95289.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
+        {
+            "Id": 30240,
+            "Nome_jp": "Prison School",
+            "Nome_eng": "Prison School",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1286/112161.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 34964,
+            "Nome_jp": "Killing Bites",
+            "Nome_eng": "Killing Bites",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/13/90087.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 14345,
+            "Nome_jp": "Btooom!",
+            "Nome_eng": "BTOOOM!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/4/40977.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 29758,
+            "Nome_jp": "Taboo Tattoo",
+            "Nome_eng": "Taboo Tattoo",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/12/80197.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 50481,
+            "Nome_jp": "Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
+            "Nome_eng": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1044/129594.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 38480,
+            "Nome_jp": "Toaru Kagaku no Accelerator",
+            "Nome_eng": "A Certain Scientific Accelerator",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1160/99995.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 63822,
+            "Nome_jp": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta 2nd Season",
+            "Nome_eng": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too Season 2",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1632/156344.jpg",
+            "ep": 0,
+            "eps": 0,
+            "score": 0
+        },
+        {
+            "Id": 44408,
+            "Nome_jp": "Long Zu",
+            "Nome_eng": "Dragon Raja: The Blazing Dawn",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1820/155863.jpg",
+            "ep": 16,
+            "eps": 16,
+            "score": 0
+        },
+        {
+            "Id": 56242,
+            "Nome_jp": "Sengoku Youko: Yonaoshi Kyoudai-hen",
+            "Nome_eng": "Sengoku Youko",
+            "Status": "Dropado",
+            "Image": "https://cdn.myanimelist.net/images/anime/1645/140627.jpg",
+            "ep": 0,
+            "eps": 13,
+            "score": 0
+        },
+        {
+            "Id": 57834,
+            "Nome_jp": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su - Saishin Wa made Maruwakari! Chousoku Digest",
+            "Nome_eng": "Shangri-La Frontier: Get Yourselves Caught up With This Light-Speed Recap!",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1508/140903.jpg",
+            "ep": 1,
+            "eps": 1,
+            "score": 0
+        },
+        {
+            "Id": 36475,
+            "Nome_jp": "Sword Art Online Alternative: Gun Gale Online",
+            "Nome_eng": "",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1141/93288.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 58359,
+            "Nome_jp": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
+            "Nome_eng": "The Brilliant Healer's New Life in the Shadows",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1211/147335.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
+            "Id": 63139,
+            "Nome_jp": "Sakamoto Days 2nd Season",
+            "Nome_eng": "Sakamoto Days Season 2",
+            "Status": "Pretendo Assistir",
+            "Image": "https://cdn.myanimelist.net/images/anime/1506/159677.jpg",
+            "ep": 0,
+            "eps": 0,
+            "score": 0
+        },
+        {
+            "Id": 60285,
+            "Nome_jp": "Sakamoto Days Part 2",
+            "Nome_eng": "Sakamoto Days Part 2",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1758/148719.jpg",
+            "ep": 11,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 58939,
+            "Nome_jp": "Sakamoto Days",
+            "Nome_eng": "Sakamoto Days",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1026/146459.jpg",
+            "ep": 11,
+            "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 59062,
+            "Nome_jp": "Gachiakuta",
+            "Nome_eng": "Gachiakuta",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1682/150432.jpg",
+            "ep": 24,
+            "eps": 24,
+            "score": 0
+        },
         {
             "Id": 62601,
             "Nome_jp": "Marriagetoxin",
@@ -289,16 +1399,6 @@
             "Image": "https://cdn.myanimelist.net/images/anime/1553/145597.jpg",
             "ep": 16,
             "eps": 16,
-            "score": 0
-        },
-        {
-            "Id": 59062,
-            "Nome_jp": "Gachiakuta",
-            "Nome_eng": "Gachiakuta",
-            "Status": "Assistindo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1682/150432.jpg",
-            "ep": 15,
-            "eps": 24,
             "score": 0
         },
         {
