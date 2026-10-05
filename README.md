@@ -75,7 +75,7 @@ Como o workflow também faz commits, faz `git pull --rebase` antes de trabalhare
 - Textos dos títulos: `index.html`, `manga.html`, `mal.html`.
 - Cores e tipografia: tokens no topo de `anime.css`; o sistema visual está descrito em `DESIGN.md`.
 - Ícones e nome da PWA: `manifest.json` e `icones/`.
-- O link para o GitHub no rodapé aponta para este repositório; troca pelo teu fork se quiseres.
+- Os links para o GitHub (ícone no menu e botão no rodapé) apontam para este repositório; troca pelo teu fork se quiseres.
 
 ---
 
