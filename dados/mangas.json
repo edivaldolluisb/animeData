@@ -1,6 +1,288 @@
 {
-    "total": 151,
+    "total": 178,
     "mangas": [
+        {
+            "Id": 33784,
+            "Nome_jp": "Black Sun",
+            "Nome_eng": "BLACK SUN Doreiou",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3784.jpg",
+            "caps": 12,
+            "mal": 3784,
+            "anilist": 33784
+        },
+        {
+            "Id": 101419,
+            "Nome_jp": "Mortals of the Doom",
+            "Nome_eng": "Moshi Fanren",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx101419-AqCC7CW2cYh9.jpg",
+            "caps": 601,
+            "mal": null,
+            "anilist": 101419
+        },
+        {
+            "Id": 195924,
+            "Nome_jp": "The Turn-Based Mage",
+            "Nome_eng": "Turn-jeui Mabeopsa",
+            "Status": "Completo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx195924-nFExCDmisqCt.jpg",
+            "cap": 53,
+            "caps": 53,
+            "mal": 184077,
+            "anilist": 195924
+        },
+        {
+            "Id": 190687,
+            "Nome_jp": "I Dominate a Magical Continent with an Industrial Revolution",
+            "Nome_eng": "Wo Zai Mofa Dalu Jian Li Gongye Diguo",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx190687-tVmIaZbKAJhx.png",
+            "cap": 80,
+            "caps": 82,
+            "mal": null,
+            "anilist": 190687
+        },
+        {
+            "Id": 182066,
+            "Nome_jp": "The Regressed Mercenary Has a Plan",
+            "Nome_eng": "Hoegwihan Yongbyeongeun Da Gyehoegi Itda",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx182066-kqOV7WW1DAH4.jpg",
+            "cap": 98,
+            "mal": 174559,
+            "anilist": 182066
+        },
+        {
+            "Id": 182412,
+            "Nome_jp": "Surviving Disaster：Extreme Cold",
+            "Nome_eng": "Ji Han Zhan Ji",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx182412-EMkWAyjujgP0.jpg",
+            "mal": null,
+            "anilist": 182412
+        },
+        {
+            "Id": 86399,
+            "Nome_jp": "That Time I Got Reincarnated as a Slime",
+            "Nome_eng": "Tensei Shitara Slime Datta Ken",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86399-NwbRFVh5koqc.jpg",
+            "cap": 126,
+            "mal": 87609,
+            "anilist": 86399
+        },
+        {
+            "Id": 138766,
+            "Nome_jp": "Extraordinary Evolution",
+            "Nome_eng": "Chaofan Jinhua",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138766-IXW3YzoFDBCY.jpg",
+            "caps": 141,
+            "mal": null,
+            "anilist": 138766
+        },
+        {
+            "Id": 163536,
+            "Nome_jp": "The Devil Never Cries",
+            "Nome_eng": "Wo, Jinhua, Emo",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163536-v7YMGxY4AVIx.jpg",
+            "mal": null,
+            "anilist": 163536
+        },
+        {
+            "Id": 136499,
+            "Nome_jp": "All Hail The Sect Leader",
+            "Nome_eng": "Wan Gu Zui Qiang Zong",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136499-OFtjS1mJXKZ1.jpg",
+            "mal": null,
+            "anilist": 136499
+        },
+        {
+            "Id": 132877,
+            "Nome_jp": "A Beginner with the Mightiest Account",
+            "Nome_eng": "Kaiju Jiu You Wang Zhe Zhanghao",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132877-d4lgmefGZLuT.jpg",
+            "mal": null,
+            "anilist": 132877
+        },
+        {
+            "Id": 133963,
+            "Nome_jp": "Legend of Sayu",
+            "Nome_eng": "Jeonwangjeongi",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133963-MRdmPYbAxwmw.jpg",
+            "caps": 255,
+            "mal": null,
+            "anilist": 133963
+        },
+        {
+            "Id": 117951,
+            "Nome_jp": "Pounding",
+            "Nome_eng": "",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b117951-2xcuG4lTlVJQ.jpg",
+            "caps": 41,
+            "mal": null,
+            "anilist": 117951
+        },
+        {
+            "Id": 110645,
+            "Nome_jp": "Boss in School",
+            "Nome_eng": "",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b110645-GFzx1xEfmtFK.jpg",
+            "caps": 118,
+            "mal": null,
+            "anilist": 110645
+        },
+        {
+            "Id": 130119,
+            "Nome_jp": "Cheonhajeirin",
+            "Nome_eng": "",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130119-Bx7ceqHgDKcG.jpg",
+            "caps": 112,
+            "mal": null,
+            "anilist": 130119
+        },
+        {
+            "Id": 116452,
+            "Nome_jp": "Guowang Wansui",
+            "Nome_eng": "",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b116452-CA7rFt7QzuLD.jpg",
+            "caps": 126,
+            "mal": null,
+            "anilist": 116452
+        },
+        {
+            "Id": 142287,
+            "Nome_jp": "I Am The Fated Villain",
+            "Nome_eng": "Wo! Tian Mìng Da Fanpai",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142287-nlT7oSUzHnNv.jpg",
+            "mal": null,
+            "anilist": 142287
+        },
+        {
+            "Id": 129429,
+            "Nome_jp": "Magician's Murim Adventures",
+            "Nome_eng": "Mabeopsa Murime Gada",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129429-ppHj8bHJxYw0.jpg",
+            "caps": 98,
+            "mal": null,
+            "anilist": 129429
+        },
+        {
+            "Id": 118368,
+            "Nome_jp": "Become the Castellan in Another World",
+            "Nome_eng": "Cong Jintian Kaishi Dang Chengzhu",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118368-ECZ8w2NpF5E1.png",
+            "mal": null,
+            "anilist": 118368
+        },
+        {
+            "Id": 143025,
+            "Nome_jp": "Duke Pendragon: Master of the White Dragon",
+            "Nome_eng": "Hakuryuu Koushaku Pendragon",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx143025-YL8hzpkVFR5J.jpg",
+            "caps": 131,
+            "mal": null,
+            "anilist": 143025
+        },
+        {
+            "Id": 97957,
+            "Nome_jp": "Records of the Cold Moon",
+            "Nome_eng": "Murimjeilpye: Wolhangangcheollok",
+            "Status": "Pretendo Ler",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97957-KPgFSq1Cs6l5.png",
+            "mal": null,
+            "anilist": 97957
+        },
+        {
+            "Id": 210001,
+            "Nome_jp": "Bokun Meika no Hangyakusha: Aster",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx210001-iR3HewuB6FWc.jpg",
+            "mal": null,
+            "anilist": 210001
+        },
+        {
+            "Id": 181545,
+            "Nome_jp": "Goblin's Ascent: From Loser to Winner",
+            "Nome_eng": "Cong Goblin Dao Goblin Shen",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx181545-dw8MC01xhDVt.jpg",
+            "mal": null,
+            "anilist": 181545
+        },
+        {
+            "Id": 160143,
+            "Nome_jp": "Astral Pet Store",
+            "Nome_eng": "Chao Shen Chong Shou Dian",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b160143-0bRijdCKqbWG.jpg",
+            "mal": null,
+            "anilist": 160143
+        },
+        {
+            "Id": 116353,
+            "Nome_jp": "The Devil Butler",
+            "Nome_eng": "Mo Huang Da Guanjia",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116353-DYuIigXuPwpZ.jpg",
+            "cap": 450,
+            "mal": null,
+            "anilist": 116353
+        },
+        {
+            "Id": 109169,
+            "Nome_jp": "Seeking the Flying Sword Path",
+            "Nome_eng": "Fei Jian Wen Dao",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b109169-uqLu6rWMwdzu.jpg",
+            "cap": 104,
+            "caps": 163,
+            "mal": null,
+            "anilist": 109169
+        },
+        {
+            "Id": 138366,
+            "Nome_jp": "Your Talent Is Mine",
+            "Nome_eng": "Wo Neng Fu Zhi Tian Fu",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138366-DC3t5MSv6v05.jpg",
+            "caps": 106,
+            "mal": null,
+            "anilist": 138366
+        },
+        {
+            "Id": 101114,
+            "Nome_jp": "God of Martial Arts",
+            "Nome_eng": "Jueshi Wushen",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx101114-j8D60Va6hIvp.png",
+            "mal": null,
+            "anilist": 101114
+        },
+        {
+            "Id": 150701,
+            "Nome_jp": "L.A.G",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx150701-605Auv7M51bv.png",
+            "cap": 84,
+            "mal": null,
+            "anilist": 150701
+        },
         {
             "Id": 30013,
             "Nome_jp": "One Piece",
@@ -18,15 +300,6 @@
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85442-pIcvm2OjfTjR.jpg",
             "mal": 67615,
             "anilist": 85442
-        },
-        {
-            "Id": 86399,
-            "Nome_jp": "That Time I Got Reincarnated as a Slime",
-            "Nome_eng": "Tensei Shitara Slime Datta Ken",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86399-NwbRFVh5koqc.jpg",
-            "mal": 87609,
-            "anilist": 86399
         },
         {
             "Id": 86123,
@@ -753,15 +1026,6 @@
             "caps": 56,
             "mal": 179469,
             "anilist": 187140
-        },
-        {
-            "Id": 182066,
-            "Nome_jp": "The Regressed Mercenary Has a Plan",
-            "Nome_eng": "Hoegwihan Yongbyeongeun Da Gyehoegi Itda",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx182066-kqOV7WW1DAH4.jpg",
-            "mal": 174559,
-            "anilist": 182066
         },
         {
             "Id": 183376,
