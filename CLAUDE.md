@@ -31,7 +31,7 @@ The detail page fetches the appropriate JSON based on `tipo`, finds the entry by
 All data lives in `dados/`:
 
 - `dados/mal.json` — anime entries generated from MAL; never edit by hand
-- `dados/mangas.json` — manga entries generated from AniList by `scripts/fetch-anilist-mangas.mjs` (public GraphQL, user from `ANILIST_USER`, default `edica`), refreshed daily by the same workflow; never edit by hand. `Id` is the AniList media id.
+- `dados/mangas.json` — manga entries generated from AniList by `scripts/fetch-anilist-mangas.mjs` (public GraphQL, user from `ANILIST_USER`, default `edica`), refreshed daily by the same workflow; never edit by hand. `Id` is the AniList media id. Mangas not on AniList live in `dados/mangas-extra.json` (hand-kept array, string `Id`s) and the script appends them.
 
 **Anime entry schema** (`mal.json`):
 ```json

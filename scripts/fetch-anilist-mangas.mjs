@@ -1,6 +1,7 @@
 // Baixa a lista pública de mangás do AniList e grava em dados/mangas.json.
+// Junta no fim as entradas de dados/mangas-extra.json (mangás que não existem no AniList, mantidos à mão).
 // Uso: node scripts/fetch-anilist-mangas.mjs [usuario]
-import { writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 
 const user = process.argv[2] || 'edica';
 const STATUS = {
@@ -45,5 +46,9 @@ const mangas = json.data.MediaListCollection.lists
         return item;
     });
 
+const EXTRA = 'dados/mangas-extra.json';
+const extra = existsSync(EXTRA) ? JSON.parse(readFileSync(EXTRA, 'utf8')) : [];
+mangas.push(...extra);
+
 writeFileSync('dados/mangas.json', JSON.stringify({ total: mangas.length, mangas }, null, 4) + '\n');
-console.log(`${mangas.length} mangás gravados em dados/mangas.json`);
+console.log(`${mangas.length} mangás gravados em dados/mangas.json (${extra.length} de ${EXTRA})`);

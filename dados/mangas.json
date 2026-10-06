@@ -1,6 +1,16 @@
 {
-    "total": 178,
+    "total": 180,
     "mangas": [
+        {
+            "Id": 184733,
+            "Nome_jp": "Defeating Dungeons via Copy Paste!",
+            "Nome_eng": "Copipe de Dungeon Kouryaku!",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx184733-DjL6Jxgsi7lL.jpg",
+            "caps": 100,
+            "mal": null,
+            "anilist": 184733
+        },
         {
             "Id": 33784,
             "Nome_jp": "Black Sun",
@@ -1730,6 +1740,17 @@
             "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx186952-ImNBHlfBE4H8.jpg",
             "mal": 182432,
             "anilist": 186952
+        },
+        {
+            "Id": "the-beginning-after-the-end",
+            "Nome_jp": "The Beginning After the End",
+            "Nome_eng": "",
+            "Status": "Lendo",
+            "Image": "https://cdn.mangaupdates.com/image/i473881.jpg",
+            "cap": 141,
+            "mal": null,
+            "anilist": null,
+            "mangaupdates": "rwg23en"
         }
     ]
 }

@@ -115,6 +115,8 @@ Gerado por `scripts/fetch-anilist-mangas.mjs`; não precisas de o editar. Cada e
 
 A lista vem ordenada pela última atualização no AniList.
 
+**Mangás que não existem no AniList** vão em `dados/mangas-extra.json` (um array com entradas no mesmo formato) e são acrescentados no fim a cada sincronização. Esse ficheiro é mantido à mão: atualiza lá o `cap` e o `Status`. Usa um `Id` em texto (ex.: `"the-beginning-after-the-end"`) para não colidir com os ids do AniList; `mangaupdates` (o código do link do MangaUpdates) é opcional e mostra o link na página de detalhe.
+
 ### Status e secções
 
 A grelha agrupa os títulos em secções ("halls") pelo status:
@@ -150,6 +152,7 @@ dados/                             dados das listas
 scripts/fetch-mal.mjs              descarrega a lista pública de animes do MAL
 scripts/fetch-anilist-mangas.mjs   descarrega a lista pública de mangás do AniList
 .github/workflows/mal.yml          sincronização diária (MAL + AniList)
+dados/mangas-extra.json            mangás que não existem no AniList (mantidos à mão)
 sw.js, manifest.json               PWA
 ```
 
