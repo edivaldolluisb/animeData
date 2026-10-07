@@ -2,6 +2,16 @@
     "total": 435,
     "animes": [
         {
+            "Id": 59741,
+            "Nome_jp": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+            "Nome_eng": "The Exiled Heavy Knight Knows How to Game the System",
+            "Status": "Assistindo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1322/158711.jpg",
+            "ep": 0,
+            "eps": 26,
+            "score": 0
+        },
+        {
             "Id": 1604,
             "Nome_jp": "Katekyou Hitman Reborn!",
             "Nome_eng": "Reborn!",
@@ -1789,16 +1799,6 @@
             "Image": "https://cdn.myanimelist.net/images/anime/1952/149229.jpg",
             "ep": 0,
             "eps": 13,
-            "score": 0
-        },
-        {
-            "Id": 59741,
-            "Nome_jp": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
-            "Nome_eng": "The Exiled Heavy Knight Knows How to Game the System",
-            "Status": "Pretendo Assistir",
-            "Image": "https://cdn.myanimelist.net/images/anime/1322/158711.jpg",
-            "ep": 0,
-            "eps": 26,
             "score": 0
         },
         {
