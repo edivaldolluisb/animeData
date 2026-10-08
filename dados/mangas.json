@@ -2,6 +2,16 @@
     "total": 180,
     "mangas": [
         {
+            "Id": 159441,
+            "Nome_jp": "Pick Me Up",
+            "Nome_eng": "Pick Me Up!",
+            "Status": "Lendo",
+            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159441-9W8201jAT9Yv.jpg",
+            "cap": 222,
+            "mal": 154587,
+            "anilist": 159441
+        },
+        {
             "Id": 184733,
             "Nome_jp": "Defeating Dungeons via Copy Paste!",
             "Nome_eng": "Copipe de Dungeon Kouryaku!",
@@ -844,15 +854,6 @@
             "cap": 102,
             "mal": 148454,
             "anilist": 127783
-        },
-        {
-            "Id": 159441,
-            "Nome_jp": "Pick Me Up",
-            "Nome_eng": "Pick Me Up!",
-            "Status": "Lendo",
-            "Image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159441-9W8201jAT9Yv.jpg",
-            "mal": 154587,
-            "anilist": 159441
         },
         {
             "Id": 129920,
