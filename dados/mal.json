@@ -2,6 +2,16 @@
     "total": 435,
     "animes": [
         {
+            "Id": 55717,
+            "Nome_jp": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
+            "Nome_eng": "The Banished Former Hero Lives as He Pleases",
+            "Status": "Dropado",
+            "Image": "https://cdn.myanimelist.net/images/anime/1158/141710.jpg",
+            "ep": 1,
+            "eps": 12,
+            "score": 0
+        },
+        {
             "Id": 59741,
             "Nome_jp": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
             "Nome_eng": "The Exiled Heavy Knight Knows How to Game the System",
@@ -2350,16 +2360,6 @@
             "ep": 12,
             "eps": 12,
             "score": 6
-        },
-        {
-            "Id": 55717,
-            "Nome_jp": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
-            "Nome_eng": "The Banished Former Hero Lives as He Pleases",
-            "Status": "Assistindo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1158/141710.jpg",
-            "ep": 1,
-            "eps": 12,
-            "score": 0
         },
         {
             "Id": 49785,
