@@ -2,6 +2,16 @@
     "total": 435,
     "animes": [
         {
+            "Id": 49233,
+            "Nome_jp": "Youjo Senki II",
+            "Nome_eng": "Saga of Tanya the Evil II",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1917/158371.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 0
+        },
+        {
             "Id": 55717,
             "Nome_jp": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
             "Nome_eng": "The Banished Former Hero Lives as He Pleases",
@@ -898,16 +908,6 @@
             "Status": "Completo",
             "Image": "https://cdn.myanimelist.net/images/anime/1498/134443.jpg",
             "ep": 12,
-            "eps": 12,
-            "score": 0
-        },
-        {
-            "Id": 49233,
-            "Nome_jp": "Youjo Senki II",
-            "Nome_eng": "Saga of Tanya the Evil II",
-            "Status": "Assistindo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1917/158371.jpg",
-            "ep": 0,
             "eps": 12,
             "score": 0
         },
