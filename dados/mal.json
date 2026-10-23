@@ -2,6 +2,16 @@
     "total": 435,
     "animes": [
         {
+            "Id": 60316,
+            "Nome_jp": "Busamen Gachi Fighter",
+            "Nome_eng": "Uglymug, Epicfighter",
+            "Status": "Completo",
+            "Image": "https://cdn.myanimelist.net/images/anime/1454/150515.jpg",
+            "ep": 12,
+            "eps": 12,
+            "score": 4
+        },
+        {
             "Id": 49233,
             "Nome_jp": "Youjo Senki II",
             "Nome_eng": "Saga of Tanya the Evil II",
@@ -1666,7 +1676,7 @@
             "Nome_jp": "Kusuriya no Hitorigoto Movie: Bouhi no Hihou",
             "Nome_eng": "The Apothecary Diaries Movie",
             "Status": "Pretendo Assistir",
-            "Image": "https://cdn.myanimelist.net/images/anime/1656/158840.jpg",
+            "Image": "https://cdn.myanimelist.net/images/anime/1751/160650.jpg",
             "ep": 0,
             "eps": 1,
             "score": 0
@@ -1719,16 +1729,6 @@
             "Image": "https://cdn.myanimelist.net/images/anime/1587/149982.jpg",
             "ep": 0,
             "eps": 11,
-            "score": 0
-        },
-        {
-            "Id": 60316,
-            "Nome_jp": "Busamen Gachi Fighter",
-            "Nome_eng": "Uglymug, Epicfighter",
-            "Status": "Assistindo",
-            "Image": "https://cdn.myanimelist.net/images/anime/1454/150515.jpg",
-            "ep": 0,
-            "eps": 12,
             "score": 0
         },
         {
