@@ -3862,16 +3862,6 @@
             "score": 0
         },
         {
-            "Id": 39196,
-            "Nome_jp": "Mairimashita! Iruma-kun",
-            "Nome_eng": "Welcome to Demon School! Iruma-kun",
-            "Status": "Dropado",
-            "Image": "https://cdn.myanimelist.net/images/anime/1009/103187.jpg",
-            "ep": 0,
-            "eps": 23,
-            "score": 0
-        },
-        {
             "Id": 52034,
             "Nome_jp": "[Oshi no Ko]",
             "Nome_eng": "[Oshi No Ko]",
@@ -3879,6 +3869,16 @@
             "Image": "https://cdn.myanimelist.net/images/anime/1812/134736.jpg",
             "ep": 4,
             "eps": 11,
+            "score": 0
+        },
+        {
+            "Id": 39196,
+            "Nome_jp": "Mairimashita! Iruma-kun",
+            "Nome_eng": "Welcome to Demon School! Iruma-kun",
+            "Status": "Dropado",
+            "Image": "https://cdn.myanimelist.net/images/anime/1009/103187.jpg",
+            "ep": 0,
+            "eps": 23,
             "score": 0
         },
         {
